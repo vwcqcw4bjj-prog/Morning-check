@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: headlines-dashboard
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --workers 1 --threads 4 --timeout 120
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      # 以下2つを Render ダッシュボードで設定するとBasic認証が有効になる
+      # 設定しなければ「URLを知っている人だけ」アクセス可能
+      # - key: BASIC_USER
+      #   value: your_username
+      # - key: BASIC_PASS
+      #   value: your_password

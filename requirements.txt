@@ -1,0 +1,11 @@
+flask
+gunicorn
+requests
+beautifulsoup4
+lxml
+pandas
+pandas-datareader
+yfinance
+pytz
+xlsxwriter
+openpyxl

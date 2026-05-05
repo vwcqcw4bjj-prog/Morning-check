@@ -24,9 +24,9 @@ import time
 # ——————————
 
 DEF_HEADERS = {
-“User-Agent”: “Mozilla/5.0 (compatible; HeadlineBot/1.2; +https://example.invalid/bot)”,
-“Accept-Language”: “ja,en;q=0.8”,
-“Cache-Control”: “no-cache”,
+    "User-Agent": "Mozilla/5.0 (compatible; HeadlineBot/1.2; +https://example.invalid/bot)",
+    "Accept-Language": "ja,en;q=0.8",
+    "Cache-Control": "no-cache",
 }
 DEF_TIMEOUT = 20
 MAX_RETRIES = 4
@@ -34,7 +34,6 @@ RETRY_BASE_WAIT = 1.4
 RETRY_JITTER = 0.3
 
 def http_get(url: str, headers: Optional[Dict[str, str]] = None, timeout: int = DEF_TIMEOUT):
-“”“GET通信（指数バックオフ付き）。成功(2xx/3xx)でResponse、失敗時None”””
 hdrs = DEF_HEADERS.copy()
 if headers:
 hdrs.update(headers)
@@ -2637,20 +2636,20 @@ for _, r in shown.iterrows():
     url      = (r.get("url") or "")
     href     = url if isinstance(url, str) and url.startswith(("http://","https://")) else "#"
 
-    rows_html.append(f"""
+    rows_html.append(f
       <tr>
         <td style="padding:6px;border-bottom:1px solid #eee;white-space:nowrap;">{date_str}</td>
         <td style="padding:6px;border-bottom:1px solid #eee;white-space:nowrap;">{src}</td>
         <td style="padding:6px;border-bottom:1px solid #eee;">
           <a href="{_esc(href)}" target="_blank" rel="noopener noreferrer">{title_tx}</a>
         </td>
-      </tr>""")
+      </tr>)
 
 extra = ""
 if len(df) > len(shown):
     extra = f'<p style="color:#666;margin:8px 0 0 0;">ほか {len(df) - len(shown)} 件は添付をご確認ください。</p>'
 
-return f"""
+return f
 <div style="margin:18px 0;">
   <h3 style="margin:0 0 6px 0;">{_esc(section_title)}</h3>
   <table style="border-collapse:collapse;width:100%;max-width:960px;">
@@ -2666,7 +2665,7 @@ return f"""
     </tbody>
   </table>
   {extra}
-</div>"""
+</div>
 ```
 
 def _market_table_block(title: str, df_market: pd.DataFrame) -> str:
@@ -2711,7 +2710,7 @@ thead = "".join([
     for h in show_cols
 ])
 
-return f"""
+return f
 <div style="margin:18px 0;">
   <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:960px;border-collapse:collapse;">
     <tr>
@@ -2727,7 +2726,7 @@ return f"""
     <tbody>{body}</tbody>
   </table>
 </div>
-"""
+
 ```
 
 def make_html_body_with_sections(sections: list[tuple[str, pd.DataFrame]], title: str) -> str:
@@ -2745,11 +2744,11 @@ else:
 parts.append(make_html_section(sec_df, sec_title, max_rows=40))
 
 ```
-return f"""
+return f
 <div style="font-family:'Segoe UI', Meiryo, sans-serif;font-size:14px;line-height:1.6;">
   <h2 style="margin:0 0 12px 0;">{_esc(title)}</h2>
   {''.join(parts)}
-</div>"""
+</div>
 ```
 
 import io

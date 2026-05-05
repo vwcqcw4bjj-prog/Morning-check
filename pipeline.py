@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
 
-“””
-pipeline.py  —  スクレイパー + 市況取得パイプライン
-app.py から以下をインポートして使う:
-from pipeline import run, build_market_df
-“””
-
 # ============================
 
 # スクレイパー共通ユーティリティ（完全版）

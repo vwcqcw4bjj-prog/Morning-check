@@ -1,1 +1,58 @@
+name: Generate pipeline.py
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install nbconvert
+        run: pip install nbconvert
+
+      - name: Generate pipeline.py from notebook
+        run: |
+          python - <<'PYEOF'
+          import json, re
+
+          with open("pipeline.py", encoding="utf-8") as f:
+              src = f.read()
+
+          bad = {
+              "\u201c": '"', "\u201d": '"',
+              "\u2018": "'", "\u2019": "'",
+              "\u2014": "-", "\u2013": "-",
+              "\u300c": '"', "\u300d": '"',
+          }
+          for b, g in bad.items():
+              src = src.replace(b, g)
+
+          with open("pipeline.py", "w", encoding="utf-8") as f:
+              f.write(src)
+
+          import ast
+          try:
+              ast.parse(src)
+              print("[OK] pipeline.py 構文チェック通過")
+          except SyntaxError as e:
+              print(f"[ERR] {e}")
+              raise
+          PYEOF
+
+      - name: Commit fixed pipeline.py
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pipeline.py
+          git diff --staged --quiet || git commit -m "Fix pipeline.py encoding"
+          git push
 

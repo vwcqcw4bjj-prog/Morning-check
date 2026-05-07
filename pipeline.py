@@ -34,22 +34,30 @@ RETRY_BASE_WAIT = 1.4
 RETRY_JITTER = 0.3
 
 def http_get(url: str, headers: Optional[Dict[str, str]] = None, timeout: int = DEF_TIMEOUT):
+    pass
 hdrs = DEF_HEADERS.copy()
 if headers:
+    pass
 hdrs.update(headers)
 last_exc = None
 wait = RETRY_BASE_WAIT
 for attempt in range(1, MAX_RETRIES + 1):
+    pass
 try:
+    pass
 resp = requests.get(url, headers=hdrs, timeout=timeout)
 if 200 <= resp.status_code < 400:
+    pass
 if not resp.encoding or resp.encoding.lower() in ("iso-8859-1", "ascii"):
+    pass
 resp.encoding = resp.apparent_encoding or "utf-8"
 return resp
 last_exc = RuntimeError(f"HTTP {resp.status_code} for {url}")
 except Exception as e:
+    pass
 last_exc = e
 if attempt < MAX_RETRIES:
+    pass
 jitter = 1 + random.uniform(-RETRY_JITTER, RETRY_JITTER)
 time.sleep(wait * jitter)
 wait *= 1.8
@@ -63,60 +71,80 @@ return None
 # ----------
 
 def _to_halfwidth_digits(s: str) -> str:
+    pass
 """全角数字→半角"""
 return re.sub(r"[０-９]", lambda m: chr(ord(m.group(0)) - 0xFEE0), s or "")
 
 def _to_int_or_none(x) -> Optional[int]:
+    pass
 try:
+    pass
 s = str(x).strip()
 if not s:
+    pass
 return None
 s = _to_halfwidth_digits(s)
 return int(s)
 except Exception:
+    pass
 return None
 
 def _as_date(value) -> dt.date:
+    pass
 """どんな型でも datetime.date に正規化。int/str 年ならその年の12/31。Noneは今日。"""
 if isinstance(value, dt.datetime):
+    pass
 return value.date()
 if isinstance(value, dt.date):
+    pass
 return value
 if isinstance(value, pd.Timestamp):
+    pass
 return value.to_pydatetime().date()
 y = _to_int_or_none(value)
 if y and y >= 1900:
+    pass
 return dt.date(y, 12, 31)
 return dt.date.today()
 
 def _safe_date(year: int, month: int, day: int) -> dt.date:
+    pass
 """存在しない日付も月末に丸めて返す"""
 month = max(1, min(int(month), 12))
 try:
+    pass
 return dt.date(int(year), month, int(day))
 except ValueError:
+    pass
 last = calendar.monthrange(int(year), month)[1]
 return dt.date(int(year), month, max(1, min(int(day), last)))
 
 def is_future_date(d, ref=None, allow_equal: bool = False) -> bool:
+    pass
 """安全な未来判定（型を気にせず使える）"""
 cd = _as_date(d)
 rd = _as_date(ref or dt.date.today())
 return (cd > rd) if not allow_equal else (cd >= rd)
 
 def _extract_year_hint_from_text(text: str) -> int:
+    pass
 """文中から年のヒントを抽出。無ければ今年。"""
 if not text:
+    pass
 return dt.date.today().year
 t = str(text)
 if m := re.search(r"(20\d{2})\s*年度", t):
+    pass
 return int(m.group(1))
 if m := re.search(r"(20\d{2})[./年-]?", t):
+    pass
 return int(m.group(1))
 if m := re.search(r"令和\s*([0-9０-９]+)\s*年?", t):
+    pass
 val = _to_int_or_none(m.group(1)) or 1
 return 2018 + val  # 令和元=2019
 if m := re.search(r"([0-9]{2})\s*年", t):
+    pass
 y = int(m.group(1))
 if 0 <= y <= 30:  return 2000 + y
 if 70 <= y <= 99: return 1900 + y
@@ -129,6 +157,7 @@ return dt.date.today().year
 # ----------
 
 def _infer_year_for_boj(*args, **kwargs) -> int:
+    pass
 """
 年省略 'MM/DD' から年推定。
 呼び出し形式:
@@ -188,11 +217,14 @@ _PATS = {
 # ----------
 
 def _iso(y: int, m: int, d: int) -> str:
+    pass
 return f"{int(y):04d}-{int(m):02d}-{int(d):02d}"
 
 def _parse_boj_md_head(head_text: str, *, default_year: Optional[int] = None) -> Tuple[str, str]:
+    pass
 """BOJの1行ヘッドライン文字列から (date_iso, title)"""
 if not head_text:
+    pass
 return "", ""
 t = _to_halfwidth_digits(head_text).strip()
 t_clean = re.sub(r"\s*[(PDF|EXCEL|WORD|ZIP|JPG|LINK|外部|別ウィンドウ|新規ウィンドウ)]\s*", " ", t, flags=re.I)
@@ -240,7 +272,9 @@ return "", t_clean
 _BANNED_HOSTS = {"twitter.com","x.com","facebook.com","instagram.com","youtube.com","t.co","bit.ly"}
 
 def _same_site(u: str, base: str) -> bool:
+    pass
 def host(s):
+    pass
 h = urlparse(s).netloc.lower()
 return h[4:] if h.startswith("www.") else h
 return host(u) == host(base)
@@ -255,16 +289,21 @@ allowed_path_prefixes: Optional[List[str]] = None,
 ) -> Tuple[Optional[Tag], Optional[str], str]:
 """node配下から本文リンクとして妥当な最初の<a>を返す"""
 if not isinstance(node, Tag):
+    pass
 return None, None, ""
 for a in node.find_all("a", href=True):
+    pass
 href = (a.get("href") or "").strip()
 if not href or href.startswith("#") or href.lower().startswith("javascript:"):
+    pass
 continue
 full = href if href.startswith("http") else urljoin(base_url, href)
 host = urlparse(full).netloc.lower()
 if any(b in host for b in _BANNED_HOSTS):
+    pass
 continue
 if same_domain_only and not _same_site(full, base_url):
+    pass
 continue
 
 ```
@@ -297,6 +336,7 @@ NIKKEI_FIN_CAT = "https://www.nikkei.com/news/category/financial/"
 TODAY = dt.date.today()
 
 def _http_get_retry(url: str, max_retries=4, base_timeout=12.0, backoff=1.8, jitter=0.35):
+    pass
 sess = requests.Session()
 ua = {
 # UAは控えめだが最新ブラウザ相当で
@@ -309,28 +349,37 @@ ua = {
 timeout = base_timeout
 last_err = None
 for i in range(1, max_retries + 1):
+    pass
 try:
+    pass
 r = sess.get(url, headers=ua, timeout=timeout)
 if 200 <= r.status_code < 400:
+    pass
 # 文字化け保険
 if not r.encoding or r.encoding.lower() in ("iso-8859-1","ascii"):
+    pass
 r.encoding = r.apparent_encoding or "utf-8"
 return r
 last_err = RuntimeError(f"HTTP {r.status_code}")
 except requests.RequestException as e:
+    pass
 last_err = e
 if i < max_retries:
+    pass
 wait = (backoff ** (i-1)) * (1 + random.uniform(-jitter, jitter))
 time.sleep(max(1.0, wait)); timeout *= backoff
 print(f"[WARN] GET failed {url}: {last_err}")
 return None
 
 def _is_article_url(href: str) -> bool:
+    pass
 """日経の個別記事URL（/article/…）のみ許可。外部や特集・動画などは原則除外。"""
 if not href or href.startswith("#") or href.lower().startswith("javascript:"):
+    pass
 return False
 p = urlparse(href if href.startswith("http") else urljoin(NIKKEI_FIN_CAT, href))
 if p.netloc and "nikkei.com" not in p.netloc:
+    pass
 return False
 path = p.path or ""
 return path.startswith("/article/")
@@ -338,26 +387,32 @@ return path.startswith("/article/")
 # 日付正規化（<time datetime="YYYY-MM-DDTHH:MM:SS+09:00"> 優先）
 
 def _norm_date(text_or_iso: str) -> tuple[pd.Timestamp | None, str]:
+    pass
 s = (text_or_iso or "").strip()
 if not s:
+    pass
 return None, ""
 # ISO優先
 d = pd.to_datetime(s, utc=True, errors="coerce")
 if pd.notna(d):
+    pass
 d_local = d.tz_convert(None)
 return d_local, d_local.strftime("%Y-%m-%d")
 # テキストから保険
 m = re.search(r"(20\d{2})[./-](\d{1,2})[./-](\d{1,2})", s)
 if m:
+    pass
 y, mo, dd = map(int, m.groups())
 d2 = pd.to_datetime(f"{y:04d}-{mo:02d}-{dd:02d}", errors="coerce")
 return d2, d2.strftime("%Y-%m-%d") if pd.notna(d2) else ""
 return None, ""
 
 def scrape_nikkei_financial(limit: int = 80):
+    pass
 """日経 金融カテゴリ一覧から記事カードを抽出"""
 resp = _http_get_retry(NIKKEI_FIN_CAT, max_retries=4, base_timeout=12.0)
 if not resp:
+    pass
 return []
 
 ```
@@ -450,6 +505,7 @@ return rows[:limit]
 
 df_nikkei_fin = pd.DataFrame(scrape_nikkei_financial(limit=120))
 if not df_nikkei_fin.empty:
+    pass
 # 日付が取れない記事は一旦残しつつ、ソートは date があるもの優先
 one_week_ago = TODAY - dt.timedelta(days=7)
 has_date = df_nikkei_fin["date"].notna()
@@ -458,6 +514,7 @@ df_nikkei_fin[has_date & (df_nikkei_fin["date"].dt.date >= one_week_ago)].sort_v
 df_nikkei_fin[~has_date]
 ], ignore_index=True)
 else:
+    pass
 df_nikkei_fin_recent = pd.DataFrame(columns=["source","date","date_str","title","url","seq"])
 print("[WARN] Nikkei financial: 取得 0件")
 
@@ -469,6 +526,7 @@ import re
 from bs4 import BeautifulSoup, Tag
 
 def scrape_boj(limit: int = 50, list_url: str | None = None, allow_files: bool = False, *, verbose: bool = False):
+    pass
 CANDIDATES = [
 list_url or "https://www.boj.or.jp/whatsnew/index.htm",
 "https://www.boj.or.jp/whatsnew/index.htm/",
@@ -669,16 +727,19 @@ def _is_banned(u): return any(b in urlparse(u).netloc.lower() for b in _FSA_BANN
 # -- 日付パース（和暦/西暦/英語月） --
 
 def _era_to_year(era: str, n: int) -> int | None:
+    pass
 base = {"令和": 2018, "平成": 1988, "昭和": 1925}.get(era)
 return base + n if base is not None else None
 
 def _parse_date_head(text: str) -> str | None:
+    pass
 """先頭に日付が来ているテキストだけを YYYY-MM-DD に（見出し/DT/TH 相当想定）"""
 if not text: return None
 s = text.strip()
 # 和暦（先頭）
 m = re.match(r'^(令和|平成|昭和)\s*(\d{1,2})年\s*(\d{1,2})月\s*(\d{1,2})日', s)
 if m:
+    pass
 y = _era_to_year(m.group(1), int(m.group(2)))
 if y: return f"{y:04d}-{int(m.group(3)):02d}-{int(m.group(4)):02d}"
 # 西暦（先頭）
@@ -689,26 +750,33 @@ if m: return f"{int(m.group(1)):04d}-{int(m.group(2)):02d}-{int(m.group(3)):02d}
 # 英語月（先頭）
 m = re.match(r'^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec).?[a-z]*\s+(\d{1,2}),\s*(20\d{2})', s, re.I)
 if m:
+    pass
 mon = {"jan":1,"feb":2,"mar":3,"apr":4,"may":5,"jun":6,"jul":7,"aug":8,"sep":9,"sept":9,"oct":10,"nov":11,"dec":12}[m.group(1).lower()]
 return f"{int(m.group(3)):04d}-{mon:02d}-{int(m.group(2)):02d}"
 return None
 
 def _pick_anchor(node: Tag, base_url: str):
+    pass
 """node 配下から本文リンクっぽい a を1つ返す（同一ドメイン・SNS/JS/hash除外・補助文言除外）"""
 for a in node.find_all("a", href=True):
+    pass
 href = (a.get("href") or "").strip()
 if not href or href.startswith("#") or href.lower().startswith("javascript:"):
+    pass
 continue
 full = urljoin(base_url, href)
 if _is_banned(full) or not _same_domain(full, base_url):
+    pass
 continue
 txt = (a.get_text(strip=True) or "").lower()
 if txt in {"pdf","english","download","日本語","英語"}:
+    pass
 continue
 return a, full
 return None, None
 
 def scrape_fsa(limit: int = 200):
+    pass
 """
 金融庁 新着情報（https://www.fsa.go.jp/sintyaku.html）専用。
 - 文書順に『日付ブロック（先頭が日付の要素）→ 次の日付ブロック直前まで』を1ブロックとして収集
@@ -719,6 +787,7 @@ def scrape_fsa(limit: int = 200):
 base_url = "https://www.fsa.go.jp/sintyaku.html"
 resp = http_get(base_url)
 if not resp:
+    pass
 return []
 
 ```
@@ -836,6 +905,7 @@ def _meti_same_domain(u, base): return urlparse(u).netloc == urlparse(base).netl
 def _meti_is_banned(u): return any(b in urlparse(u).netloc.lower() for b in _METI_BANNED)
 
 def _meti_is_article_href(full: str) -> bool:
+    pass
 """
 経産省の"ニュース本文"らしいURLだけを通す:
 - 同一ドメイン
@@ -846,32 +916,42 @@ def _meti_is_article_href(full: str) -> bool:
 p = urlparse(full)
 path = p.path.lower()
 if "/press/" not in path:
+    pass
 return False
 if path.endswith(".pdf"):
+    pass
 return False
 return True
 
 def _meti_pick_anchors(node: Tag, base_url: str):
+    pass
 """node配下の"本文リンク候補"をすべて返す（重複は呼び出し側で除去）。"""
 out = []
 for a in node.find_all("a", href=True):
+    pass
 href = (a.get("href") or "").strip()
 if not href or href.startswith("#") or href.lower().startswith("javascript:"):
+    pass
 continue
 full = urljoin(base_url, href)
 if _meti_is_banned(full) or not _meti_same_domain(full, base_url):
+    pass
 continue
 txt = (a.get_text(strip=True) or "").lower()
 if txt in {"pdf","english","download","日本語","英語"}:
+    pass
 continue
 if not _meti_is_article_href(full):
+    pass
 continue
 out.append((a, full))
 return out
 
 def _meti_parse_ymd_jp(s: str) -> str | None:
+    pass
 m = re.search(r'(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日', s or "")
 if not m:
+    pass
 return None
 y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
 return f"{y:04d}-{mo:02d}-{d:02d}"
@@ -890,6 +970,7 @@ ua = {
 "Accept-Language": "ja,en;q=0.8",
 }
 if headers:
+    pass
 ua.update(headers)
 
 ```
@@ -912,6 +993,7 @@ return None
 ```
 
 def scrape_meti(limit: int = 200):
+    pass
 """
 経産省「最新ニュースリリース」を"見出し以降〜アーカイブリンクまで"順に走査。
 日付行(YYYY年M月D日)を見つけたら current_date として保持し、
@@ -920,6 +1002,7 @@ def scrape_meti(limit: int = 200):
 base_url = "https://www.meti.go.jp/press/index.html"
 resp = _get_with_retry(base_url, max_retries=5, base_timeout=20.0, backoff=1.8, jitter=0.35)
 if not resp:
+    pass
 return []
 
 ```
@@ -1008,26 +1091,33 @@ def _ppc_same_domain(u, base): return urlparse(u).netloc == urlparse(base).netlo
 def _ppc_is_banned(u): return any(b in urlparse(u).netloc.lower() for b in _PPC_BANNED)
 
 def _ppc_pick_anchors(node: Tag, base_url: str):
+    pass
 """node 配下の本文リンク候補をすべて返す（JS/hash/SNS/他ドメイン/補助文言は除外）"""
 out = []
 for a in node.find_all("a", href=True):
+    pass
 href = (a.get("href") or "").strip()
 if not href or href.startswith("#") or href.lower().startswith("javascript:"):
+    pass
 continue
 full = urljoin(base_url, href)
 if _ppc_is_banned(full) or not _ppc_same_domain(full, base_url):
+    pass
 continue
 txt = (a.get_text(strip=True) or "").lower()
 if txt in {"pdf","english","download","日本語","英語"}:
+    pass
 continue
 out.append((a, full))
 return out
 
 def _ppc_era_to_year(era: str, n: int) -> int | None:
+    pass
 base = {"令和": 2018, "平成": 1988, "昭和": 1925}.get(era)
 return base + n if base is not None else None
 
 def _ppc_parse_date_any(s: str) -> str | None:
+    pass
 """テキストに含まれる日付を YYYY-MM-DD で返す（和暦/西暦/ISO-ish）。"""
 if not s: return None
 s = s.strip()
@@ -1051,6 +1141,7 @@ return None
 ```
 
 def scrape_ppc(limit: int = 200):
+    pass
 """
 郵政民営化委員会：更新情報（履歴）
 A) table: 行の1列目/行テキストに日付 → 同行の本文リンク（複数可）を採用
@@ -1061,6 +1152,7 @@ C) fallback: 文書順で「日付ブロック → 次の日付ブロック直�
 base_url = "https://www.yuseimineika.go.jp/rireki.html"
 resp = http_get(base_url)
 if not resp:
+    pass
 return []
 
 ```
@@ -1247,47 +1339,62 @@ _SITEMAP_INDEX = "https://jpea.group/sitemap_index.xml"
 _BANNED = {"twitter.com","x.com","facebook.com","youtube.com","instagram.com","t.co","bit.ly"}
 
 def _host_norm(u: str) -> str:
+    pass
 try: h = urlparse(u).netloc.lower()
 except: return ""
 return h[4:] if h.startswith("www.") else h
 
 def _same_domain(u: str, base: str) -> bool:
+    pass
 uh, bh = _host_norm(u), _host_norm(base)
 return uh == bh or uh.endswith("." + bh) or bh.endswith("." + uh)
 
 def _is_banned(u: str) -> bool:
+    pass
 return any(b in _host_norm(u) for b in _BANNED)
 
 def _is_news_article_url(full: str, prefer_news_only: bool = True) -> bool:
+    pass
 if not _same_domain(full, _BASE) or _is_banned(full):
+    pass
 return False
 p = urlparse(full)
 path = p.path.rstrip("/")
 if prefer_news_only and not path.startswith("/news/"):
+    pass
 return False
 if path.endswith("/news") or "/category/" in path or "/tag/" in path or "/page/" in path:
+    pass
 return False
 if path.endswith((".pdf",".jpg",".jpeg",".png",".gif",".webp",".svg")):
+    pass
 return False
 return True
 
 def _http_get_retry(url: str, max_retries=5, base_timeout=15.0, backoff=1.8, jitter=0.35, headers=None):
+    pass
 sess = requests.Session()
 ua = {"User-Agent": "Mozilla/5.0", "Accept-Language": "ja,en;q=0.8"}
 if headers: ua.update(headers)
 timeout = base_timeout
 last_err = None
 for attempt in range(1, max_retries+1):
+    pass
 try:
+    pass
 resp = sess.get(url, headers=ua, timeout=timeout)
 if 200 <= resp.status_code < 400:
+    pass
 if not resp.encoding or resp.encoding.lower() in ("iso-8859-1","ascii"):
+    pass
 resp.encoding = resp.apparent_encoding or "utf-8"
 return resp
 last_err = RuntimeError(f"HTTP {resp.status_code}")
 except requests.RequestException as e:
+    pass
 last_err = e
 if attempt < max_retries:
+    pass
 wait = (backoff ** (attempt-1)) * (1 + random.uniform(-jitter, jitter))
 time.sleep(max(1.0, wait)); timeout *= backoff
 print(f"[WARN] GET failed {url}: {last_err}")
@@ -1300,69 +1407,89 @@ re.compile(r"(20\d{2})[./-](\d{1,2})[./-](\d{1,2})"),
 re.compile(r"(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日"),
 ]
 def _pick_date_text(text: str) -> str | None:
+    pass
 s = (text or "").strip()
 for pat in _PAT:
+    pass
 m = pat.search(s)
 if m:
+    pass
 y, mo, d = map(int, m.groups())
 return f"{y:04d}-{mo:02d}-{d:02d}"
 return None
 
 def _pick_date_from_block(node: Tag) -> str | None:
+    pass
 tm = node.find("time")
 if tm:
+    pass
 dtattr = (tm.get("datetime") or "").strip()
 if re.match(r"^20\d{2}-\d{1,2}-\d{1,2}$", dtattr):
+    pass
 y, mo, d = dtattr.split("-"); return f"{int(y):04d}-{int(mo):02d}-{int(d):02d}"
 d = _pick_date_text(tm.get_text(" ", strip=True));
 if d: return d
 return _pick_date_text(node.get_text(" ", strip=True))
 
 def _pick_news_anchor(node: Tag, base_url: str, prefer_news_only: bool = True):
+    pass
 for a in node.find_all("a", href=True):
+    pass
 href = (a.get("href") or "").strip()
 if not href or href.startswith("#") or href.lower().startswith("javascript:"):
+    pass
 continue
 full = urljoin(base_url, href)
 if _is_news_article_url(full, prefer_news_only=prefer_news_only):
+    pass
 title = a.get_text(strip=True)
 if title:
+    pass
 return a, full
 return None, None
 
 def *collect_blocks(soup: BeautifulSoup) -> list[Tag]:
+    pass
 main = soup.select_one("main") or soup
 blocks = []
 blocks += main.find_all("article")
 blocks += main.find_all(["div","li"], class*=re.compile(r"(post|news|entry|list|item|card|article)", re.I))
 if not blocks:
+    pass
 blocks = main.find_all(["article","div","li"], recursive=True)
 return blocks
 
 # - HTMLページを複数巡回 -
 
 def _parse_html_paginated(limit: int, prefer_news_only: bool = True, max_pages: int = 6) -> list:
+    pass
 rows, seen = [], set()
 seq = 0
 for page in range(1, max_pages+1):
+    pass
 url = _NEWS_LIST if page == 1 else f"https://jpea.group/news/page/{page}/"
 resp = _http_get_retry(url, max_retries=4, base_timeout=12)
 if not resp:
+    pass
 continue
 soup = BeautifulSoup(resp.text, "html.parser")
 blocks = _collect_blocks(soup)
 page_got = 0
 for node in blocks:
+    pass
 a, full = _pick_news_anchor(node, _BASE, prefer_news_only=prefer_news_only)
 if not a or not full:
+    pass
 continue
 title = a.get_text(strip=True)
 date_str = _pick_date_from_block(node)
 d = pd.to_datetime(date_str, errors="coerce") if date_str else None
 if d is not None and pd.notna(d) and d.to_pydatetime().date() > TODAY + dt.timedelta(days=3):
+    pass
 continue
 key = (title, full)
 if key in seen:
+    pass
 continue
 seen.add(key)
 rows.append({
@@ -1375,34 +1502,43 @@ rows.append({
 })
 seq += 1; page_got += 1
 if len(rows) >= limit:
+    pass
 return rows
 # そのページで全く拾えなければ、これ以上進めても無駄な可能性が高いので打ち切り
 if page_got == 0:
+    pass
 break
 return rows
 
 # - RSS（必要に応じて使用。件数は少なめ） -
 
 def _parse_rss(feed_url: str, limit: int, prefer_news_only: bool = True) -> list:
+    pass
 resp = _http_get_retry(feed_url, max_retries=3, base_timeout=10)
 if not resp:
+    pass
 return []
 try:
+    pass
 root = ET.fromstring(resp.content)
 except ET.ParseError:
+    pass
 return []
 rows, seen = [], set()
 seq = 0
 for item in root.findall("./channel/item"):
+    pass
 title = (item.findtext("title") or "").strip()
 link  = (item.findtext("link") or "").strip()
 if not _is_news_article_url(link, prefer_news_only=prefer_news_only):
+    pass
 continue
 pub   = (item.findtext("pubDate") or "").strip()
 d = pd.to_datetime(pub, utc=True, errors="coerce")
 date_str = d.tz_convert(None).strftime("%Y-%m-%d") if pd.notna(d) else ""
 key = (title, link)
 if key in seen or not title or not link:
+    pass
 continue
 seen.add(key)
 rows.append({
@@ -1415,38 +1551,50 @@ rows.append({
 })
 seq += 1
 if len(rows) >= limit:
+    pass
 break
 return rows
 
 # - WP REST（複数ページ） -
 
 def _parse_wp_rest_paginated(limit: int, prefer_news_only: bool = True, max_pages: int = 5) -> list:
+    pass
 rows, seen = [], set()
 seq = 0
 for page in range(1, max_pages+1):
+    pass
 url = _REST_POSTS.format(page=page)
 resp = _http_get_retry(url, max_retries=3, base_timeout=10)
 if not resp:
+    pass
 continue
 try:
+    pass
 items = resp.json()
 except Exception:
+    pass
 break
 if not items:
+    pass
 break
 for it in items:
+    pass
 link = (it.get("link") or "").strip()
 title = it.get("title")
 if isinstance(title, dict):
+    pass
 title = (title.get("rendered") or "").strip()
 else:
+    pass
 title = (title or "").strip()
 if not _is_news_article_url(link, prefer_news_only=prefer_news_only):
+    pass
 continue
 d = pd.to_datetime((it.get("date") or "").strip(), errors="coerce")
 date_str = d.strftime("%Y-%m-%d") if pd.notna(d) else ""
 key = (title, link)
 if key in seen or not title or not link:
+    pass
 continue
 seen.add(key)
 rows.append({
@@ -1459,13 +1607,16 @@ rows.append({
 })
 seq += 1
 if len(rows) >= limit:
+    pass
 return rows
 return rows
 
 def scrape_jpea(limit: int = 120):
+    pass
 # 1) HTML ページネーション（まず /news/ 限定）
 rows = _parse_html_paginated(limit, prefer_news_only=True, max_pages=8)
 if rows:
+    pass
 return rows[:limit]
 
 ```
@@ -1494,9 +1645,11 @@ return []
 ```
 
 def scrape_jvca(limit: int = 80, list_url: str | None = None):
+    pass
 LIST = list_url or "https://jvca.jp/news/"
 resp = http_get(LIST)
 if not resp:
+    pass
 print("[ERROR] jvca failed: cannot fetch list")
 return []
 
@@ -1595,6 +1748,7 @@ _BANNED_HOSTS = {"twitter.com","x.com","facebook.com","instagram.com","t.co"}
 # --------------
 
 def _http_get_retry(url: str, max_retries=4, base_timeout=18.0, backoff=1.8, jitter=0.35):
+    pass
 sess = requests.Session()
 ua = {
 "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -1605,16 +1759,22 @@ ua = {
 timeout = base_timeout
 last_err = None
 for i in range(1, max_retries+1):
+    pass
 try:
+    pass
 r = sess.get(url, headers=ua, timeout=timeout)
 if 200 <= r.status_code < 400:
+    pass
 if not r.encoding or r.encoding.lower() in ("iso-8859-1","ascii"):
+    pass
 r.encoding = r.apparent_encoding or "utf-8"
 return r
 last_err = RuntimeError(f"HTTP {r.status_code}")
 except requests.RequestException as e:
+    pass
 last_err = e
 if i < max_retries:
+    pass
 wait = (backoff ** (i-1)) * (1 + random.uniform(-jitter, jitter))
 time.sleep(max(1.0, wait)); timeout *= backoff
 print(f"[WARN] GET failed {url}: {last_err}")
@@ -1627,9 +1787,12 @@ return None
 # --------------
 
 def _is_allowed_url(href: str) -> bool:
+    pass
 if not href:
+    pass
 return False
 if href.startswith("#") or href.lower().startswith("javascript:"):
+    pass
 return False
 host = urlparse(href).netloc.lower()
 return not any(b in host for b in _BANNED_HOSTS)
@@ -1645,10 +1808,13 @@ re.compile(r'(20\d{2})[./-](\d{1,2})[./-](\d{1,2})'),
 re.compile(r'(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日')
 ]
 def _norm_date(text: str) -> str | None:
+    pass
 s = (text or "").strip()
 for pat in _PAT_DATE:
+    pass
 m = pat.search(s)
 if m:
+    pass
 y, mo, d = map(int, m.groups())
 return f"{y:04d}-{mo:02d}-{d:02d}"
 return None
@@ -1662,16 +1828,21 @@ return None
 _BANK_PAT = re.compile(r'(銀行|信託|金庫|組合|連合会|農協|漁協|JA)', re.I)
 
 def _clean_text(s: str) -> str:
+    pass
 return re.sub(r'\s+', ' ', (s or '').strip())
 
 def _pick_bank_from_cells(cells: list[Tag]) -> str | None:
+    pass
 # セル群から「銀行名らしい」テキストを優先順で返す
 candidates = []
 for td in cells:
+    pass
 t = _clean_text(td.get_text(" ", strip=True))
 if not t:
+    pass
 continue
 if _BANK_PAT.search(t):
+    pass
 # 過度に長い説明文は除外（50文字超はスコア低）
 score = 0
 if t.endswith(("銀行", "信託銀行", "信用金庫", "労働金庫", "連合会")): score += 3
@@ -1679,6 +1850,7 @@ if len(t) <= 30: score += 2
 if len(t) <= 15: score += 1
 candidates.append((score, t))
 if candidates:
+    pass
 candidates.sort(reverse=True)
 return candidates[0][1]
 # 上記で見つからない場合は先頭セルを弱く採用
@@ -1693,11 +1865,15 @@ return _clean_text(cells[0].get_text(" ", strip=True)) if cells else None
 # --------------
 
 def _parse_table(soup: BeautifulSoup, limit: int):
+    pass
 rows, seen_urls, seq = [], set(), 0
 for table in soup.find_all("table"):
+    pass
 for tr in table.find_all("tr"):
+    pass
 cells = tr.find_all(["td","th"])
 if len(cells) < 2:
+    pass
 continue
 
 ```
@@ -1757,6 +1933,7 @@ return rows
 # --------------
 
 def _parse_result_block(soup: BeautifulSoup, limit: int):
+    pass
 rows, seen_urls, seq = [], set(), 0
 
 ```
@@ -1828,8 +2005,10 @@ return rows
 # --------------
 
 def scrape_chiginkyo(limit: int = 200):
+    pass
 resp = _http_get_retry(_LIST, max_retries=4, base_timeout=18.0)
 if not resp:
+    pass
 return []
 
 ```
@@ -1856,6 +2035,7 @@ SCRAPERS = {
 }
 
 def run(sources: Optional[list] = None, since: Optional[str] = None) -> pd.DataFrame:
+    pass
 
 ```
 if sources is None:
@@ -1955,9 +2135,11 @@ import requests
 import yfinance as yf
 
 try:
+    pass
 from pandas_datareader import data as pdr
 HAS_PDR = True
 except Exception:
+    pass
 HAS_PDR = False
 
 JST = pytz.timezone("Asia/Tokyo")
@@ -2008,29 +2190,36 @@ FRED_BOJ_ON_CANDIDATES = ["IRSTCI01JPM156N"]
 # ===============================
 
 def get_jpx_days(start: date, end: date) -> pd.DatetimeIndex:
+    pass
 """
 JPX営業日。pandas_market_calendars が無ければ土日除外フォールバック。
 """
 try:
+    pass
 import pandas_market_calendars as mcal
 jpx = mcal.get_calendar("JPX")
 sch = jpx.schedule(start_date=pd.Timestamp(start), end_date=pd.Timestamp(end))
 days = pd.to_datetime(sch.index).tz_localize(None)
 return pd.DatetimeIndex(days)
 except Exception as e:
+    pass
 if VERBOSE:
+    pass
 print(f"[JPX] pandas_market_calendars unavailable, fallback weekday-only: {e}")
 return pd.bdate_range(start=pd.Timestamp(start), end=pd.Timestamp(end), freq="C")
 
 def prev_jpx_bd(today: date, jpx_days: pd.DatetimeIndex) -> date:
+    pass
 s = jpx_days[jpx_days < pd.Timestamp(today)]
 return s[-1].date() if len(s) else today - timedelta(days=1)
 
 def last_jpx_bd_on_or_before(target: date, jpx_days: pd.DatetimeIndex) -> date:
+    pass
 s = jpx_days[jpx_days <= pd.Timestamp(target)]
 return s[-1].date() if len(s) else target
 
 def shift_jpx_bd(base: date, n: int, jpx_days: pd.DatetimeIndex) -> date:
+    pass
 """
 base を「その日以前の最後のJPX営業日」に丸めてから営業日インデックスで n シフト
 """
@@ -2041,12 +2230,14 @@ target = max(0, min(target, len(jpx_days) - 1))
 return jpx_days[target].date()
 
 def last_jpx_bd_prev_month(today: date, jpx_days: pd.DatetimeIndex) -> date:
+    pass
 base = today - timedelta(days=1)
 first = date(base.year, base.month, 1)
 prev_month_end = first - timedelta(days=1)
 return last_jpx_bd_on_or_before(prev_month_end, jpx_days)
 
 def previous_quarter_end_calendar(today: date) -> date:
+    pass
 """
 カレンダー上の「前期末」(3/31, 6/30, 9/30, 12/31) を返す
 """
@@ -2057,6 +2248,7 @@ cands = [x for x in cands if x <= base]
 return max(cands)
 
 def last_march_31_calendar(today: date) -> date:
+    pass
 base = today - timedelta(days=1)
 this_year = date(base.year, 3, 31)
 return this_year if base >= date(base.year, 4, 1) else date(base.year - 1, 3, 31)
@@ -2068,15 +2260,20 @@ return this_year if base >= date(base.year, 4, 1) else date(base.year - 1, 3, 31
 # ===============================
 
 def last_trading_point_before(ser: pd.Series, target_date: date) -> Tuple[float, Optional[date]]:
+    pass
 if ser is None or ser.empty:
+    pass
 return np.nan, None
 s = ser[ser.index.date <= target_date]
 if s.empty:
+    pass
 return np.nan, None
 return float(s.iloc[-1]), s.index[-1].date()
 
 def pct_change_from_base(latest, base):
+    pass
 if pd.isna(latest) or pd.isna(base) or base == 0:
+    pass
 return np.nan
 return (latest / base - 1.0) * 100.0
 
@@ -2087,11 +2284,15 @@ return (latest / base - 1.0) * 100.0
 # ===============================
 
 def fetch_fred_series(symbol: str, lookback_days: int = LOOKBACK_DAYS) -> Tuple[pd.Series, str]:
+    pass
 if not HAS_PDR:
+    pass
 return pd.Series(dtype=float), "pandas-datareader missing"
 try:
+    pass
 df = pdr.DataReader(symbol, "fred").dropna()
 if df.empty:
+    pass
 return pd.Series(dtype=float), f"{symbol}@fred(empty)"
 s = df.iloc[:, 0].astype(float)
 s.index = pd.to_datetime(s.index)
@@ -2099,13 +2300,17 @@ s = s[s.index >= (s.index.max() - pd.Timedelta(days=lookback_days))]
 if VERBOSE: print(f"[FRED] {symbol}: {len(s)} rows (last={s.index.max().date()})")
 return s, f"{symbol}@fred"
 except Exception as e:
+    pass
 if VERBOSE: print(f"[FRED] {symbol}: {e}")
 return pd.Series(dtype=float), f"{symbol}@fred(error)"
 
 def fetch_fred_first_available(candidates: list[str]) -> Tuple[pd.Series, str]:
+    pass
 for sym in candidates:
+    pass
 s, src = fetch_fred_series(sym)
 if not s.empty:
+    pass
 return s, src
 return pd.Series(dtype=float), "FRED(EMPTY)"
 
@@ -2116,29 +2321,36 @@ return pd.Series(dtype=float), "FRED(EMPTY)"
 # ===============================
 
 def fetch_stooq_csv_direct(symbol: str, lookback_days: int = LOOKBACK_DAYS) -> Tuple[pd.Series, str]:
+    pass
 try:
+    pass
 url = f"https://stooq.com/q/d/l/?s={symbol}&i=d"
 r = requests.get(url, timeout=20, headers={"User-Agent":"Mozilla/5.0"})
 r.raise_for_status()
 df = pd.read_csv(io.StringIO(r.text))
 if df.empty or "Close" not in df.columns:
+    pass
 if VERBOSE: print(f"[StooqCSV] {symbol}: EMPTY")
 return pd.Series(dtype=float), f"{symbol}@stooqcsv(empty)"
 df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
 df = df.dropna(subset=["Date"]).set_index("Date").sort_index()
 s = pd.to_numeric(df["Close"], errors="coerce").dropna()
 if s.empty:
+    pass
 return pd.Series(dtype=float), f"{symbol}@stooqcsv(empty)"
 s = s[s.index >= (s.index.max() - pd.Timedelta(days=lookback_days))]
 if VERBOSE: print(f"[StooqCSV] {symbol}: {len(s)} rows (last={s.index.max().date()})")
 return s, f"{symbol}@stooqcsv"
 except Exception as e:
+    pass
 if VERBOSE: print(f"[StooqCSV] {symbol}: {e}")
 return pd.Series(dtype=float), f"{symbol}@stooqcsv(error)"
 
 def fetch_stooq_series(symbol: str, lookback_days: int = LOOKBACK_DAYS) -> Tuple[pd.Series, str]:
+    pass
 s, src = fetch_stooq_csv_direct(symbol, lookback_days=lookback_days)
 if not s.empty:
+    pass
 return s, src
 
 ```
@@ -2168,8 +2380,11 @@ return pd.Series(dtype=float), f"{symbol}@stooq(empty)"
 # ===============================
 
 def fetch_yf_series(ticker: str, lookback_days: int = LOOKBACK_DAYS) -> Tuple[pd.Series, str]:
+    pass
 for i in range(1, YF_RETRY + 1):
+    pass
 try:
+    pass
 df = yf.download(
 ticker,
 period=f"{lookback_days}d",
@@ -2179,11 +2394,13 @@ progress=False,
 threads=False,
 )
 if df.empty:
+    pass
 tk = yf.Ticker(ticker)
 end = datetime.utcnow()
 start = end - timedelta(days=lookback_days + 30)
 df = tk.history(start=start, end=end, interval="1d", auto_adjust=False)
 except Exception as e:
+    pass
 if VERBOSE: print(f"[Yahoo] {ticker}: exception {type(e).**name**}: {e}")
 df = pd.DataFrame()
 
@@ -2214,17 +2431,24 @@ return pd.Series(dtype=float), f"{ticker}@yahoo(empty)"
 # ===============================
 
 def fetch_multi(pref: dict) -> Tuple[pd.Series, str]:
+    pass
 for sym in pref.get("fred", []):
+    pass
 s, src = fetch_fred_series(sym)
 if not s.empty:
+    pass
 return s, src
 for sym in pref.get("stooq", []):
+    pass
 s, src = fetch_stooq_series(sym)
 if not s.empty:
+    pass
 return s, src
 for tic in pref.get("yahoo", []):
+    pass
 s, src = fetch_yf_series(tic)
 if not s.empty:
+    pass
 return s, src
 return pd.Series(dtype=float), "EMPTY"
 
@@ -2235,18 +2459,23 @@ return pd.Series(dtype=float), "EMPTY"
 # ===============================
 
 def fetch_usdjpy_series() -> Tuple[pd.Series, str]:
+    pass
 s, src = fetch_stooq_series("usdjpy")
 if not s.empty:
+    pass
 return s, "usdjpy@stooq"
 s, src = fetch_yf_series("JPY=X")
 if not s.empty:
+    pass
 return s, "JPY=X@yahoo"
 return pd.Series(dtype=float), "USDJPY(EMPTY)"
 
 def fetch_nikkei_future_jpy() -> Tuple[pd.Series, str, str]:
+    pass
 # 1) NIY=F（JPY建て）
 s, src = fetch_yf_series("NIY=F")
 if not s.empty:
+    pass
 return s, src, "日経平均先物（シカゴ, JPY）（NIY=F）"
 
 ```
@@ -2279,10 +2508,13 @@ return pd.Series(dtype=float), "EMPTY", "日経平均先物（シカゴ, JPY）"
 # ===============================
 
 def fetch_mof_jgb_curve(csv_url=MOF_JGB_CSV) -> pd.DataFrame:
+    pass
 try:
+    pass
 r = requests.get(csv_url, timeout=25, headers={"User-Agent":"Mozilla/5.0"})
 r.raise_for_status()
 except Exception as e:
+    pass
 if VERBOSE: print(f"[MOF] request error: {e}")
 return pd.DataFrame()
 
@@ -2325,7 +2557,9 @@ return out_df
 # ===============================
 
 def compute_row(name: str, ser: pd.Series, source: str, ref: dict) -> dict:
+    pass
 if ser is None or ser.empty:
+    pass
 return {
 "指標": name,
 "採用ソース": source,
@@ -2375,7 +2609,9 @@ return {
 # ===============================
 
 def main():
+    pass
 if not HAS_PDR:
+    pass
 print("[ERROR] pandas_datareader が必要です。pip install pandas-datareader")
 return
 
@@ -2458,14 +2694,17 @@ print("\nCSV saved: morning_dashboard_jst.csv")
 ```
 
 if **name** == "**main**":
+    pass
 main()
 
 def build_market_df() -> pd.DataFrame:
+    pass
 """
 あなたの市況コードの main() を「dfを返す」用途にしたもの。
 既存の関数群（fetch_multi など）はそのまま流用。
 """
 if not HAS_PDR:
+    pass
 raise RuntimeError("pandas_datareader が必要です。pip install pandas-datareader")
 
 ```
@@ -2544,6 +2783,7 @@ print(f"CSV保存完了: {csv_path}")
 
 xlsx_path = f"{outfile}.xlsx"
 with pd.ExcelWriter(xlsx_path, engine="xlsxwriter") as writer:
+    pass
 df_week_sorted.to_excel(writer, index=False, sheet_name="headlines")
 print(f"XLSX保存完了: {xlsx_path}")
 
@@ -2551,10 +2791,13 @@ import io, pandas as pd
 from email.utils import formataddr
 
 def _csv_safe(s: str) -> str:
+    pass
 if s is None:
+    pass
 return ""
 s = str(s)
 if s.startswith(("=", "+", "-", "@")):
+    pass
 return "'" + s  # CSVインジェクション防止
 return s
 
@@ -2611,15 +2854,19 @@ import pandas as pd
 import numpy as np
 
 def _esc(s: str) -> str:
+    pass
 return html.escape(str(s or ""), quote=True)
 
 def _shorten(s: str, max_len: int = 200) -> str:
+    pass
 s = str(s or "")
 return (s[: max_len - 1] + "…") if len(s) > max_len else s
 
 def make_html_section(df: pd.DataFrame, section_title: str, max_rows: int = 40) -> str:
+    pass
 """Date / Source / Headline 用の汎用セクション"""
 if df is None or df.empty:
+    pass
 return f"""
 <div style="margin:18px 0;">
 <h3 style="margin:0 0 6px 0;">{_esc(section_title)}</h3>
@@ -2669,8 +2916,10 @@ return f
 ```
 
 def _market_table_block(title: str, df_market: pd.DataFrame) -> str:
+    pass
 """市況用のセクション（日本語列を表示）"""
 if df_market is None or df_market.empty:
+    pass
 body = """
 <tr>
 <td colspan="7" style="padding:10px;border:1px solid #e5e7eb;background:#fafafa;color:#6b7280;">
@@ -2679,6 +2928,7 @@ body = """
 </tr>"""
 show_cols = ["指標","前日終値","前日比%","前週比%","前月末比%","前期末比%","前年度末(3月末)比%"]
 else:
+    pass
 show_cols = ["指標","前日終値","前日比%","前週比%","前月末比%","前期末比%","前年度末(3月末)比%"]
 show_cols = [c for c in show_cols if c in df_market.columns]
 df2 = df_market[show_cols].copy()
@@ -2730,6 +2980,7 @@ return f
 ```
 
 def make_html_body_with_sections(sections: list[tuple[str, pd.DataFrame]], title: str) -> str:
+    pass
 """
 sections = [(見出し, df), …]
 - 見出しに「市場」or df列に「指標」があれば市況ブロックで表示
@@ -2737,10 +2988,13 @@ sections = [(見出し, df), …]
 """
 parts = []
 for sec_title, sec_df in sections:
+    pass
 is_market = ("市場" in (sec_title or "")) or (isinstance(sec_df, pd.DataFrame) and "指標" in sec_df.columns)
 if is_market:
+    pass
 parts.append(_market_table_block(sec_title, sec_df))
 else:
+    pass
 parts.append(make_html_section(sec_df, sec_title, max_rows=40))
 
 ```
@@ -2829,6 +3083,7 @@ port = int(smtp_port or os.getenv("SMTP_PORT", "587"))
 user = smtp_user or os.getenv("SMTP_USER","sonishi10@gmail.com")
 pwd  = smtp_password or os.getenv("SMTP_PASSWORD","bollunqwajklqgxx")
 if not user or not pwd:
+    pass
 raise RuntimeError("SMTP_USER / SMTP_PASSWORD が未設定です。")
 subject = subject or f"Headlines (last 7 days) - {pd.Timestamp.today().date()}"
 

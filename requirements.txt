@@ -9,3 +9,4 @@ yfinance
 pytz
 xlsxwriter
 openpyxl
+pandas-datareader

@@ -2,17 +2,20 @@ import json, re
 
 with open("headline_pipeline_strict_all.ipynb", encoding="utf-8") as f:
     nb = json.load(f)
+
 cells = [c for c in nb["cells"] if c.get("cell_type") == "code"]
 
 header = "# pipeline.py\n# from pipeline import run, build_market_df\n\n"
 all_code = [header]
+
 for cell in cells:
     src = "".join(cell.get("source", []))
-    if not src.strip() or src.strip() == "display(df_market)":
+    if not src.strip():
         continue
     src = re.sub(r"^display\(.*?\)\s*$", "", src, flags=re.MULTILINE)
-    if src.strip():
-        all_code.append(src)
+    if not src.strip():
+        continue
+    all_code.append(src)
 
 full = "\n\n".join(all_code)
 
@@ -24,6 +27,22 @@ pairs = [
 for bad, good in pairs:
     full = full.replace(bad, good)
 
+lines = full.split("\n")
+safe_lines = []
+skip = False
+for line in lines:
+    stripped = line.strip()
+    if stripped.startswith("df_all") or stripped.startswith("df_week") or stripped.startswith("one_week_ago") or stripped.startswith("send_email(") or stripped.startswith("sections ="):
+        skip = True
+    if skip and (stripped == "" or stripped.startswith("#")):
+        skip = False
+        continue
+    if not skip:
+        safe_lines.append(line)
+
+result = "\n".join(safe_lines)
+
 with open("pipeline.py", "w", encoding="utf-8") as f:
-    f.write(full)
-print("done:", len(full.splitlines()), "lines")
+    f.write(result)
+
+print("done:", len(result.splitlines()), "lines")

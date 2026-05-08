@@ -2314,7 +2314,10 @@ def build_market_df() -> pd.DataFrame:
     既存の関数群（fetch_multi など）はそのまま流用。
     """
     if not HAS_PDR:
-        raise RuntimeError("pandas_datareader が必要です。pip install pandas-datareader")
+        print("[WARN] pandas_datareader not available, market data skipped")
+    return pd.DataFrame()
+
+        
 
     start = today_jst - timedelta(days=LOOKBACK_DAYS + 60)
     end   = today_jst + timedelta(days=10)

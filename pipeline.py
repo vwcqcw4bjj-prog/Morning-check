@@ -427,16 +427,6 @@ def scrape_nikkei_financial(limit: int = 80):
 df_nikkei_fin = pd.DataFrame(scrape_nikkei_financial(limit=120))
 if not df_nikkei_fin.empty:
     # 日付が取れない記事は一旦残しつつ、ソートは date があるもの優先
-    one_week_ago = TODAY - dt.timedelta(days=7)
-    has_date = df_nikkei_fin["date"].notna()
-    df_nikkei_fin_recent = pd.concat([
-        df_nikkei_fin[has_date & (df_nikkei_fin["date"].dt.date >= one_week_ago)].sort_values("date", ascending=False),
-        df_nikkei_fin[~has_date]
-    ], ignore_index=True)
-else:
-    df_nikkei_fin_recent = pd.DataFrame(columns=["source","date","date_str","title","url","seq"])
-    print("[WARN] Nikkei financial: 取得 0件")
-
 # === BOJ（日本銀行）新着情報スクレイパー：超堅牢版（#contents起点・多経路） ===
 import pandas as pd
 import datetime as dt
@@ -1837,20 +1827,9 @@ import datetime as dt
 # 今日の日付
 today = dt.date.today()
 # 1週間前の日付
-one_week_ago = today - dt.timedelta(days=7)
-
 # df_all を実行（30日分）
-df_all = run(since='30d')
-
 # df_all から date カラムを基準に絞り込み
-df_week = df_all[
-    (df_all["date"].notna()) &
-    (df_all["date"].dt.date >= one_week_ago)
-].copy()
-
 # 日付で降順ソート
-df_week_sorted = df_week.sort_values("date", ascending=False)
-
 # 結果確認
 
 
@@ -2404,15 +2383,9 @@ outfile = "headlines_output"
 
 # CSV保存
 csv_path = f"{outfile}.csv"
-df_week_sorted.to_csv(csv_path, index=False, encoding="utf-8-sig")
-print(f"CSV保存完了: {csv_path}")
-
 # XLSX保存
 xlsx_path = f"{outfile}.xlsx"
 with pd.ExcelWriter(xlsx_path, engine="xlsxwriter") as writer:
-    df_week_sorted.to_excel(writer, index=False, sheet_name="headlines")
-print(f"XLSX保存完了: {xlsx_path}")
-
 import io, pandas as pd
 from email.utils import formataddr
 
@@ -2592,18 +2565,6 @@ def _market_table_block(title: str, df_market: pd.DataFrame) -> str:
 
 def make_html_body_with_sections(sections: list[tuple[str, pd.DataFrame]], title: str) -> str:
     """
-    sections = [(見出し, df), ...]
-    - 見出しに「市場」or df列に「指標」があれば市況ブロックで表示
-    - それ以外は Date/Source/Headline の通常セクションで表示
-    """
-    parts = []
-    for sec_title, sec_df in sections:
-        is_market = ("市場" in (sec_title or "")) or (isinstance(sec_df, pd.DataFrame) and "指標" in sec_df.columns)
-        if is_market:
-            parts.append(_market_table_block(sec_title, sec_df))
-        else:
-            parts.append(make_html_section(sec_df, sec_title, max_rows=40))
-
     return f"""
     <div style="font-family:'Segoe UI', Meiryo, sans-serif;font-size:14px;line-height:1.6;">
       <h2 style="margin:0 0 12px 0;">{_esc(title)}</h2>
@@ -2652,3 +2613,122 @@ def build_attachments_from_df(
 
     return out
 
+import os, time
+import pandas as pd
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
+from email.utils import formataddr
+
+def send_email(
+    df: pd.DataFrame | None,
+    subject: str | None = None,
+    to: list[str] | tuple[str, ...] = (),
+    cc: list[str] | tuple[str, ...] = (),
+    bcc: list[str] | tuple[str, ...] = (),
+    from_name: str | None = None,
+    reply_to: str | None = None,
+    include_csv: bool = True,
+    include_xlsx: bool = True,
+    max_rows_in_body: int = 100,
+    base_filename: str = "headlines_output",
+    smtp_host: str | None = None,
+    smtp_port: int | None = None,
+    smtp_user: str | None = None,
+    smtp_password: str | None = None,
+    use_ssl_first: bool = False,
+    retries: int = 2,
+    *,
+    sections: list[tuple[str, pd.DataFrame]] | None = None,
+    attachment_df: pd.DataFrame | None = None,
+):
+    host = smtp_host or os.getenv("SMTP_HOST", "smtp.gmail.com")
+    port = int(smtp_port or os.getenv("SMTP_PORT", "587"))
+    user = smtp_user or os.getenv("SMTP_USER","sonishi10@gmail.com")
+    pwd  = smtp_password or os.getenv("SMTP_PASSWORD","bollunqwajklqgxx")
+    if not user or not pwd:
+        raise RuntimeError("SMTP_USER / SMTP_PASSWORD が未設定です。")
+    subject = subject or f"Headlines (last 7 days) - {pd.Timestamp.today().date()}"
+
+    to  = list(to)  if to  else []
+    cc  = list(cc)  if cc  else []
+    bcc = list(bcc) if bcc else []
+    if not (to or cc or bcc):
+        raise ValueError("宛先が空です。")
+
+    # --- 本文HTMLを作成 ---
+    if sections:
+        html_body = make_html_body_with_sections(sections, title=subject)
+        if attachment_df is None:
+            try:
+                attachment_df = pd.concat([d for (_, d) in sections if isinstance(d, pd.DataFrame)], ignore_index=True)
+            except Exception:
+                attachment_df = None
+    else:
+        if df is None or df.empty:
+            print("[WARN] 送信対象のデータが空です。メールは送信しません。")
+            return
+        html_body = make_html_section(df, "Daily Headlines", max_rows=max_rows_in_body)
+        attachment_df = attachment_df or df
+
+    # --- 添付 ---
+    attachments = []
+    if attachment_df is not None and (include_csv or include_xlsx):
+        attachments = build_attachments_from_df(
+            attachment_df,
+            base_name=base_filename,
+            make_csv=include_csv,
+            make_xlsx=include_xlsx,
+            also_save_to_disk=False,
+        )
+
+    # --- メール作成 ---
+    msg = MIMEMultipart()
+    msg["Subject"] = subject
+    msg["From"] = formataddr((from_name, user)) if from_name else user
+    if to:  msg["To"]  = ", ".join(to)
+    if cc:  msg["Cc"]  = ", ".join(cc)
+    if reply_to: msg["Reply-To"] = reply_to
+
+    alt = MIMEMultipart("alternative")
+    alt.attach(MIMEText("ヘッドライン一覧をHTML形式で送信しています。", "plain", "utf-8"))
+    alt.attach(MIMEText(html_body, "html", "utf-8"))
+    msg.attach(alt)
+
+    for filename, blob, subtype in attachments:
+        part = MIMEApplication(blob, _subtype=subtype)
+        part.add_header("Content-Disposition", "attachment", filename=filename)
+        msg.attach(part)
+
+    all_rcpts = list(set(to + cc + bcc))
+
+    # --- 送信 ---
+    last_err = None
+    for attempt in range(1, retries + 2):
+        try:
+            import smtplib, ssl
+            if use_ssl_first:
+                with smtplib.SMTP_SSL(host, port if port else 465, context=ssl.create_default_context()) as s:
+                    s.login(user, pwd)
+                    s.sendmail(user, all_rcpts, msg.as_string())
+            else:
+                with smtplib.SMTP(host, port) as s:
+                    s.ehlo()
+                    try:
+                        s.starttls(context=ssl.create_default_context()); s.ehlo()
+                    except Exception:
+                        pass
+                    s.login(user, pwd)
+                    s.sendmail(user, all_rcpts, msg.as_string())
+
+            print("[INFO] メール送信完了")
+            return
+        except Exception as e:
+            last_err = e
+            print(f"[WARN] 送信失敗 (attempt {attempt}): {e}")
+            time.sleep(1.0 * attempt)
+            use_ssl_first = not use_ssl_first
+
+    raise RuntimeError(f"メール送信に失敗しました: {last_err}")
+
+# 事前に df_market / df_nikkei_fin_recent / df_week_sorted が作られている前提

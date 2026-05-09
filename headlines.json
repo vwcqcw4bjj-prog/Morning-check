@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026/05/09 21:48 JST",
+  "count": 4,
+  "headlines": [
+    {
+      "date": "2026-05-08",
+      "source": "郵政民営化委員会",
+      "title": "議事要旨",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai291/gijiyoshi291.pdf"
+    },
+    {
+      "date": "2026-05-07",
+      "source": "BOJ",
+      "title": "FSBがプライベートクレジットにおける脆弱性に関する報告書を公表",
+      "url": "https://www.boj.or.jp/intl_finance/meeting/group/gro260507a.htm"
+    },
+    {
+      "date": "2026-05-07",
+      "source": "BOJ",
+      "title": "マネタリーベース（4月）",
+      "url": "https://www.boj.or.jp/statistics/boj/other/mb/mb.htm"
+    },
+    {
+      "date": "2026-05-07",
+      "source": "BOJ",
+      "title": "営業毎旬報告（4月30日現在）",
+      "url": "https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac260430.htm"
+    }
+  ]
+}

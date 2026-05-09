@@ -1869,12 +1869,10 @@ INDEX_DEFS = {
         "yahoo": ["^TOPX", "1306.T"],
     },
     "日経平均株価": {
-        "fred": ["NIKKEI225"],
         "stooq": ["^n225", "^nikkei", "nikkei", "jpn225", "1321.jp"],
         "yahoo": ["^N225", "1321.T"],
     },
     "S&P500": {
-        "fred": ["SP500"],
         "stooq": ["^spx", "^gspc"],
         "yahoo": ["^GSPC", "SPY"],
     },
@@ -2081,10 +2079,7 @@ def fetch_yf_series(ticker: str, lookback_days: int = LOOKBACK_DAYS) -> Tuple[pd
 # マルチ取得（FRED→Stooq→Yahoo）
 # ===============================
 def fetch_multi(pref: dict) -> Tuple[pd.Series, str]:
-    for sym in pref.get("fred", []):
-        s, src = fetch_fred_series(sym)
-        if not s.empty:
-            return s, src
+    # Stooq/Yahoo専用（pandas_datareader不要）
     for sym in pref.get("stooq", []):
         s, src = fetch_stooq_series(sym)
         if not s.empty:
@@ -2224,9 +2219,6 @@ def compute_row(name: str, ser: pd.Series, source: str, ref: dict) -> dict:
 # メイン
 # ===============================
 def main():
-    if not HAS_PDR:
-        print("[ERROR] pandas_datareader が必要です。pip install pandas-datareader")
-        return
 
     start = today_jst - timedelta(days=LOOKBACK_DAYS + 60)
     end   = today_jst + timedelta(days=10)

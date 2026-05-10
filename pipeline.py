@@ -1049,44 +1049,55 @@ return {
 }
 ```
 
-def build_market_df():
-start = today_jst - dt.timedelta(days=LOOKBACK_DAYS + 60)
-end = today_jst + dt.timedelta(days=10)
-jpx_days = get_jpx_days(start, end)
+def build_market_df() -> pd.DataFrame:
+    start = today_jst - timedelta(days=LOOKBACK_DAYS + 60)
+    end   = today_jst + timedelta(days=10)
+    jpx_days = get_jpx_days(start, end)
 
-```
-jpx_latest = prev_jpx_bd(today_jst, jpx_days)
-ref = {
-    "latest": jpx_latest,
-    "d1": shift_jpx_bd(jpx_latest, -1, jpx_days),
-    "w1": shift_jpx_bd(jpx_latest, -5, jpx_days),
-    "m_end": last_jpx_bd_prev_month(today_jst, jpx_days),
-    "q_end": last_jpx_bd_on_or_before(previous_quarter_end_calendar(today_jst), jpx_days),
-    "fy_end_march": last_jpx_bd_on_or_before(last_march_31_calendar(today_jst), jpx_days),
-}
+    jpx_latest = prev_jpx_bd(today_jst, jpx_days)
+    ref = {
+        "latest": jpx_latest,
+        "d1": shift_jpx_bd(jpx_latest, -1, jpx_days),
+        "w1": shift_jpx_bd(jpx_latest, -5, jpx_days),
+        "m_end": last_jpx_bd_prev_month(today_jst, jpx_days),
+        "q_end": last_jpx_bd_on_or_before(previous_quarter_end_calendar(today_jst), jpx_days),
+        "fy_end_march": last_jpx_bd_on_or_before(last_march_31_calendar(today_jst), jpx_days),
+    }
 
-rows = []
+    rows = []
 
-for name, pref in INDEX_DEFS.items():
-    s, src = fetch_multi(pref)
-    if VERBOSE:
-        print("[CHECK] %s: %s (%s)" % (name, "OK" if not s.empty else "EMPTY", src))
-    rows.append(compute_row(name, s, src, ref))
+    for name, pref in INDEX_DEFS.items():
+        s, src = fetch_multi(pref)
+        rows.append(compute_row(name, s, src, ref))
 
-for name, pref in EXTRA_EQUITY.items():
-    s, src = fetch_multi(pref)
-    if VERBOSE:
-        print("[CHECK] %s: %s (%s)" % (name, "OK" if not s.empty else "EMPTY", src))
-    rows.append(compute_row(name, s, src, ref))
+    s, src, disp = fetch_nikkei_future_jpy()
+    rows.append(compute_row(disp, s, src, ref))
 
-jgb = fetch_mof_jgb_curve()
-for nm, col in [("JGB2Y", "2Y"), ("JGB5Y", "5Y"), ("JGB7Y", "7Y"),
-                ("JGB10Y", "10Y"), ("JGB20Y", "20Y")]:
-    ser = jgb.get(col)
-    ser = ser.dropna() if isinstance(ser, pd.Series) else pd.Series(dtype=float)
-    rows.append(compute_row(nm, ser, "MOF_JGB@csv", ref))
+    for name, pref in EXTRA_EQUITY.items():
+        s, src = fetch_multi(pref)
+        rows.append(compute_row(name, s, src, ref))
 
-out = pd.DataFrame(rows)
+    jgb = fetch_mof_jgb_curve()
+    for nm, col in [("日本国債2年金利","2Y"),("日本国債5年金利","5Y"),("日本国債7年金利","7Y"),
+                    ("日本国債10年金利","10Y"),("日本国債20年金利","20Y")]:
+        ser = jgb.get(col)
+        ser = ser.dropna() if isinstance(ser, pd.Series) else pd.Series(dtype=float)
+        rows.append(compute_row(nm, ser, "MOF_JGB@csv", ref))
+
+    out = pd.DataFrame(rows, columns=[
+        "指標","採用ソース","基準日",
+        "前日終値","前日比%","前週比%","前月末比%","前期末比%","前年度末(3月末)比%"
+    ])
+
+    def fmt(x):
+        if pd.isna(x): return np.nan
+        return round(float(x), 3)
+
+    for c in ["前日終値","前日比%","前週比%","前月末比%","前期末比%","前年度末(3月末)比%"]:
+        out[c] = out[c].map(fmt)
+
+    out["基準日"] = pd.to_datetime(out["基準日"]).dt.date
+    return out
 
 # app.py が期待するカラム名に変換
 rename_map = {

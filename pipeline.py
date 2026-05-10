@@ -21,7 +21,7 @@ from bs4 import BeautifulSoup, Tag, NavigableString
 
 HAS_PDR = False  # Stooq/Yahoo only
 
-JST = pytz.timezone(“Asia/Tokyo”)
+JST = pytz.timezone("Asia/Tokyo")
 today_jst = dt.datetime.now(JST).date()
 
 LOOKBACK_DAYS = 800
@@ -36,9 +36,9 @@ VERBOSE = True
 # ==================================================
 
 DEF_HEADERS = {
-“User-Agent”: “Mozilla/5.0 (compatible; HeadlineBot/1.2; +https://example.invalid/bot)”,
-“Accept-Language”: “ja,en;q=0.8”,
-“Cache-Control”: “no-cache”,
+"User-Agent": "Mozilla/5.0 (compatible; HeadlineBot/1.2; +https://example.invalid/bot)",
+"Accept-Language": "ja,en;q=0.8",
+"Cache-Control": "no-cache",
 }
 DEF_TIMEOUT = 20
 MAX_RETRIES = 4
@@ -55,17 +55,17 @@ for attempt in range(1, MAX_RETRIES + 1):
 try:
 resp = requests.get(url, headers=hdrs, timeout=timeout)
 if 200 <= resp.status_code < 400:
-if not resp.encoding or resp.encoding.lower() in (“iso-8859-1”, “ascii”):
-resp.encoding = resp.apparent_encoding or “utf-8”
+if not resp.encoding or resp.encoding.lower() in ("iso-8859-1", "ascii"):
+resp.encoding = resp.apparent_encoding or "utf-8"
 return resp
-last_exc = RuntimeError(“HTTP %d for %s” % (resp.status_code, url))
+last_exc = RuntimeError("HTTP %d for %s" % (resp.status_code, url))
 except Exception as e:
 last_exc = e
 if attempt < MAX_RETRIES:
 jitter = 1 + random.uniform(-RETRY_JITTER, RETRY_JITTER)
 time.sleep(wait * jitter)
 wait *= 1.8
-print(”[WARN] fetch failed: %s -> %s” % (url, last_exc), file=sys.stderr)
+print("[WARN] fetch failed: %s -> %s" % (url, last_exc), file=sys.stderr)
 return None
 
 # ==================================================
@@ -75,7 +75,7 @@ return None
 # ==================================================
 
 def _to_halfwidth_digits(s):
-return re.sub(r”[\uff10-\uff19]”, lambda m: chr(ord(m.group(0)) - 0xFEE0), s or “”)
+return re.sub(r"[\uff10-\uff19]", lambda m: chr(ord(m.group(0)) - 0xFEE0), s or "")
 
 def _to_int_or_none(x):
 try:
@@ -116,10 +116,10 @@ def _extract_year_hint_from_text(text):
 if not text:
 return dt.date.today().year
 t = str(text)
-m = re.search(r”(20\d{2})\s*\u5e74\u5ea6”, t)
+m = re.search(r"(20\d{2})\s*\u5e74\u5ea6", t)
 if m:
 return int(m.group(1))
-m = re.search(r”(20\d{2})”, t)
+m = re.search(r"(20\d{2})", t)
 if m:
 return int(m.group(1))
 return dt.date.today().year
@@ -131,28 +131,28 @@ return dt.date.today().year
 # ==================================================
 
 _EN2MON = {
-“jan”: 1, “feb”: 2, “mar”: 3, “apr”: 4, “may”: 5, “jun”: 6,
-“jul”: 7, “aug”: 8, “sep”: 9, “sept”: 9, “oct”: 10, “nov”: 11, “dec”: 12,
+"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+"jul": 7, "aug": 8, "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12,
 }
 
 _PATS = {
-“jp”:  re.compile(r”(20[\uff10-\uff190-9]{2})\s*\u5e74\s*([\uff10-\uff190-9]{1,2})\s*\u6708\s*([\uff10-\uff190-9]{1,2})\s*\u65e5”),
-“iso”: re.compile(r”(20[\uff10-\uff190-9]{2})[./-]([\uff10-\uff190-9]{1,2})[./-]([\uff10-\uff190-9]{1,2})”),
-“md”:  re.compile(r”([\uff10-\uff190-9]{1,2})\s*\u6708\s*([\uff10-\uff190-9]{1,2})\s*\u65e5”),
-“en”:  re.compile(r”(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec).?[a-z]*\s+(\d{1,2}),\s*(20\d{2})”, re.I),
+"jp":  re.compile(r"(20[\uff10-\uff190-9]{2})\s*\u5e74\s*([\uff10-\uff190-9]{1,2})\s*\u6708\s*([\uff10-\uff190-9]{1,2})\s*\u65e5"),
+"iso": re.compile(r"(20[\uff10-\uff190-9]{2})[./-]([\uff10-\uff190-9]{1,2})[./-]([\uff10-\uff190-9]{1,2})"),
+"md":  re.compile(r"([\uff10-\uff190-9]{1,2})\s*\u6708\s*([\uff10-\uff190-9]{1,2})\s*\u65e5"),
+"en":  re.compile(r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec).?[a-z]*\s+(\d{1,2}),\s*(20\d{2})", re.I),
 }
 
 _WAREKI_PAT = re.compile(
-r”(\u4ee4\u548c|\u5e73\u6210|\u662d\u548c)\s*([\uff10-\uff190-9]{1,2})\s*\u5e74\s*([\uff10-\uff190-9]{1,2})\s*\u6708\s*([\uff10-\uff190-9]{1,2})\s*\u65e5”
+r"(\u4ee4\u548c|\u5e73\u6210|\u662d\u548c)\s*([\uff10-\uff190-9]{1,2})\s*\u5e74\s*([\uff10-\uff190-9]{1,2})\s*\u6708\s*([\uff10-\uff190-9]{1,2})\s*\u65e5"
 )
-_ERA_BASE = {”\u4ee4\u548c”: 2018, “\u5e73\u6210”: 1988, “\u662d\u548c”: 1925}
+_ERA_BASE = {"\u4ee4\u548c": 2018, "\u5e73\u6210": 1988, "\u662d\u548c": 1925}
 
 def _iso(y, m, d):
-return “%04d-%02d-%02d” % (int(y), int(m), int(d))
+return "%04d-%02d-%02d" % (int(y), int(m), int(d))
 
 def _parse_date_head(text):
 if not text:
-return “”, “”
+return "", ""
 t = _to_halfwidth_digits(text.strip())
 
 ```
@@ -194,41 +194,41 @@ return "", t
 
 # ==================================================
 
-_BANNED_HOSTS = {“twitter.com”, “x.com”, “facebook.com”, “instagram.com”,
-“youtube.com”, “t.co”, “bit.ly”}
+_BANNED_HOSTS = {"twitter.com", "x.com", "facebook.com", "instagram.com",
+"youtube.com", "t.co", "bit.ly"}
 
 def _same_site(u, base):
 def host(s):
 h = urlparse(s).netloc.lower()
-return h[4:] if h.startswith(“www.”) else h
+return h[4:] if h.startswith("www.") else h
 return host(u) == host(base)
 
 def first_good_anchor(node, base_url, same_domain_only=True, allow_files=False, allowed_path_prefixes=None):
 if not isinstance(node, Tag):
-return None, None, “”
-for a in node.find_all(“a”, href=True):
-href = (a.get(“href”) or “”).strip()
-if not href or href.startswith(”#”) or href.lower().startswith(“javascript:”):
+return None, None, ""
+for a in node.find_all("a", href=True):
+href = (a.get("href") or "").strip()
+if not href or href.startswith("#") or href.lower().startswith("javascript:"):
 continue
-full = href if href.startswith(“http”) else urljoin(base_url, href)
+full = href if href.startswith("http") else urljoin(base_url, href)
 host = urlparse(full).netloc.lower()
 if any(b in host for b in _BANNED_HOSTS):
 continue
 if same_domain_only and not _same_site(full, base_url):
 continue
-path = (urlparse(full).path or “”).lower()
+path = (urlparse(full).path or "").lower()
 if allowed_path_prefixes and not any(path.startswith(pfx.lower()) for pfx in allowed_path_prefixes):
 continue
 if not allow_files and path.endswith(
-(”.pdf”, “.doc”, “.docx”, “.xls”, “.xlsx”, “.ppt”, “.pptx”, “.zip”,
-“.jpg”, “.jpeg”, “.png”, “.gif”, “.webp”, “.svg”, “.mp4”, “.mov”)
+(".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".zip",
+".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".mp4", ".mov")
 ):
 continue
-title = a.get_text(” “, strip=True) or (a.get(“title”) or a.get(“aria-label”) or “”).strip()
+title = a.get_text(" ", strip=True) or (a.get("title") or a.get("aria-label") or "").strip()
 if not title:
 continue
 return a, full, title
-return None, None, “”
+return None, None, ""
 
 # ==================================================
 
@@ -238,9 +238,9 @@ return None, None, “”
 
 def scrape_boj(limit=50, list_url=None, allow_files=False, verbose=False):
 candidates = [
-list_url or “https://www.boj.or.jp/whatsnew/index.htm”,
-“https://www.boj.or.jp/whatsnew/index.htm/”,
-“https://www.boj.or.jp/whatsnew/”,
+list_url or "https://www.boj.or.jp/whatsnew/index.htm",
+"https://www.boj.or.jp/whatsnew/index.htm/",
+"https://www.boj.or.jp/whatsnew/",
 ]
 resp = None
 for u in candidates:
@@ -335,7 +335,7 @@ return rows[:limit]
 # ==================================================
 
 def scrape_fsa(limit=200):
-base_url = “https://www.fsa.go.jp/sintyaku.html”
+base_url = "https://www.fsa.go.jp/sintyaku.html"
 resp = http_get(base_url)
 if not resp:
 return []
@@ -415,7 +415,7 @@ return rows
 # ==================================================
 
 def scrape_meti(limit=200):
-base_url = “https://www.meti.go.jp/press/index.html”
+base_url = "https://www.meti.go.jp/press/index.html"
 resp = http_get(base_url)
 if not resp:
 return []
@@ -490,7 +490,7 @@ return rows
 # ==================================================
 
 def scrape_ppc(limit=200):
-base_url = “https://www.yuseimineika.go.jp/rireki.html”
+base_url = "https://www.yuseimineika.go.jp/rireki.html"
 resp = http_get(base_url)
 if not resp:
 return []
@@ -558,8 +558,8 @@ return rows
 # ==================================================
 
 def scrape_jpea(limit=120):
-BASE = “https://jpea.group/”
-NEWS_LIST = “https://jpea.group/news/”
+BASE = "https://jpea.group/"
+NEWS_LIST = "https://jpea.group/news/"
 
 ```
 def _is_news(full):
@@ -629,7 +629,7 @@ return rows
 # ==================================================
 
 def scrape_jvca(limit=80, list_url=None):
-LIST = list_url or “https://jvca.jp/news/”
+LIST = list_url or "https://jvca.jp/news/"
 resp = http_get(LIST)
 if not resp:
 return []
@@ -686,7 +686,7 @@ return rows[:limit]
 # ==================================================
 
 def scrape_chiginkyo(limit=200):
-LIST = “https://www.chiginkyo.or.jp/regional_banks/news/”
+LIST = "https://www.chiginkyo.or.jp/regional_banks/news/"
 resp = http_get(LIST)
 if not resp:
 return []
@@ -753,13 +753,13 @@ return rows
 # ==================================================
 
 SCRAPERS = {
-“boj”: scrape_boj,
-“fsa”: scrape_fsa,
-“meti”: scrape_meti,
-“ppc”: scrape_ppc,
-“jpea”: scrape_jpea,
-“jvca”: scrape_jvca,
-“chiginkyo”: scrape_chiginkyo,
+"boj": scrape_boj,
+"fsa": scrape_fsa,
+"meti": scrape_meti,
+"ppc": scrape_ppc,
+"jpea": scrape_jpea,
+"jvca": scrape_jvca,
+"chiginkyo": scrape_chiginkyo,
 }
 
 def run(sources=None, since=None):
@@ -814,39 +814,39 @@ return df.drop(columns=["date_sort"])
 # ==================================================
 
 INDEX_DEFS = {
-“TOPIX”: {
-“stooq”: [“1306.jp”, “topx”],
-“yahoo”: [”^TOPX”, “1306.T”],
+"TOPIX": {
+"stooq": ["1306.jp", "topx"],
+"yahoo": ["^TOPX", "1306.T"],
 },
-“Nikkei225”: {
-“stooq”: [”^n225”, “^nikkei”, “nikkei”, “jpn225”, “1321.jp”],
-“yahoo”: [”^N225”, “1321.T”],
+"Nikkei225": {
+"stooq": ["^n225", "^nikkei", "nikkei", "jpn225", "1321.jp"],
+"yahoo": ["^N225", "1321.T"],
 },
-“S&P500”: {
-“stooq”: [”^spx”, “^gspc”],
-“yahoo”: [”^GSPC”, “SPY”],
+"S&P500": {
+"stooq": ["^spx", "^gspc"],
+"yahoo": ["^GSPC", "SPY"],
 },
 }
 
 EXTRA_EQUITY = {
-“TOPIX Banks ETF”: {“stooq”: [“1615.jp”], “yahoo”: [“1615.T”]},
-“Japan Post”: {“stooq”: [“6178.jp”], “yahoo”: [“6178.T”]},
-“JP Bank”: {“stooq”: [“7182.jp”], “yahoo”: [“7182.T”]},
+"TOPIX Banks ETF": {"stooq": ["1615.jp"], "yahoo": ["1615.T"]},
+"Japan Post": {"stooq": ["6178.jp"], "yahoo": ["6178.T"]},
+"JP Bank": {"stooq": ["7182.jp"], "yahoo": ["7182.T"]},
 }
 
-MOF_JGB_CSV = “https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv”
+MOF_JGB_CSV = "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv"
 
 def get_jpx_days(start, end):
 try:
 import pandas_market_calendars as mcal
-jpx = mcal.get_calendar(“JPX”)
+jpx = mcal.get_calendar("JPX")
 sch = jpx.schedule(start_date=pd.Timestamp(start), end_date=pd.Timestamp(end))
 days = pd.to_datetime(sch.index).tz_localize(None)
 return pd.DatetimeIndex(days)
 except Exception as e:
 if VERBOSE:
-print(”[JPX] fallback weekday-only: %s” % e)
-return pd.bdate_range(start=pd.Timestamp(start), end=pd.Timestamp(end), freq=“C”)
+print("[JPX] fallback weekday-only: %s" % e)
+return pd.bdate_range(start=pd.Timestamp(start), end=pd.Timestamp(end), freq="C")
 
 def prev_jpx_bd(today, jpx_days):
 s = jpx_days[jpx_days < pd.Timestamp(today)]
@@ -858,7 +858,7 @@ return s[-1].date() if len(s) else target
 
 def shift_jpx_bd(base, n, jpx_days):
 base_bd = last_jpx_bd_on_or_before(base, jpx_days)
-idx = int(jpx_days.get_indexer([pd.Timestamp(base_bd)], method=“ffill”)[0])
+idx = int(jpx_days.get_indexer([pd.Timestamp(base_bd)], method="ffill")[0])
 target = max(0, min(idx + n, len(jpx_days) - 1))
 return jpx_days[target].date()
 
@@ -896,39 +896,39 @@ return (latest / base - 1.0) * 100.0
 
 def fetch_stooq_series(symbol, lookback_days=LOOKBACK_DAYS):
 try:
-url = “https://stooq.com/q/d/l/?s=%s&i=d” % symbol
-r = requests.get(url, timeout=20, headers={“User-Agent”: “Mozilla/5.0”})
+url = "https://stooq.com/q/d/l/?s=%s&i=d" % symbol
+r = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
 r.raise_for_status()
 df = pd.read_csv(io.StringIO(r.text))
-if df.empty or “Close” not in df.columns:
-return pd.Series(dtype=float), “%s@stooq(empty)” % symbol
-df[“Date”] = pd.to_datetime(df[“Date”], errors=“coerce”)
-df = df.dropna(subset=[“Date”]).set_index(“Date”).sort_index()
-s = pd.to_numeric(df[“Close”], errors=“coerce”).dropna()
+if df.empty or "Close" not in df.columns:
+return pd.Series(dtype=float), "%s@stooq(empty)" % symbol
+df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+df = df.dropna(subset=["Date"]).set_index("Date").sort_index()
+s = pd.to_numeric(df["Close"], errors="coerce").dropna()
 if s.empty:
-return pd.Series(dtype=float), “%s@stooq(empty)” % symbol
+return pd.Series(dtype=float), "%s@stooq(empty)" % symbol
 s = s[s.index >= (s.index.max() - pd.Timedelta(days=lookback_days))]
 if VERBOSE:
-print(”[Stooq] %s: %d rows (last=%s)” % (symbol, len(s), s.index.max().date()))
-return s, “%s@stooq” % symbol
+print("[Stooq] %s: %d rows (last=%s)" % (symbol, len(s), s.index.max().date()))
+return s, "%s@stooq" % symbol
 except Exception as e:
 if VERBOSE:
-print(”[Stooq] %s: %s” % (symbol, e))
-return pd.Series(dtype=float), “%s@stooq(error)” % symbol
+print("[Stooq] %s: %s" % (symbol, e))
+return pd.Series(dtype=float), "%s@stooq(error)" % symbol
 
 def fetch_yf_series(ticker, lookback_days=LOOKBACK_DAYS):
 for i in range(1, YF_RETRY + 1):
 try:
-df = yf.download(ticker, period=”%dd” % lookback_days, interval=“1d”,
+df = yf.download(ticker, period="%dd" % lookback_days, interval="1d",
 auto_adjust=False, progress=False, threads=False)
 if df.empty:
 tk = yf.Ticker(ticker)
 end = dt.datetime.utcnow()
 start = end - dt.timedelta(days=lookback_days + 30)
-df = tk.history(start=start, end=end, interval=“1d”, auto_adjust=False)
+df = tk.history(start=start, end=end, interval="1d", auto_adjust=False)
 except Exception as e:
 if VERBOSE:
-print(”[Yahoo] %s: %s” % (ticker, e))
+print("[Yahoo] %s: %s" % (ticker, e))
 df = pd.DataFrame()
 
 ```
@@ -953,44 +953,44 @@ return pd.Series(dtype=float), "%s@yahoo(empty)" % ticker
 
 def fetch_multi(pref):
 # Stooq/Yahoo only (no pandas_datareader)
-for sym in pref.get(“stooq”, []):
+for sym in pref.get("stooq", []):
 s, src = fetch_stooq_series(sym)
 if not s.empty:
 return s, src
-for tic in pref.get(“yahoo”, []):
+for tic in pref.get("yahoo", []):
 s, src = fetch_yf_series(tic)
 if not s.empty:
 return s, src
-return pd.Series(dtype=float), “EMPTY”
+return pd.Series(dtype=float), "EMPTY"
 
 def fetch_usdjpy_series():
-s, src = fetch_stooq_series(“usdjpy”)
+s, src = fetch_stooq_series("usdjpy")
 if not s.empty:
-return s, “usdjpy@stooq”
-s, src = fetch_yf_series(“JPY=X”)
+return s, "usdjpy@stooq"
+s, src = fetch_yf_series("JPY=X")
 if not s.empty:
-return s, “JPY=X@yahoo”
-return pd.Series(dtype=float), “USDJPY(EMPTY)”
+return s, "JPY=X@yahoo"
+return pd.Series(dtype=float), "USDJPY(EMPTY)"
 
 def fetch_mof_jgb_curve(csv_url=MOF_JGB_CSV):
 try:
-r = requests.get(csv_url, timeout=25, headers={“User-Agent”: “Mozilla/5.0”})
+r = requests.get(csv_url, timeout=25, headers={"User-Agent": "Mozilla/5.0"})
 r.raise_for_status()
 except Exception as e:
 if VERBOSE:
-print(”[MOF] request error: %s” % e)
+print("[MOF] request error: %s" % e)
 return pd.DataFrame()
 try:
 try:
-text = r.content.decode(“utf-8”)
+text = r.content.decode("utf-8")
 except UnicodeDecodeError:
-text = r.content.decode(“shift_jis”, errors=“replace”)
+text = r.content.decode("shift_jis", errors="replace")
 raw = pd.read_csv(io.StringIO(text), header=None)
-idx = raw.apply(lambda row: row.astype(str).str.contains(“Date”, case=False, regex=False)).any(axis=1).idxmax()
+idx = raw.apply(lambda row: row.astype(str).str.contains("Date", case=False, regex=False)).any(axis=1).idxmax()
 df = pd.read_csv(io.StringIO(text), skiprows=idx)
 except Exception as e:
 if VERBOSE:
-print(”[MOF] parse error: %s” % e)
+print("[MOF] parse error: %s" % e)
 return pd.DataFrame()
 
 ```
@@ -1014,19 +1014,19 @@ return out_df
 
 def compute_row(name, ser, source, ref):
 empty = {
-“indicator”: name, “source”: source, “ref_date”: ref[“latest”],
-“close”: np.nan, “d1_pct”: np.nan, “w1_pct”: np.nan,
-“m1_pct”: np.nan, “q1_pct”: np.nan, “fy_pct”: np.nan,
+"indicator": name, "source": source, "ref_date": ref["latest"],
+"close": np.nan, "d1_pct": np.nan, "w1_pct": np.nan,
+"m1_pct": np.nan, "q1_pct": np.nan, "fy_pct": np.nan,
 }
 if ser is None or ser.empty:
 return empty
 last_dt = ser.index.max().date()
-latest = min(ref[“latest”], last_dt)
-d1 = min(ref[“d1”], last_dt)
-w1 = min(ref[“w1”], last_dt)
-mend = min(ref[“m_end”], last_dt)
-qend = min(ref[“q_end”], last_dt)
-fy = min(ref[“fy_end_march”], last_dt)
+latest = min(ref["latest"], last_dt)
+d1 = min(ref["d1"], last_dt)
+w1 = min(ref["w1"], last_dt)
+mend = min(ref["m_end"], last_dt)
+qend = min(ref["q_end"], last_dt)
+fy = min(ref["fy_end_march"], last_dt)
 
 ```
 v_latest, _ = last_trading_point_before(ser, latest)
@@ -1122,5 +1122,5 @@ return out
 def main():
 build_market_df()
 
-if **name** == “**main**”:
+if **name** == "**main**":
 main()

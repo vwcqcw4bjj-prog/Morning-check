@@ -11,7 +11,7 @@ import requests
 import yfinance as yf
 import pytz
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(**file**)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pipeline import run
 
 print("[INFO] scraping headlines…")

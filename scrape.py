@@ -195,9 +195,6 @@ except Exception as e:
     print(”[WARN] JGB failed: %s” % e)
 
 with open(“market.json”, “w”, encoding=“utf-8”) as f:
-    json.dump({
-        “updated_at”: dt.datetime.now().strftime(”%Y/%m/%d %H:%M JST”),
-        “market”: market_rows,
-    }, f, ensure_ascii=False, indent=2)
+    json.dump({“updated_at”: dt.datetime.now().strftime(”%Y/%m/%d %H:%M JST”),“market”: market_rows,}, f, ensure_ascii=False, indent=2)
 
 print(f”[OK] market.json: {len(market_rows)} items”)

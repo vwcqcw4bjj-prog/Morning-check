@@ -117,7 +117,7 @@ def pct(latest, base):
 def prev_bday(d):
     d2 = d - dt.timedelta(days=1)
     while d2.weekday() >= 5:
-    d2 -= dt.timedelta(days=1)
+        d2 -= dt.timedelta(days=1)
     return d2
 
 def prev_month_end(d):

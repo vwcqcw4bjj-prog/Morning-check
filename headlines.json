@@ -1,24 +1,66 @@
 {
-  "updated_at": "2026/05/15 23:02 JST",
-  "count": 14,
+  "updated_at": "2026/05/15 23:17 JST",
+  "count": 34,
   "headlines": [
     {
+      "date": "2026-05-15",
+      "source": "BOJ",
+      "title": "フェイルの発生状況（4月）",
+      "url": "http://www.boj.or.jp/statistics/set/bffail/sjgb2604.pdf"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "BOJ",
+      "title": "（金研ニュースレター）第26回情報セキュリティ・シンポジウム",
+      "url": "http://www.boj.or.jp/about/release_2026/rel260515a.htm"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "BOJ",
+      "title": "【挨拶】神山理事「わが国金融システムの進化と安定に向けて」（第21回AIMAジャパンフォーラム、5月14日）",
+      "url": "http://www.boj.or.jp/about/release_2026/rel260515b.htm"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "BOJ",
+      "title": "さくらレポート別冊「地域の消費関連企業の価格設定行動の変化と2026年度の価格改定方針」",
+      "url": "http://www.boj.or.jp/research/brp/rer/rerb260515.htm"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "BOJ",
+      "title": "BIS決済・市場インフラ委員会及び証券監督者国際機構による市中協議文書「『清算機関の強靭性：FMI原則に関する追加ガイダンス』の改訂案」及び「『清算機関のための定量的な情報開示基準』の改訂案」の公表について",
+      "url": "http://www.boj.or.jp/paym/intlact_pm/cpss/cpss260515a.htm"
+    },
+    {
+      "date": "2026-05-14",
+      "source": "BOJ",
+      "title": "企業物価指数（4月）",
+      "url": "http://www.boj.or.jp/statistics/pi/cgpi_release/cgpi2604.pdf"
+    },
+    {
+      "date": "2026-05-14",
+      "source": "BOJ",
+      "title": "【講演】増審議委員「わが国の経済・物価情勢と金融政策」（鹿児島経済同友会）",
+      "url": "http://www.boj.or.jp/about/press/koen_2026/ko260514a.htm"
+    },
+    {
+      "date": "2026-05-14",
+      "source": "BOJ",
+      "title": "日本銀行やその役職員の関与を装った不審な連絡・勧誘・ウェブサイト・SNSアカウントなどにご注意ください",
+      "url": "http://www.boj.or.jp/about/organization/notice/index.htm"
+    },
+    {
       "date": "2026-05-13",
-      "source": "JVCA",
-      "title": "ニュースレターNO.58を発行いたしましたJVCAニュースレターNO.58を発行いたしました",
-      "url": "https://jvca.jp/news/45608.html"
+      "source": "BOJ",
+      "title": "マネーストック（4月）",
+      "url": "http://www.boj.or.jp/statistics/money/ms/ms2604.pdf"
     },
     {
       "date": "2026-05-13",
       "source": "JVCA",
-      "title": "新規会員入会のお知らせ　株式会社Central Japan Innovation Capital/ほくほくキャピタル株式会社/ミネルバ・グロース・パートナーズ株式会社/出光興産株式会社/株式会社JPX総研/トヨタ・コニック株式会社/株式会社MIXI下記の企業が2026年4月28日付で入会しました 株式会社Central Japan Innovation Capital（VC会員）ほくほくキャピタル株式会社（VC会員）ミネルバ・グロース・パートナーズ株式会社（VC会員）出光興...",
-      "url": "https://jvca.jp/news/45530.html"
-    },
-    {
-      "date": "2026-05-13",
-      "source": "JVCA",
-      "title": "新規会員入会のお知らせ　アント・イノベーションズ株式会社/Oikaze Ventures合同会社/フォーシーズ株式会社/エーザイ株式会社下記の企業が2026年2月24日付で入会しました アント・イノベーションズ株式会社（VC会員）Oikaze Ventures合同会社（VC会員）フォーシーズ株式会社（VC会員）エーザイ株式会社（CVC会員）",
-      "url": "https://jvca.jp/news/45332.html"
+      "title": "新規会員入会のお知らせ　紀尾井町戦略研究所株式会社/野村アセットマネジメント株式会社/ファンドキー株式会社/三菱UFJアセットマネジメント株式会社下記の企業が2025年10月28日付で入会しました 紀尾井町戦略研究所株式会社（賛助会員）野村アセットマネジメント株式会社（賛助会員）ファンドキー株式会社（賛助会員）三菱UFJアセットマネジメント株式会社（賛助会員）",
+      "url": "https://jvca.jp/news/44661.html"
     },
     {
       "date": "2026-05-13",
@@ -47,8 +89,8 @@
     {
       "date": "2026-05-13",
       "source": "JVCA",
-      "title": "新規会員入会のお知らせ　紀尾井町戦略研究所株式会社/野村アセットマネジメント株式会社/ファンドキー株式会社/三菱UFJアセットマネジメント株式会社下記の企業が2025年10月28日付で入会しました 紀尾井町戦略研究所株式会社（賛助会員）野村アセットマネジメント株式会社（賛助会員）ファンドキー株式会社（賛助会員）三菱UFJアセットマネジメント株式会社（賛助会員）",
-      "url": "https://jvca.jp/news/44661.html"
+      "title": "3",
+      "url": "https://jvca.jp/news/page/3"
     },
     {
       "date": "2026-05-13",
@@ -71,8 +113,8 @@
     {
       "date": "2026-05-13",
       "source": "JVCA",
-      "title": "3",
-      "url": "https://jvca.jp/news/page/3"
+      "title": "新規会員入会のお知らせ　株式会社Central Japan Innovation Capital/ほくほくキャピタル株式会社/ミネルバ・グロース・パートナーズ株式会社/出光興産株式会社/株式会社JPX総研/トヨタ・コニック株式会社/株式会社MIXI下記の企業が2026年4月28日付で入会しました 株式会社Central Japan Innovation Capital（VC会員）ほくほくキャピタル株式会社（VC会員）ミネルバ・グロース・パートナーズ株式会社（VC会員）出光興...",
+      "url": "https://jvca.jp/news/45530.html"
     },
     {
       "date": "2026-05-13",
@@ -83,8 +125,86 @@
     {
       "date": "2026-05-13",
       "source": "JVCA",
+      "title": "新規会員入会のお知らせ　アント・イノベーションズ株式会社/Oikaze Ventures合同会社/フォーシーズ株式会社/エーザイ株式会社下記の企業が2026年2月24日付で入会しました アント・イノベーションズ株式会社（VC会員）Oikaze Ventures合同会社（VC会員）フォーシーズ株式会社（VC会員）エーザイ株式会社（CVC会員）",
+      "url": "https://jvca.jp/news/45332.html"
+    },
+    {
+      "date": "2026-05-13",
+      "source": "JVCA",
       "title": "ベンチャーキャピタリスト育成事業",
       "url": "https://jvca.jp/news/10762.html"
+    },
+    {
+      "date": "2026-05-13",
+      "source": "JVCA",
+      "title": "ニュースレターNO.58を発行いたしましたJVCAニュースレターNO.58を発行いたしました",
+      "url": "https://jvca.jp/news/45608.html"
+    },
+    {
+      "date": "2026-05-12",
+      "source": "BOJ",
+      "title": "業種別・地域別直接投資（2023年、2024年、年次改訂）",
+      "url": "http://www.boj.or.jp/statistics/br/bop_06/bpdata/diicy.htm"
+    },
+    {
+      "date": "2026-05-12",
+      "source": "BOJ",
+      "title": "貸出・預金動向（4月）",
+      "url": "http://www.boj.or.jp/statistics/dl/depo/kashi/kasi2604.pdf"
+    },
+    {
+      "date": "2026-05-12",
+      "source": "BOJ",
+      "title": "日本銀行が保有する国債の銘柄別残高",
+      "url": "http://www.boj.or.jp/statistics/boj/other/mei/release/2026/mei260508.xlsx"
+    },
+    {
+      "date": "2026-05-12",
+      "source": "BOJ",
+      "title": "コール市場残高（4月）",
+      "url": "http://www.boj.or.jp/statistics/market/short/call/call.xlsx"
+    },
+    {
+      "date": "2026-05-12",
+      "source": "BOJ",
+      "title": "消費活動指数",
+      "url": "http://www.boj.or.jp/research/research_data/cai/index.htm"
+    },
+    {
+      "date": "2026-05-12",
+      "source": "BOJ",
+      "title": "営業毎旬報告（5月10日現在）",
+      "url": "http://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac260510.htm"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "BOJ",
+      "title": "オペレーション（4月）",
+      "url": "http://www.boj.or.jp/statistics/boj/fm/ope/m_release/2026/ope2604.xlsx"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "BOJ",
+      "title": "日本銀行の対政府取引（4月）",
+      "url": "http://www.boj.or.jp/statistics/boj/other/tseifu/release/2026/seifu2604.pdf"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "BOJ",
+      "title": "金融政策決定会合における主な意見（4月27、28日開催分）",
+      "url": "http://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi260428.pdf"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "BOJ",
+      "title": "マネタリーベースと日本銀行の取引（4月）",
+      "url": "http://www.boj.or.jp/statistics/boj/other/mbt/mbt2604.pdf"
+    },
+    {
+      "date": "2026-05-08",
+      "source": "BOJ",
+      "title": "被災地金融機関を支援するための資金供給オペレーションの実施結果",
+      "url": "http://www.boj.or.jp/mopo/mpmdeci/mpr_2026/mpr260508a.pdf"
     }
   ]
 }

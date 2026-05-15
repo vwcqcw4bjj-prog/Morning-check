@@ -1,4 +1,75 @@
 {
-  "updated_at": "2026/05/09 22:52 JST",
-  "market": []
+  "updated_at": "2026/05/15 23:02 JST",
+  "market": [
+    {
+      "name": "TOPIX",
+      "value": 409.9,
+      "d1": -0.32,
+      "w1": 0.99,
+      "m1": 4.01
+    },
+    {
+      "name": "Nikkei225",
+      "value": 62654.05,
+      "d1": 0.0,
+      "w1": -0.1,
+      "m1": 5.68
+    },
+    {
+      "name": "S&P500",
+      "value": 7408.5,
+      "d1": -1.24,
+      "w1": 0.13,
+      "m1": 2.77
+    },
+    {
+      "name": "TOPIX Banks ETF",
+      "value": 639.7,
+      "d1": -0.05,
+      "w1": 2.75,
+      "m1": 3.38
+    },
+    {
+      "name": "Japan Post",
+      "value": 1957.0,
+      "d1": 0.31,
+      "w1": 5.47,
+      "m1": 7.35
+    },
+    {
+      "name": "JP Bank",
+      "value": 2829.0,
+      "d1": -0.23,
+      "w1": 3.84,
+      "m1": 5.21
+    },
+    {
+      "name": "JGB2Y",
+      "value": 1.407,
+      "d1": 0.0,
+      "w1": null,
+      "m1": null
+    },
+    {
+      "name": "JGB5Y",
+      "value": 1.962,
+      "d1": 0.0,
+      "w1": null,
+      "m1": null
+    },
+    {
+      "name": "JGB10Y",
+      "value": 2.628,
+      "d1": 0.0,
+      "w1": null,
+      "m1": null
+    },
+    {
+      "name": "JGB20Y",
+      "value": 3.527,
+      "d1": 0.0,
+      "w1": null,
+      "m1": null
+    }
+  ]
 }

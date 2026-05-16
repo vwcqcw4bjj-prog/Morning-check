@@ -1,54 +1,12 @@
 {
-  "updated_at": "2026/05/17 06:26 JST",
-  "count": 142,
+  "updated_at": "2026/05/16 22:45 JST",
+  "count": 34,
   "headlines": [
     {
       "date": "2026-05-16",
       "source": "BOJ",
       "title": "【講演】氷見野副総裁「通貨の単一性と中央銀行の役割」（日本金融学会）",
       "url": "http://www.boj.or.jp/about/press/koen_2026/ko260516a.htm"
-    },
-    {
-      "date": "2026-05-16",
-      "source": "Nikkei",
-      "title": "牧野フライスとアルミ大手を分けたもの　外為法承認、線引きの3要素",
-      "url": "https://www.nikkei.com/article/DGXZQOUB153B10V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-16",
-      "source": "Nikkei",
-      "title": "仮想通貨投信をSBI・楽天が販売へ　28年の解禁後、野村も検討",
-      "url": "https://www.nikkei.com/article/DGXZQOUB153GC0V10C26A4000000/"
-    },
-    {
-      "date": "2026-05-16",
-      "source": "Nikkei",
-      "title": "G7財務相、新型AI「ミュトス」が主要議題に　金融リスク対策で協調",
-      "url": "https://www.nikkei.com/article/DGXZQOUA149QQ0U6A510C2000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "FSA",
-      "title": "その他,令和８年２月に開催された業界団体との意見交換会において、金融庁が提起した主な論点を公表しました。",
-      "url": "https://www.fsa.go.jp/common/ronten/index.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "FSA",
-      "title": "国際関係,欧州委員会（EC）による「改訂版欧州サステナビリティ報告基準（ESRS）委任規則案」へのコメントレター発出について公表しました。",
-      "url": "https://www.fsa.go.jp/inter/etc/20260515/20260515.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "FSA",
-      "title": "金融審議会「ディスクロージャーワーキング・グループ」（第５回）議事次第について公表しました。",
-      "url": "https://www.fsa.go.jp/singi/singi_kinyu/disclosure_wg/shiryou/20260518.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "FSA",
-      "title": "その他,無登録で金融商品取引業を行う者の名称等について更新しました。",
-      "url": "https://www.fsa.go.jp/ordinary/chuui/mutouroku.html"
     },
     {
       "date": "2026-05-15",
@@ -70,525 +28,15 @@
     },
     {
       "date": "2026-05-15",
-      "source": "FSA",
-      "title": "国際関係,BIS決済・市場インフラ委員会及び証券監督者国際機構による市中協議文書「『清算機関の強靭性：金融市場インフラのための原則に関する追加ガイダンス』の改訂案」及び「『清算機関のための定量的な情報開示基準』の改訂案」の公表について掲載しました。",
-      "url": "https://www.fsa.go.jp/inter/ios/20260515/20260515.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "BOJ",
-      "title": "BIS決済・市場インフラ委員会及び証券監督者国際機構による市中協議文書「『清算機関の強靭性：FMI原則に関する追加ガイダンス』の改訂案」及び「『清算機関のための定量的な情報開示基準』の改訂案」の公表について",
-      "url": "http://www.boj.or.jp/paym/intlact_pm/cpss/cpss260515a.htm"
-    },
-    {
-      "date": "2026-05-15",
       "source": "BOJ",
       "title": "さくらレポート別冊「地域の消費関連企業の価格設定行動の変化と2026年度の価格改定方針」",
       "url": "http://www.boj.or.jp/research/brp/rer/rerb260515.htm"
     },
     {
       "date": "2026-05-15",
-      "source": "FSA",
-      "title": "採用,職員を募集しています。（国際関連業務に従事する職員）",
-      "url": "https://www.fsa.go.jp/common/recruit/r7/soumu-08/soumu-08.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "株式会社日本投資ファンド ： 株式会社KAKEGOEおよび株式会社さぽーととの資本提携について",
-      "url": "https://jpea.group/2026/05/07/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e6%97%a5%e6%9c%ac%e6%8a%95%e8%b3%87%e3%83%95%e3%82%a1%e3%83%b3%e3%83%89-%ef%bc%9a-%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%bekakegoe%e3%81%8a%e3%82%88%e3%81%b3%e6%a0%aa/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "株式会社アドバンテッジパートナーズ  ： 『世界一の表現革新カンパニー』実現に向け、三菱鉛筆の更なるグローバル経営体制の高度化と海外成長加速・新規事業創出をAPが支援",
-      "url": "https://jpea.group/2026/04/30/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%82%a2%e3%83%89%e3%83%90%e3%83%b3%e3%83%86%e3%83%83%e3%82%b8%e3%83%91%e3%83%bc%e3%83%88%e3%83%8a%e3%83%bc%e3%82%ba-%ef%bc%9a-%e3%80%8e%e4%b8%96%e7%95%8c/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "議事要旨",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai290/gijiyoshi290.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "株式会社丸の内キャピタル ： 中野冷機株式会社による五島冷熱株式会社の株式取得に係る契約締結のお知らせ",
-      "url": "https://jpea.group/2026/04/30/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e4%b8%b8%e3%81%ae%e5%86%85%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab-%ef%bc%9a-%e4%b8%ad%e9%87%8e%e5%86%b7%e6%a9%9f%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%81%ab/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "エンデバー・ユナイテッド株式会社 ： 株式会社コイケの株式取得に関するお知らせ",
-      "url": "https://jpea.group/2026/05/07/%e3%82%a8%e3%83%b3%e3%83%87%e3%83%90%e3%83%bc%e3%83%bb%e3%83%a6%e3%83%8a%e3%82%a4%e3%83%86%e3%83%83%e3%83%89%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%82%b3/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "エンデバー・ユナイテッド株式会社 ： ジャパン・イー・エム・ソリューションズ株式会社による株式会社ダイセルの光学素子事業の譲受に関するお知らせ",
-      "url": "https://jpea.group/2026/04/23/%e3%82%a8%e3%83%b3%e3%83%87%e3%83%90%e3%83%bc%e3%83%bb%e3%83%a6%e3%83%8a%e3%82%a4%e3%83%86%e3%83%83%e3%83%89%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3-2/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "「CHRO（最高人事責任者）を活かす経営とは？」｜株式会社ZENTech 取締役　武田雅子様",
-      "url": "https://jpea.group/2026/05/15/20260514/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "ベーシック・キャピタル・マネジメント株式会社 ： 株式会社マスダックの株式譲渡について",
-      "url": "https://jpea.group/2026/04/23/%e3%83%99%e3%83%bc%e3%82%b7%e3%83%83%e3%82%af%e3%83%bb%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e3%83%bb%e3%83%9e%e3%83%8d%e3%82%b8%e3%83%a1%e3%83%b3%e3%83%88%e6%a0%aa%e5%bc%8f%e4%bc%9a-23/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "株式会社海外需要開拓支援機構/クールジャパン機構 ： VTuberの総合プロデュースを中心にIP関連事業をグローバルで展開する 株式会社Brave groupへの出資",
-      "url": "https://jpea.group/2026/04/22/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e6%b5%b7%e5%a4%96%e9%9c%80%e8%a6%81%e9%96%8b%e6%8b%93%e6%94%af%e6%8f%b4%e6%a9%9f%e6%a7%8b-%e3%82%af%e3%83%bc%e3%83%ab%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3-8/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "１．令和7年版経済産業省公表モデルLPA（英文契約書版）の解説～海外投資家へのアプローチ・ケイマンファンドとのパラレルストラクチャー２．令和8年度税制改正の解説～ファンド税制の改正と海外投資家への影響｜１．ホワイト＆ケース法律事務所東京オフィス・弁護士・坂田絵里子様　同・弁護士・白木さや子様　同・弁護士・邑口真央様　ホワイト＆ケース法律事務所香港オフィス・パートナー・Anthony Wong様　同・パートナー・Ilan Wong様　ホワイト＆ケース法律事務所シンガポールオフィス・パートナー・Nadan Sehic　様　２．PwC税理士法人・マネージングディレクター公認会計士税理士・鬼頭朱実様",
-      "url": "https://jpea.group/2026/04/21/20260421/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "配布資料",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai296/gijishidai.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "会見のポイント",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai296/kaiken_point.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "所見等",
-      "url": "https://www.yuseimineika.go.jp/iinkai/shoken.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "配布資料",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai297/gijishidai.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "意見募集",
-      "url": "https://www.yuseimineika.go.jp/iinkai/pub.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "三井物産企業投資株式会社 ： 三井物産企業投資、カム・ネッツに資本参画",
-      "url": "https://jpea.group/2026/04/09/%e4%b8%89%e4%ba%95%e7%89%a9%e7%94%a3%e4%bc%81%e6%a5%ad%e6%8a%95%e8%b3%87%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e4%b8%89%e4%ba%95%e7%89%a9%e7%94%a3%e4%bc%81%e6%a5%ad%e6%8a%95%e8%b3%87-6/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "会見のポイント",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai297/kaiken_point297.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "会見概要",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai290/kaiken_gaiyo290.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "議事録",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai290/gijiroku290.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "議事要旨",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai291/gijiyoshi291.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "議事要旨",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai292/gijiyoshi292.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "会見概要",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai291/kaiken_gaiyo291.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "議事録",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai291/gijiroku291.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "会見概要",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai292/kaiken_gaiyo292.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "更新履歴",
-      "url": "https://www.yuseimineika.go.jp/rireki.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "サイトマップ",
-      "url": "https://www.yuseimineika.go.jp/sitemap.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "郵政民営化って何？",
-      "url": "https://www.yuseimineika.go.jp/faq.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "横浜キャピタル株式会社 ： 新規投資のお知らせ（JPYC株式会社）",
-      "url": "https://jpea.group/2026/04/21/%e6%a8%aa%e6%b5%9c%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e6%96%b0%e8%a6%8f%e6%8a%95%e8%b3%87%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-4/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "ライジング・ジャパン・エクイティ株式会社 ： 弊社が管理運営する「ライジング・ジャパン・エクイティ第三号投資事業有限責任組合」は保有していた丸栄産業株式会社の株式の全部を山九株式会社に売却いたしました。",
-      "url": "https://jpea.group/2026/03/31/%e3%83%a9%e3%82%a4%e3%82%b8%e3%83%b3%e3%82%b0%e3%83%bb%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3%e3%83%bb%e3%82%a8%e3%82%af%e3%82%a4%e3%83%86%e3%82%a3%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-3/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "三井住友ファイナンス＆リース株式会社 ： SMBC Aviation Capitalが参画する米国航空機リース会社Air Lease Corporationの買収完了について（PDF : 313.4 KB）",
-      "url": "https://jpea.group/2026/04/09/%e4%b8%89%e4%ba%95%e4%bd%8f%e5%8f%8b%e3%83%95%e3%82%a1%e3%82%a4%e3%83%8a%e3%83%b3%e3%82%b9%ef%bc%86%e3%83%aa%e3%83%bc%e3%82%b9%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-smbc-aviation-capital/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "フィデアHDが新中計発表、合併効果発揮へ　累進配当も導入",
-      "url": "https://www.nikkei.com/article/DGXZQOCC153XP0V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "企業物価指数、4月4.9%上昇　原油高騰で3年ぶり高水準",
-      "url": "https://www.nikkei.com/article/DGXZQOUB083XV0Y6A500C2000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "みずほの純利益が初の1兆円超、26年3月期41%増　M&A助言など好調",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1440D0U6A510C2000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "みずほ、オリコ株の一部をアイフル親会社に売却　3社で業務提携",
-      "url": "https://www.nikkei.com/article/DGXZQOUB150RE0V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "三菱UFJの純利益メガ初2兆円台、中東混迷で引当金250億円　26年3月期",
-      "url": "https://www.nikkei.com/article/DGXZQOUB144L30U6A510C2000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "おきなわFGの純利益6%増、27年3月期に120億円　中計目標を上方修正",
-      "url": "https://www.nikkei.com/article/DGXZQOJC153M30V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "愛媛銀行が8期ぶり最高益　26年3月期、期末配当も10円増配",
-      "url": "https://www.nikkei.com/article/DGXZQOCC154MC0V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "九州・沖縄地銀15行が増益　26年3月期、金利上昇で貸出金利息25%増",
-      "url": "https://www.nikkei.com/article/DGXZQOJC086VQ0Y6A500C2000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "阿波銀行の純利益最高、26年3月期に18%増　年142円50銭に増配",
-      "url": "https://www.nikkei.com/article/DGXZQOCC08B1G0Y6A500C2000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "三菱UFJなど5大銀行、純利益33%増5.8兆円　M&A増で資金需要拡大",
-      "url": "https://www.nikkei.com/article/DGXZQOUB136T50T10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "T&DHDの純利益10%増　26年3月期、金利上昇で運用収益拡大",
-      "url": "https://www.nikkei.com/article/DGXZQOUB153HK0V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "第一ライフの修正利益25%増　26年3月期、株式売却益が拡大",
-      "url": "https://www.nikkei.com/article/DGXZQOUB158SW0V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "東邦銀行頭取「大東銀行との対話進まず」　株式取得巡り温度差なお",
-      "url": "https://www.nikkei.com/article/DGXZQOCC142AZ0U6A510C2000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "第四北越FG社長、統合後の収益上方修正に含み　見通しは慎重",
-      "url": "https://www.nikkei.com/article/DGXZQOCC1534I0V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "株式会社ひろしまイノベーション推進機構 ： ボレーグループの株式譲渡について",
-      "url": "https://jpea.group/2026/04/03/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%81%b2%e3%82%8d%e3%81%97%e3%81%be%e3%82%a4%e3%83%8e%e3%83%99%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e6%8e%a8%e9%80%b2%e6%a9%9f%e6%a7%8b-%ef%bc%9a-%e3%83%9c%e3%83%ac/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "八十二長野銀行の純利益13%増　27年3月期、4期連続過去最高",
-      "url": "https://www.nikkei.com/article/DGXZQOCC151L00V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "関西7地銀の税引き益最高　26年3月期、池田泉州銀など金利上昇追い風",
-      "url": "https://www.nikkei.com/article/DGXZQOUF122GT0S6A510C2000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "国債買い入れ減額、政府会議で慎重論　長期金利上昇にも悩む日銀",
-      "url": "https://www.nikkei.com/article/DGXZQOUB136PQ0T10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "パウエルFRB、賛否両論の8年間　景気後退は最短もインフレ抑制失敗",
-      "url": "https://www.nikkei.com/article/DGXZQOGN130W90T10C26A5000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "FRB、パウエル氏が議長代行に　ウォーシュ氏就任まで",
-      "url": "https://www.nikkei.com/article/DGXZQOGN1603F0W6A510C2000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "Nikkei",
-      "title": "米司法当局、ブラックロックの融資ファンドを捜査　米報道",
-      "url": "https://www.nikkei.com/article/DGXZQOGN1603O0W6A510C2000000/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "ベーシック・キャピタル・マネジメント株式会社 ： 株式会社丸升増田本店の株式譲受に関するお知らせ",
-      "url": "https://jpea.group/2026/03/31/%e3%83%99%e3%83%bc%e3%82%b7%e3%83%83%e3%82%af%e3%83%bb%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e3%83%bb%e3%83%9e%e3%83%8d%e3%82%b8%e3%83%a1%e3%83%b3%e3%83%88%e6%a0%aa%e5%bc%8f%e4%bc%9a-22/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "委員長会見",
-      "url": "https://www.yuseimineika.go.jp/iinkai/kaiken.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "J-STAR株式会社 ： jinjer株式会社による株式会社タレンティオの株式取得について",
-      "url": "https://jpea.group/2026/03/31/j-star%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-jinjer%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%81%ab%e3%82%88%e3%82%8b%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%82%bf%e3%83%ac%e3%83%b3%e3%83%86/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "GIC Private Limited ： GICとサザビーリーグが事業成長に向けたパートナーシップを締結",
-      "url": "https://jpea.group/2026/04/01/gic-private-limited-%ef%bc%9a-gic%e3%81%a8%e3%82%b5%e3%82%b6%e3%83%93%e3%83%bc%e3%83%aa%e3%83%bc%e3%82%b0%e3%81%8c%e4%ba%8b%e6%a5%ad%e6%88%90%e9%95%b7%e3%81%ab%e5%90%91%e3%81%91%e3%81%9f/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "三井物産企業投資株式会社 ： 三井物産企業投資による榊原への資本参画について",
-      "url": "https://jpea.group/2026/04/01/%e4%b8%89%e4%ba%95%e7%89%a9%e7%94%a3%e4%bc%81%e6%a5%ad%e6%8a%95%e8%b3%87%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e4%b8%89%e4%ba%95%e7%89%a9%e7%94%a3%e4%bc%81%e6%a5%ad%e6%8a%95%e8%b3%87-5/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "株式会社ロングリーチグループ ： BEAUTE DE LABO株式会社を中核とするBDLグループとの資本提携について",
-      "url": "https://jpea.group/2026/04/02/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%ad%e3%83%b3%e3%82%b0%e3%83%aa%e3%83%bc%e3%83%81%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97-%ef%bc%9a-beaute-de-labo%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%82%92/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "意見",
-      "url": "https://www.yuseimineika.go.jp/iinkai/iken.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "根拠（PDF）",
-      "url": "https://www.yuseimineika.go.jp/iinkai/konkyo.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "開催状況・議事概要等",
-      "url": "https://www.yuseimineika.go.jp/iinkai/kaisai.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "井野経済産業副大臣がドミニカ共和国のプホルス大統領府次官と会談を行いました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260513002/20260513002.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "委員名簿（PDF）",
-      "url": "https://www.yuseimineika.go.jp/iinkai/sennin_240604.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "English",
-      "url": "https://www.meti.go.jp/english/press/index.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "民間備蓄義務量の引き下げの維持を継続します",
-      "url": "https://www.meti.go.jp/press/2026/05/20260515004/20260515004.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "IAEAタスクフォースにより、放出開始後6回目となるALPS処理水の海洋放出に関する安全性レビューミッションが行われました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260515003/20260515003.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "2027年ベオグラード国際博覧会日本館ロゴ・シンボルマークを決定しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260515002/20260515002.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "井野経済産業副大臣がモンゴル国のドルジハンド副首相と会談を行いました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260514004/20260514004.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "赤澤経済産業大臣がベン・ホロウィッツ氏（アンドリーセン・ホロウィッツ共同創業者）と会談を行いました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260514003/20260514003.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "犯罪による収益の移転防止に関する法律違反の特定事業者（郵便物受取サービス業者）に対する行政処分を実施しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260514002/20260514002.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "生成AIの開発力強化に向けたプロジェクト「GENIAC」において、新たに製造業データ等のAI-Ready化に関する研究開発テーマ計9件及びロボット基盤モデルに関する研究開発テーマ計2件を採択しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260514001/20260514001.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "井野経済産業副大臣がエザコンワUNDP（国連開発計画）総裁補兼アフリカ局長による表敬を受けました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260513003/20260513003.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "「令和8年度産業標準化事業表彰」の募集を開始します",
-      "url": "https://www.meti.go.jp/press/2026/05/20260515001/20260515001.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "井野経済産業副大臣が米国のグリシャム ニューメキシコ州知事及びゴードン ワイオミング州知事による表敬を受けました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260513001/20260513001.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "赤澤経済産業大臣がサウジアラビア王国のアブドルアジーズ エネルギー大臣とのオンライン会談を実施しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260508001/20260508001.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "PPC",
-      "title": "郵政民営化委員会",
-      "url": "https://www.yuseimineika.go.jp/index.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "赤澤経済産業大臣がベッセント米国財務長官と会談を行いました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260512004/20260512004.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "第4回日EUデジタルパートナーシップ閣僚級会合を開催しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260507001/20260507001.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "小森経済産業大臣政務官がフィリピン共和国に出張しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260507002/20260507002.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "赤澤経済産業大臣がフランス共和国及びベルギー王国に出張しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260507003/20260507003.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "山田経済産業副大臣がアラブ首長国連邦、カタール国、クウェート国及びオマーン国に出張しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260511001/20260511001.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "「事業報告等と有価証券報告書の一体開示・一体的開示FAQ（制度編）」を更新しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260512001/20260512001.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "赤澤経済産業大臣及び井野経済産業副大臣はコーマン経済協力開発機構（OECD）事務総長と会談を行いました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260512002/20260512002.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
-      "title": "再生可能エネルギー特別措置法に基づき、納付金を納付しない電気事業者を公表します",
-      "url": "https://www.meti.go.jp/press/2026/05/20260512003/20260512003.html"
+      "source": "BOJ",
+      "title": "BIS決済・市場インフラ委員会及び証券監督者国際機構による市中協議文書「『清算機関の強靭性：FMI原則に関する追加ガイダンス』の改訂案」及び「『清算機関のための定量的な情報開示基準』の改訂案」の公表について",
+      "url": "http://www.boj.or.jp/paym/intlact_pm/cpss/cpss260515a.htm"
     },
     {
       "date": "2026-05-14",
@@ -598,39 +46,9 @@
     },
     {
       "date": "2026-05-14",
-      "source": "FSA",
-      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年５月12日）について掲載しました。",
-      "url": "https://www.fsa.go.jp/common/conference/minister/2026a/20260512-1.html"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "FSA",
-      "title": "「AI脅威に対する金融分野のサイバーセキュリティ対策強化に関する官民連携会議」の作業部会の開催について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/sonota/20260514/20260514.html"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "FSA",
-      "title": "「インターネット取引サービスへの不正アクセス・不正取引にご注意ください」のページを更新しました。",
-      "url": "https://www.fsa.go.jp/ordinary/chuui/chuui_phishing.html"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "FSA",
-      "title": "国際関係,金融庁金融国際審議官の証券監督者国際機構（IOSCO）代表理事会副議長就任について公表しました。",
-      "url": "https://www.fsa.go.jp/inter/ios/20260514/20260514.html"
-    },
-    {
-      "date": "2026-05-14",
       "source": "BOJ",
       "title": "【講演】増審議委員「わが国の経済・物価情勢と金融政策」（鹿児島経済同友会）",
       "url": "http://www.boj.or.jp/about/press/koen_2026/ko260514a.htm"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "FSA",
-      "title": "調達,入札公告等を更新しました。",
-      "url": "https://www.fsa.go.jp/choutatu/choutatu_j/nyusatu_menu.html"
     },
     {
       "date": "2026-05-14",
@@ -639,112 +57,10 @@
       "url": "http://www.boj.or.jp/about/organization/notice/index.htm"
     },
     {
-      "date": "2026-05-14",
-      "source": "FSA",
-      "title": "その他,ギャンブル等依存症問題啓発週間について公表しました。",
-      "url": "https://www.fsa.go.jp/policy/kashikin/gambling/20260514-2.html"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "Nikkei",
-      "title": "ミランFRB理事が辞任届け出、ウォーシュ氏就任で　積極利下げ主張",
-      "url": "https://www.nikkei.com/article/DGXZQOGN1502M0V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "Nikkei",
-      "title": "新人の2割「初任給はNISAへ」　世界株高、若者を覆う乗り遅れの恐怖",
-      "url": "https://www.nikkei.com/article/DGXZQOUB014MN0R00C26A5000000/"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "Nikkei",
-      "title": "みなと銀行、甲南大学と包括協定　理系人材や起業家の育成で",
-      "url": "https://www.nikkei.com/article/DGXZQOUF07A7U0X00C26A5000000/"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "Nikkei",
-      "title": "豊和銀行の税引き利益21%減　26年3月期、貸倒引当金を大幅積み増し",
-      "url": "https://www.nikkei.com/article/DGXZQOJC148OS0U6A510C2000000/"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "Nikkei",
-      "title": "トモニHDの純利益2%増　26年3月期161億円、最高益更新",
-      "url": "https://www.nikkei.com/article/DGXZQOCC142MV0U6A510C2000000/"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "Nikkei",
-      "title": "日銀大阪支店長の藤田研二氏が就任会見　「双方向の意思疎通を重視」",
-      "url": "https://www.nikkei.com/article/DGXZQOUF13A530T10C26A5000000/"
-    },
-    {
-      "date": "2026-05-14",
-      "source": "Nikkei",
-      "title": "三井住友トラストGの純利益20%増　27年3月期に3800億円",
-      "url": "https://www.nikkei.com/article/DGXZQOUB140RL0U6A510C2000000/"
-    },
-    {
       "date": "2026-05-13",
       "source": "BOJ",
       "title": "マネーストック（4月）",
       "url": "http://www.boj.or.jp/statistics/money/ms/ms2604.pdf"
-    },
-    {
-      "date": "2026-05-13",
-      "source": "FSA",
-      "title": "「金融分野における個人情報保護に関するガイドライン」の一部改正（案）に対する意見募集について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/sonota/20260513/20260513.html"
-    },
-    {
-      "date": "2026-05-13",
-      "source": "FSA",
-      "title": "金融経済教育イベント「ワニーサと学ぶ 未来のためのお金の教室 in横浜」の開催について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/sonota/20260513-2/20260513.html"
-    },
-    {
-      "date": "2026-05-13",
-      "source": "FSA",
-      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣ぶら下がり記者会見の概要（令和８年５月４日）について掲載しました。",
-      "url": "https://www.fsa.go.jp/common/conference/minister/2026a/20260504-1.html"
-    },
-    {
-      "date": "2026-05-13",
-      "source": "JVCA",
-      "title": "ベンチャーキャピタリスト育成事業",
-      "url": "https://jvca.jp/news/10762.html"
-    },
-    {
-      "date": "2026-05-13",
-      "source": "JVCA",
-      "title": "84",
-      "url": "https://jvca.jp/news/page/84"
-    },
-    {
-      "date": "2026-05-13",
-      "source": "JVCA",
-      "title": "3",
-      "url": "https://jvca.jp/news/page/3"
-    },
-    {
-      "date": "2026-05-13",
-      "source": "JVCA",
-      "title": "2",
-      "url": "https://jvca.jp/news/page/2"
-    },
-    {
-      "date": "2026-05-13",
-      "source": "JVCA",
-      "title": "新規会員入会のお知らせ　B Capital Group Management, LP/アジア航測株式会社/石油資源開発株式会社/ジーニアス株式会社/株式会社タスク下記の企業が2025年8月26日付で入会しました B Capital Group Management, LP（VC会員）アジア航測株式会社（CVC会員）石油資源開発株式会社（CVC会員）ジーニアス株式会社（賛助会員）株式会社タス...",
-      "url": "https://jvca.jp/news/44379.html"
-    },
-    {
-      "date": "2026-05-13",
-      "source": "JVCA",
-      "title": "ニュースレターNO.57を発行いたしましたJVCAニュースレターNO.57を発行いたしました",
-      "url": "https://jvca.jp/news/44496.html"
     },
     {
       "date": "2026-05-13",
@@ -755,8 +71,8 @@
     {
       "date": "2026-05-13",
       "source": "JVCA",
-      "title": "JVCA会員への投資方針アンケートを実施しました ～会員の9割近くが今後の投資を現状維持もしくは増加～日本ベンチャーキャピタル協会（JVCA）は、ベンチャーキャピタル（以下VC）業界における相互連携とベンチャー企業育成の役割を一層強固にするという目的に向かって活動して参りました。加盟するVCおよびコーポレート・ベンチャー・キャピタル（以下C...",
-      "url": "https://jvca.jp/news/44692.html"
+      "title": "新規会員入会のお知らせ　UBE株式会社下記の企業が2025年12月16日付で入会しました UBE株式会社（CVC会員）",
+      "url": "https://jvca.jp/news/44933.html"
     },
     {
       "date": "2026-05-13",
@@ -767,20 +83,56 @@
     {
       "date": "2026-05-13",
       "source": "JVCA",
-      "title": "2026年 新年のご挨拶2026年頭所感謹んで年頭のご挨拶を申し上げます。会員企業及び関係各位の皆様におかれましては、平素より格別のご高配を賜り誠にありがとうございます。 昨年を振り返りますと、東京証券取引所から2030年3月以降の上場維持基準の見直しが...",
-      "url": "https://jvca.jp/news/45008.html"
+      "title": "JVCA会員への投資方針アンケートを実施しました ～会員の9割近くが今後の投資を現状維持もしくは増加～日本ベンチャーキャピタル協会（JVCA）は、ベンチャーキャピタル（以下VC）業界における相互連携とベンチャー企業育成の役割を一層強固にするという目的に向かって活動して参りました。加盟するVCおよびコーポレート・ベンチャー・キャピタル（以下C...",
+      "url": "https://jvca.jp/news/44692.html"
     },
     {
       "date": "2026-05-13",
       "source": "JVCA",
-      "title": "新規会員入会のお知らせ　UBE株式会社下記の企業が2025年12月16日付で入会しました UBE株式会社（CVC会員）",
-      "url": "https://jvca.jp/news/44933.html"
+      "title": "84",
+      "url": "https://jvca.jp/news/page/84"
+    },
+    {
+      "date": "2026-05-13",
+      "source": "JVCA",
+      "title": "ニュースレターNO.57を発行いたしましたJVCAニュースレターNO.57を発行いたしました",
+      "url": "https://jvca.jp/news/44496.html"
+    },
+    {
+      "date": "2026-05-13",
+      "source": "JVCA",
+      "title": "新規会員入会のお知らせ　B Capital Group Management, LP/アジア航測株式会社/石油資源開発株式会社/ジーニアス株式会社/株式会社タスク下記の企業が2025年8月26日付で入会しました B Capital Group Management, LP（VC会員）アジア航測株式会社（CVC会員）石油資源開発株式会社（CVC会員）ジーニアス株式会社（賛助会員）株式会社タス...",
+      "url": "https://jvca.jp/news/44379.html"
+    },
+    {
+      "date": "2026-05-13",
+      "source": "JVCA",
+      "title": "2",
+      "url": "https://jvca.jp/news/page/2"
+    },
+    {
+      "date": "2026-05-13",
+      "source": "JVCA",
+      "title": "3",
+      "url": "https://jvca.jp/news/page/3"
     },
     {
       "date": "2026-05-13",
       "source": "JVCA",
       "title": "新規会員入会のお知らせ　アント・イノベーションズ株式会社/Oikaze Ventures合同会社/フォーシーズ株式会社/エーザイ株式会社下記の企業が2026年2月24日付で入会しました アント・イノベーションズ株式会社（VC会員）Oikaze Ventures合同会社（VC会員）フォーシーズ株式会社（VC会員）エーザイ株式会社（CVC会員）",
       "url": "https://jvca.jp/news/45332.html"
+    },
+    {
+      "date": "2026-05-13",
+      "source": "JVCA",
+      "title": "2026年 新年のご挨拶2026年頭所感謹んで年頭のご挨拶を申し上げます。会員企業及び関係各位の皆様におかれましては、平素より格別のご高配を賜り誠にありがとうございます。 昨年を振り返りますと、東京証券取引所から2030年3月以降の上場維持基準の見直しが...",
+      "url": "https://jvca.jp/news/45008.html"
+    },
+    {
+      "date": "2026-05-13",
+      "source": "JVCA",
+      "title": "ベンチャーキャピタリスト育成事業",
+      "url": "https://jvca.jp/news/10762.html"
     },
     {
       "date": "2026-05-13",
@@ -833,14 +185,8 @@
     {
       "date": "2026-05-11",
       "source": "BOJ",
-      "title": "金融政策決定会合における主な意見（4月27、28日開催分）",
-      "url": "http://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi260428.pdf"
-    },
-    {
-      "date": "2026-05-11",
-      "source": "BOJ",
-      "title": "日本銀行の対政府取引（4月）",
-      "url": "http://www.boj.or.jp/statistics/boj/other/tseifu/release/2026/seifu2604.pdf"
+      "title": "オペレーション（4月）",
+      "url": "http://www.boj.or.jp/statistics/boj/fm/ope/m_release/2026/ope2604.xlsx"
     },
     {
       "date": "2026-05-11",
@@ -851,8 +197,14 @@
     {
       "date": "2026-05-11",
       "source": "BOJ",
-      "title": "オペレーション（4月）",
-      "url": "http://www.boj.or.jp/statistics/boj/fm/ope/m_release/2026/ope2604.xlsx"
+      "title": "金融政策決定会合における主な意見（4月27、28日開催分）",
+      "url": "http://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi260428.pdf"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "BOJ",
+      "title": "日本銀行の対政府取引（4月）",
+      "url": "http://www.boj.or.jp/statistics/boj/other/tseifu/release/2026/seifu2604.pdf"
     }
   ]
 }

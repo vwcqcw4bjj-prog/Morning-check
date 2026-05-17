@@ -386,8 +386,8 @@ ref_w1 = ref_d - dt.timedelta(days=7)
 ref_m1 = prev_month_end(today_jst)
 
 INDICES = [
-    ("TOPIX", ["topix", "^tpx", "tpx"], ["^TOPX"]),
-    ("Nikkei225", ["^n225", "nikkei", "jpn225"], ["^N225"]),
+    ("TOPIX", ["^tpx"], []),
+    ("Nikkei225", ["^nkx", "^n225", "nikkei"], []),
     ("S&P500", ["^spx", "^gspc"], ["^GSPC", "SPY"]),
     ("TOPIX Banks ETF", ["1615.jp"], ["1615.T"]),
     ("Japan Post", ["6178.jp"], ["6178.T"]),

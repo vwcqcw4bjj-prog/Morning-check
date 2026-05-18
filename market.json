@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026/05/18 10:52 JST",
+  "updated_at": "2026/05/18 11:09 JST",
   "market": [
     {
       "name": "TOPIX",
-      "value": null,
+      "value": 3826.51,
       "d1": null,
       "w1": null,
       "m1": null
     },
     {
       "name": "Nikkei225",
-      "value": null,
+      "value": 60815.95,
       "d1": null,
       "w1": null,
       "m1": null

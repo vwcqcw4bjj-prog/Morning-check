@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026/05/18 23:02 JST",
+  "updated_at": "2026/05/19 10:13 JST",
   "market": [
     {
       "name": "TOPIX",
-      "value": 3826.51,
+      "value": null,
       "d1": null,
       "w1": null,
       "m1": null
     },
     {
       "name": "Nikkei225",
-      "value": 60815.95,
+      "value": null,
       "d1": null,
       "w1": null,
       "m1": null
@@ -45,29 +45,29 @@
     },
     {
       "name": "JGB2Y",
-      "value": 1.413,
-      "d1": 0.0,
+      "value": 1.431,
+      "d1": 1.27,
       "w1": null,
       "m1": null
     },
     {
       "name": "JGB5Y",
-      "value": 2.0,
-      "d1": 0.0,
+      "value": 2.015,
+      "d1": 0.75,
       "w1": null,
       "m1": null
     },
     {
       "name": "JGB10Y",
-      "value": 2.691,
-      "d1": 0.0,
+      "value": 2.729,
+      "d1": 1.41,
       "w1": null,
       "m1": null
     },
     {
       "name": "JGB20Y",
-      "value": 3.603,
-      "d1": 0.0,
+      "value": 3.665,
+      "d1": 1.72,
       "w1": null,
       "m1": null
     }

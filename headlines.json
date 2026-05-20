@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026/05/20 20:32 JST",
-  "count": 199,
+  "updated_at": "2026/05/20 20:39 JST",
+  "count": 188,
   "headlines": [
     {
       "date": "2026-05-20",
@@ -35,62 +35,104 @@
     {
       "date": "2026-05-20",
       "source": "PPC",
-      "title": "更新履歴",
-      "url": "https://www.yuseimineika.go.jp/rireki.html"
+      "title": "議事要旨",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai290/gijiyoshi290.pdf"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "PPC",
+      "title": "議事要旨",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai291/gijiyoshi291.pdf"
     },
     {
       "date": "2026-05-20",
       "source": "PPC",
       "title": "議事録",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai291/gijiroku291.pdf"
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai290/gijiroku290.pdf"
     },
     {
       "date": "2026-05-20",
       "source": "PPC",
       "title": "会見概要",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai292/kaiken_gaiyo292.pdf"
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai290/kaiken_gaiyo290.pdf"
     },
     {
       "date": "2026-05-20",
       "source": "PPC",
-      "title": "議事録",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai292/gijiroku292.pdf"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "PPC",
-      "title": "議事要旨",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai294/gijiyoshi294.pdf"
+      "title": "会見のポイント",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai297/kaiken_point297.pdf"
     },
     {
       "date": "2026-05-20",
       "source": "PPC",
       "title": "配布資料",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai294/gijishidai.html"
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai297/gijishidai.html"
     },
     {
       "date": "2026-05-20",
       "source": "PPC",
-      "title": "議事要旨",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai295/gijiyoshi295.pdf"
+      "title": "会見のポイント",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai296/kaiken_point.pdf"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "METI",
+      "title": "第6回日豪経済閣僚対話を開催しました",
+      "url": "https://www.meti.go.jp/press/2026/05/20260520002/20260520002.html"
     },
     {
       "date": "2026-05-20",
       "source": "PPC",
-      "title": "郵政民営化って何？",
-      "url": "https://www.yuseimineika.go.jp/faq.html"
+      "title": "配布資料",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai296/gijishidai.html"
     },
     {
       "date": "2026-05-20",
-      "source": "PPC",
-      "title": "サイトマップ",
-      "url": "https://www.yuseimineika.go.jp/sitemap.html"
+      "source": "Nikkei",
+      "title": "クレディセゾン、インド子会社が800億円調達　ADBなどから",
+      "url": "https://www.nikkei.com/article/DGXZQOUB195TX0Z10C26A5000000/"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "Nikkei",
+      "title": "信金中央金庫の26年3月期、純利益1%増　運用改善で利息収入増",
+      "url": "https://www.nikkei.com/article/DGXZQOUB132US0T10C26A5000000/"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "Nikkei",
+      "title": "りそな銀行、女性経営者らの交流会　悩み共有する場を提供",
+      "url": "https://www.nikkei.com/article/DGXZQOUF208010Q6A520C2000000/"
     },
     {
       "date": "2026-05-20",
       "source": "PPC",
       "title": "議事要旨",
       "url": "https://www.yuseimineika.go.jp/iinkai/dai292/gijiyoshi292.pdf"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "PPC",
+      "title": "会見概要",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai291/kaiken_gaiyo291.pdf"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "PPC",
+      "title": "更新履歴",
+      "url": "https://www.yuseimineika.go.jp/rireki.html"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "PPC",
+      "title": "委員名簿（PDF）",
+      "url": "https://www.yuseimineika.go.jp/iinkai/sennin_240604.pdf"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "PPC",
+      "title": "郵政民営化って何？",
+      "url": "https://www.yuseimineika.go.jp/faq.html"
     },
     {
       "date": "2026-05-20",
@@ -125,134 +167,14 @@
     {
       "date": "2026-05-20",
       "source": "PPC",
-      "title": "委員名簿（PDF）",
-      "url": "https://www.yuseimineika.go.jp/iinkai/sennin_240604.pdf"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "PPC",
       "title": "根拠（PDF）",
       "url": "https://www.yuseimineika.go.jp/iinkai/konkyo.pdf"
     },
     {
       "date": "2026-05-20",
       "source": "PPC",
-      "title": "会見概要",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai291/kaiken_gaiyo291.pdf"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "PPC",
       "title": "議事録",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai290/gijiroku290.pdf"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "PPC",
-      "title": "議事要旨",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai291/gijiyoshi291.pdf"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "ミュトス対応「主体的関与を」　金融庁、地銀首脳に要請",
-      "url": "https://www.nikkei.com/article/DGXZQOUB202K20Q6A520C2000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "ふくおかFG、半導体融資で独自審査　市況悪化時も財務余力みて判断",
-      "url": "https://www.nikkei.com/article/DGXZQOJC08A2L0Y6A500C2000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "ガバナンス・コード、原則「格上げ」が問うもの",
-      "url": "https://www.nikkei.com/article/DGXZQOUB141XE0U6A510C2000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "MS&AD、合併新会社社長に海山裕氏　損保2社の強み融合へ",
-      "url": "https://www.nikkei.com/article/DGXZQOUB13CEE0T10C26A5000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "SOMPOHD、SOMPOグループに社名変更　損保や介護で連携へ",
-      "url": "https://www.nikkei.com/article/DGXZQOUB194QD0Z10C26A5000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "日銀の6月利上げ、米財務長官が後押しか　「優れた政策を確信」",
-      "url": "https://www.nikkei.com/article/DGXZQOUB205HD0Q6A520C2000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "楽天Gの金融再編、年850億円の利益見込む　みずほと｢対等｣で成長模索",
-      "url": "https://www.nikkei.com/article/DGXZQOUC189BY0Y6A510C2000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "りそな、地銀30社と法人決済システム　中小の経理支援で預金囲い込み",
-      "url": "https://www.nikkei.com/article/DGXZQOUB150TB0V10C26A5000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "債券市場の機能度、2四半期ぶり改善　国債買い入れ減額で",
-      "url": "https://www.nikkei.com/article/DGXZQOUB199860Z10C26A5000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "METI",
-      "title": "第6回日豪経済閣僚対話を開催しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260520002/20260520002.html"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "りそな銀行、女性経営者らの交流会　悩み共有する場を提供",
-      "url": "https://www.nikkei.com/article/DGXZQOUF208010Q6A520C2000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "Nikkei",
-      "title": "信金中央金庫の26年3月期、純利益1%増　運用改善で利息収入増",
-      "url": "https://www.nikkei.com/article/DGXZQOUB132US0T10C26A5000000/"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "PPC",
-      "title": "会見のポイント",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai296/kaiken_point.pdf"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "PPC",
-      "title": "議事要旨",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai290/gijiyoshi290.pdf"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "PPC",
-      "title": "配布資料",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai297/gijishidai.html"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "PPC",
-      "title": "会見のポイント",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai297/kaiken_point297.pdf"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "PPC",
-      "title": "会見概要",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai290/kaiken_gaiyo290.pdf"
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai291/gijiroku291.pdf"
     },
     {
       "date": "2026-05-20",
@@ -263,8 +185,92 @@
     {
       "date": "2026-05-20",
       "source": "PPC",
+      "title": "議事要旨",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai295/gijiyoshi295.pdf"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "PPC",
       "title": "配布資料",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai296/gijishidai.html"
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai294/gijishidai.html"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "PPC",
+      "title": "議事要旨",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai294/gijiyoshi294.pdf"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "PPC",
+      "title": "議事録",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai292/gijiroku292.pdf"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "PPC",
+      "title": "会見概要",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai292/kaiken_gaiyo292.pdf"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "Nikkei",
+      "title": "債券市場の機能度、2四半期ぶり改善　国債買い入れ減額で",
+      "url": "https://www.nikkei.com/article/DGXZQOUB199860Z10C26A5000000/"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "Nikkei",
+      "title": "ミュトス対応「主体的関与を」　金融庁、地銀首脳に要請",
+      "url": "https://www.nikkei.com/article/DGXZQOUB202K20Q6A520C2000000/"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "PPC",
+      "title": "サイトマップ",
+      "url": "https://www.yuseimineika.go.jp/sitemap.html"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "Nikkei",
+      "title": "楽天Gの金融再編、年850億円の利益見込む　みずほと｢対等｣で成長模索",
+      "url": "https://www.nikkei.com/article/DGXZQOUC189BY0Y6A510C2000000/"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "Nikkei",
+      "title": "日銀の6月利上げ、米財務長官が後押しか　「優れた政策を確信」",
+      "url": "https://www.nikkei.com/article/DGXZQOUB205HD0Q6A520C2000000/"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "Nikkei",
+      "title": "SOMPOHD、SOMPOグループに社名変更　損保や介護で連携へ",
+      "url": "https://www.nikkei.com/article/DGXZQOUB194QD0Z10C26A5000000/"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "Nikkei",
+      "title": "MS&AD、合併新会社社長に海山裕氏　損保2社の強み融合へ",
+      "url": "https://www.nikkei.com/article/DGXZQOUB13CEE0T10C26A5000000/"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "Nikkei",
+      "title": "ガバナンス・コード、原則「格上げ」が問うもの",
+      "url": "https://www.nikkei.com/article/DGXZQOUB141XE0U6A510C2000000/"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "Nikkei",
+      "title": "ふくおかFG、半導体融資で独自審査　市況悪化時も財務余力みて判断",
+      "url": "https://www.nikkei.com/article/DGXZQOJC08A2L0Y6A500C2000000/"
+    },
+    {
+      "date": "2026-05-20",
+      "source": "BOJ",
+      "title": "基準外国為替相場及び裁定外国為替相場（6月分）",
+      "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2606.htm"
     },
     {
       "date": "2026-05-20",
@@ -274,9 +280,9 @@
     },
     {
       "date": "2026-05-20",
-      "source": "BOJ",
-      "title": "基準外国為替相場及び裁定外国為替相場（6月分）",
-      "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2606.htm"
+      "source": "Nikkei",
+      "title": "りそな、地銀30社と法人決済システム　中小の経理支援で預金囲い込み",
+      "url": "https://www.nikkei.com/article/DGXZQOUB150TB0V10C26A5000000/"
     },
     {
       "date": "2026-05-19",
@@ -329,8 +335,8 @@
     {
       "date": "2026-05-19",
       "source": "Nikkei",
-      "title": "英銀スタンダードチャータード、AI活用で8000人規模を削減",
-      "url": "https://www.nikkei.com/article/DGXZQOCD19BUG0Z10C26A5000000/"
+      "title": "大和証券、航空機リースに10%出資へ　富裕層向け代替資産を拡充",
+      "url": "https://www.nikkei.com/article/DGXZQOUB182KT0Y6A510C2000000/"
     },
     {
       "date": "2026-05-19",
@@ -341,86 +347,8 @@
     {
       "date": "2026-05-19",
       "source": "Nikkei",
-      "title": "日銀総裁、長期金利「速いスピードで上昇」　米財務長官会談は語らず",
-      "url": "https://www.nikkei.com/article/DGXZQOUB19BYA0Z10C26A5000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "英失業率再び5%台　求人は5年ぶり低さ、早期利上げ観測は後退",
-      "url": "https://www.nikkei.com/article/DGXZQOUB19BDR0Z10C26A5000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "米財務長官「過度な為替変動望ましくない」　植田日銀総裁と会談",
-      "url": "https://www.nikkei.com/article/DGXZQOUA19BDQ0Z10C26A5000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "2026年 新年のご挨拶2026年頭所感謹んで年頭のご挨拶を申し上げます。会員企業及び関係各位の皆様におかれましては、平素より格別のご高配を賜り誠にありがとうございます。 昨年を振り返りますと、東京証券取引所から2030年3月以降の上場維持基準の見直しが...",
-      "url": "https://jvca.jp/news/45008.html"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "住友生命、保険金請求漏れ確認にAI活用　内勤職員の業務効率化",
-      "url": "https://www.nikkei.com/article/DGXZQOUB183FC0Y6A510C2000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "新規会員入会のお知らせ　アント・イノベーションズ株式会社/Oikaze Ventures合同会社/フォーシーズ株式会社/エーザイ株式会社下記の企業が2026年2月24日付で入会しました アント・イノベーションズ株式会社（VC会員）Oikaze Ventures合同会社（VC会員）フォーシーズ株式会社（VC会員）エーザイ株式会社（CVC会員）",
-      "url": "https://jvca.jp/news/45332.html"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "政投銀、5年でリスクマネー3兆円　地下社長「長期投資で成長支える」",
-      "url": "https://www.nikkei.com/article/DGXZQOUB181BN0Y6A510C2000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "荘内銀行と北都銀行、こころのカンパニーと提携　資産管理支援を拡充",
-      "url": "https://www.nikkei.com/article/DGXZQOCC198H50Z10C26A5000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "AIの金融リスク回避「官民検討を」、融資や運用念頭　自民党が提言",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1867R0Y6A510C2000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "台北富邦銀行が東京支店を開業　日本進出は10行目に",
-      "url": "https://www.nikkei.com/article/DGXZQOGM1922E0Z10C26A5000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "大和証券、航空機リースに10%出資へ　富裕層向け代替資産を拡充",
-      "url": "https://www.nikkei.com/article/DGXZQOUB182KT0Y6A510C2000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "海外投資家に「日本国債離れ」観測　超長期債で薄れる上乗せ金利の妙味",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1380H0T10C26A5000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "オアシス、カルビーなどに株主提案「予告」　開示制度改正で目的詳しく",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1802Z0Y6A510C2000000/"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "Nikkei",
-      "title": "三井住友FG・富士通・ソフトバンク、医療データ基盤の構築へ提携",
-      "url": "https://www.nikkei.com/article/DGXZQOUC181TT0Y6A510C2000000/"
+      "title": "政投銀が武器製造企業への投資解禁　小泉防衛相「防衛産業を後押し」",
+      "url": "https://www.nikkei.com/article/DGXZQOUA191WU0Z10C26A5000000/"
     },
     {
       "date": "2026-05-19",
@@ -431,14 +359,38 @@
     {
       "date": "2026-05-19",
       "source": "Nikkei",
-      "title": "政投銀が武器製造企業への投資解禁　小泉防衛相「防衛産業を後押し」",
-      "url": "https://www.nikkei.com/article/DGXZQOUA191WU0Z10C26A5000000/"
+      "title": "三井住友FG・富士通・ソフトバンク、医療データ基盤の構築へ提携",
+      "url": "https://www.nikkei.com/article/DGXZQOUC181TT0Y6A510C2000000/"
     },
     {
       "date": "2026-05-19",
       "source": "Nikkei",
-      "title": "政投銀、武器製造企業への投融資を解禁　運用ルールを変更",
-      "url": "https://www.nikkei.com/article/DGXZQOUB192VP0Z10C26A5000000/"
+      "title": "オアシス、カルビーなどに株主提案「予告」　開示制度改正で目的詳しく",
+      "url": "https://www.nikkei.com/article/DGXZQOUB1802Z0Y6A510C2000000/"
+    },
+    {
+      "date": "2026-05-19",
+      "source": "Nikkei",
+      "title": "海外投資家に「日本国債離れ」観測　超長期債で薄れる上乗せ金利の妙味",
+      "url": "https://www.nikkei.com/article/DGXZQOUB1380H0T10C26A5000000/"
+    },
+    {
+      "date": "2026-05-19",
+      "source": "Nikkei",
+      "title": "英銀スタンダードチャータード、AI活用で8000人規模を削減",
+      "url": "https://www.nikkei.com/article/DGXZQOCD19BUG0Z10C26A5000000/"
+    },
+    {
+      "date": "2026-05-19",
+      "source": "Nikkei",
+      "title": "AIの金融リスク回避「官民検討を」、融資や運用念頭　自民党が提言",
+      "url": "https://www.nikkei.com/article/DGXZQOUB1867R0Y6A510C2000000/"
+    },
+    {
+      "date": "2026-05-19",
+      "source": "Nikkei",
+      "title": "荘内銀行と北都銀行、こころのカンパニーと提携　資産管理支援を拡充",
+      "url": "https://www.nikkei.com/article/DGXZQOCC198H50Z10C26A5000000/"
     },
     {
       "date": "2026-05-19",
@@ -449,68 +401,44 @@
     {
       "date": "2026-05-19",
       "source": "Nikkei",
-      "title": "米ブラックストーン、Googleと共同出資でクラウド事業　7900億円投資",
-      "url": "https://www.nikkei.com/article/DGXZQOGN191UU0Z10C26A5000000/"
+      "title": "政投銀、5年でリスクマネー3兆円　地下社長「長期投資で成長支える」",
+      "url": "https://www.nikkei.com/article/DGXZQOUB181BN0Y6A510C2000000/"
     },
     {
       "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "新規会員入会のお知らせ　株式会社Central Japan Innovation Capital/ほくほくキャピタル株式会社/ミネルバ・グロース・パートナーズ株式会社/出光興産株式会社/株式会社JPX総研/トヨタ・コニック株式会社/株式会社MIXI下記の企業が2026年4月28日付で入会しました 株式会社Central Japan Innovation Capital（VC会員）ほくほくキャピタル株式会社（VC会員）ミネルバ・グロース・パートナーズ株式会社（VC会員）出光興...",
-      "url": "https://jvca.jp/news/45530.html"
+      "source": "Nikkei",
+      "title": "米財務長官「過度な為替変動望ましくない」　植田日銀総裁と会談",
+      "url": "https://www.nikkei.com/article/DGXZQOUA19BDQ0Z10C26A5000000/"
     },
     {
       "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "国内VCパフォーマンスベンチマーク第7回調査を行いました（2024年版）日本ベンチャーキャピタル協会（JVCA）では、国内外機関投資家からVCアセットクラスへの運用資金流入を目的として、オルタナティブ投資の国際的なデータ提供会社であるPreqin社と共同で、国内VCファンドのパフォーマンスベンチマーク第7回調査...",
-      "url": "https://jvca.jp/news/44832.html"
+      "source": "Nikkei",
+      "title": "住友生命、保険金請求漏れ確認にAI活用　内勤職員の業務効率化",
+      "url": "https://www.nikkei.com/article/DGXZQOUB183FC0Y6A510C2000000/"
     },
     {
       "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "ベンチャーキャピタリスト育成事業",
-      "url": "https://jvca.jp/news/10762.html"
+      "source": "Nikkei",
+      "title": "英失業率再び5%台　求人は5年ぶり低さ、早期利上げ観測は後退",
+      "url": "https://www.nikkei.com/article/DGXZQOUB19BDR0Z10C26A5000000/"
     },
     {
       "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "85",
-      "url": "https://jvca.jp/news/page/85"
+      "source": "Nikkei",
+      "title": "日銀総裁、長期金利「速いスピードで上昇」　米財務長官会談は語らず",
+      "url": "https://www.nikkei.com/article/DGXZQOUB19BYA0Z10C26A5000000/"
     },
     {
       "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "3",
-      "url": "https://jvca.jp/news/page/3"
+      "source": "Nikkei",
+      "title": "台北富邦銀行が東京支店を開業　日本進出は10行目に",
+      "url": "https://www.nikkei.com/article/DGXZQOGM1922E0Z10C26A5000000/"
     },
     {
       "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "2",
-      "url": "https://jvca.jp/news/page/2"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "ニュースレターNO.57を発行いたしましたJVCAニュースレターNO.57を発行いたしました",
-      "url": "https://jvca.jp/news/44496.html"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "新規会員入会のお知らせ　紀尾井町戦略研究所株式会社/野村アセットマネジメント株式会社/ファンドキー株式会社/三菱UFJアセットマネジメント株式会社下記の企業が2025年10月28日付で入会しました 紀尾井町戦略研究所株式会社（賛助会員）野村アセットマネジメント株式会社（賛助会員）ファンドキー株式会社（賛助会員）三菱UFJアセットマネジメント株式会社（賛助会員）",
-      "url": "https://jvca.jp/news/44661.html"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "JVCA会員への投資方針アンケートを実施しました ～会員の9割近くが今後の投資を現状維持もしくは増加～日本ベンチャーキャピタル協会（JVCA）は、ベンチャーキャピタル（以下VC）業界における相互連携とベンチャー企業育成の役割を一層強固にするという目的に向かって活動して参りました。加盟するVCおよびコーポレート・ベンチャー・キャピタル（以下C...",
-      "url": "https://jvca.jp/news/44692.html"
-    },
-    {
-      "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "ニュースレターNO.58を発行いたしましたJVCAニュースレターNO.58を発行いたしました",
-      "url": "https://jvca.jp/news/45608.html"
+      "source": "Nikkei",
+      "title": "政投銀、武器製造企業への投融資を解禁　運用ルールを変更",
+      "url": "https://www.nikkei.com/article/DGXZQOUB192VP0Z10C26A5000000/"
     },
     {
       "date": "2026-05-19",
@@ -521,8 +449,8 @@
     {
       "date": "2026-05-19",
       "source": "JVCA",
-      "title": "新規会員入会のお知らせ　UBE株式会社下記の企業が2025年12月16日付で入会しました UBE株式会社（CVC会員）",
-      "url": "https://jvca.jp/news/44933.html"
+      "title": "ベンチャーキャピタリスト育成事業",
+      "url": "https://jvca.jp/news/10762.html"
     },
     {
       "date": "2026-05-18",
@@ -539,14 +467,14 @@
     {
       "date": "2026-05-18",
       "source": "FSA",
-      "title": "企業会計審議会第１回サステナビリティ情報保証部会の開催について掲載しました。",
-      "url": "https://www.fsa.go.jp/news/r7/singi/20260525/20260525.html"
+      "title": "「銀行法施行規則の一部を改正する内閣府令（案）」等に対するパブリックコメントの実施について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r7/ginkou/20260518/20260518.html"
     },
     {
       "date": "2026-05-18",
-      "source": "BOJ",
-      "title": "展望レポートのハイライト （2026年4月）",
-      "url": "http://www.boj.or.jp/mopo/outlook/highlight/ten202604.htm"
+      "source": "FSA",
+      "title": "企業会計審議会第１回サステナビリティ情報保証部会の開催について掲載しました。",
+      "url": "https://www.fsa.go.jp/news/r7/singi/20260525/20260525.html"
     },
     {
       "date": "2026-05-18",
@@ -556,9 +484,9 @@
     },
     {
       "date": "2026-05-18",
-      "source": "FSA",
-      "title": "「銀行法施行規則の一部を改正する内閣府令（案）」等に対するパブリックコメントの実施について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/ginkou/20260518/20260518.html"
+      "source": "BOJ",
+      "title": "展望レポートのハイライト （2026年4月）",
+      "url": "http://www.boj.or.jp/mopo/outlook/highlight/ten202604.htm"
     },
     {
       "date": "2026-05-18",
@@ -616,15 +544,15 @@
     },
     {
       "date": "2026-05-15",
-      "source": "FSA",
-      "title": "その他,令和８年２月に開催された業界団体との意見交換会において、金融庁が提起した主な論点を公表しました。",
-      "url": "https://www.fsa.go.jp/common/ronten/index.html"
-    },
-    {
-      "date": "2026-05-15",
       "source": "METI",
       "title": "IAEAタスクフォースにより、放出開始後6回目となるALPS処理水の海洋放出に関する安全性レビューミッションが行われました",
       "url": "https://www.meti.go.jp/press/2026/05/20260515003/20260515003.html"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "FSA",
+      "title": "その他,令和８年２月に開催された業界団体との意見交換会において、金融庁が提起した主な論点を公表しました。",
+      "url": "https://www.fsa.go.jp/common/ronten/index.html"
     },
     {
       "date": "2026-05-15",
@@ -640,15 +568,15 @@
     },
     {
       "date": "2026-05-15",
-      "source": "BOJ",
-      "title": "フェイルの発生状況（4月）",
-      "url": "http://www.boj.or.jp/statistics/set/bffail/sjgb2604.pdf"
-    },
-    {
-      "date": "2026-05-15",
       "source": "FSA",
       "title": "その他,無登録で金融商品取引業を行う者の名称等について更新しました。",
       "url": "https://www.fsa.go.jp/ordinary/chuui/mutouroku.html"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "BOJ",
+      "title": "フェイルの発生状況（4月）",
+      "url": "http://www.boj.or.jp/statistics/set/bffail/sjgb2604.pdf"
     },
     {
       "date": "2026-05-15",
@@ -665,20 +593,20 @@
     {
       "date": "2026-05-15",
       "source": "METI",
-      "title": "民間備蓄義務量の引き下げの維持を継続します",
-      "url": "https://www.meti.go.jp/press/2026/05/20260515004/20260515004.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "METI",
       "title": "2027年ベオグラード国際博覧会日本館ロゴ・シンボルマークを決定しました",
       "url": "https://www.meti.go.jp/press/2026/05/20260515002/20260515002.html"
     },
     {
       "date": "2026-05-15",
+      "source": "METI",
+      "title": "民間備蓄義務量の引き下げの維持を継続します",
+      "url": "https://www.meti.go.jp/press/2026/05/20260515004/20260515004.html"
+    },
+    {
+      "date": "2026-05-15",
       "source": "BOJ",
-      "title": "BIS決済・市場インフラ委員会及び証券監督者国際機構による市中協議文書「『清算機関の強靭性：FMI原則に関する追加ガイダンス』の改訂案」及び「『清算機関のための定量的な情報開示基準』の改訂案」の公表について",
-      "url": "http://www.boj.or.jp/paym/intlact_pm/cpss/cpss260515a.htm"
+      "title": "さくらレポート別冊「地域の消費関連企業の価格設定行動の変化と2026年度の価格改定方針」",
+      "url": "http://www.boj.or.jp/research/brp/rer/rerb260515.htm"
     },
     {
       "date": "2026-05-15",
@@ -689,8 +617,8 @@
     {
       "date": "2026-05-15",
       "source": "BOJ",
-      "title": "さくらレポート別冊「地域の消費関連企業の価格設定行動の変化と2026年度の価格改定方針」",
-      "url": "http://www.boj.or.jp/research/brp/rer/rerb260515.htm"
+      "title": "BIS決済・市場インフラ委員会及び証券監督者国際機構による市中協議文書「『清算機関の強靭性：FMI原則に関する追加ガイダンス』の改訂案」及び「『清算機関のための定量的な情報開示基準』の改訂案」の公表について",
+      "url": "http://www.boj.or.jp/paym/intlact_pm/cpss/cpss260515a.htm"
     },
     {
       "date": "2026-05-15",
@@ -707,8 +635,8 @@
     {
       "date": "2026-05-15",
       "source": "第一地銀",
-      "title": "[千葉銀行] 前期実績との差異に関するお知らせ",
-      "url": "https://www.chibabank.co.jp/news/news20260515_03"
+      "title": "[千葉銀行] TSUBASA共同事務センター株式会社の設立および相続手続の共同化に向けたシステム開発について〜「TSUBASAアライアンス」提携施策〜",
+      "url": "https://www.chibabank.co.jp/news/news20260515_01"
     },
     {
       "date": "2026-05-15",
@@ -737,32 +665,8 @@
     {
       "date": "2026-05-15",
       "source": "第一地銀",
-      "title": "[千葉銀行] 2026年3月期決算について",
-      "url": "https://www.chibabank.co.jp/news/news20260515_02"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[千葉銀行] TSUBASA共同事務センター株式会社の設立および相続手続の共同化に向けたシステム開発について〜「TSUBASAアライアンス」提携施策〜",
-      "url": "https://www.chibabank.co.jp/news/news20260515_01"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[千葉銀行] DX推進体制の高度化に向けた本部組織の改定について",
-      "url": "https://www.chibabank.co.jp/news/news20260515_04"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[群馬銀行] 「SDGs宣言書」の作成支援について",
-      "url": "https://www.gunmabank.co.jp/info/news/20260515.html"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[武蔵野銀行] 茨城県五霞町の地域商社「ごかみらいLab」との魅力発信イベント「いばらき玄関フェア」開催について",
-      "url": "https://www.musashinobank.co.jp/ir/news/pdf/2026/ibarakigennkannfair20260515.pdf"
+      "title": "[千葉銀行] 前期実績との差異に関するお知らせ",
+      "url": "https://www.chibabank.co.jp/news/news20260515_03"
     },
     {
       "date": "2026-05-15",
@@ -773,14 +677,44 @@
     {
       "date": "2026-05-15",
       "source": "第一地銀",
+      "title": "[千葉銀行] DX推進体制の高度化に向けた本部組織の改定について",
+      "url": "https://www.chibabank.co.jp/news/news20260515_04"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "第一地銀",
+      "title": "[千葉銀行] 2026年3月期決算について",
+      "url": "https://www.chibabank.co.jp/news/news20260515_02"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "第一地銀",
+      "title": "[武蔵野銀行] 茨城県五霞町の地域商社「ごかみらいLab」との魅力発信イベント「いばらき玄関フェア」開催について",
+      "url": "https://www.musashinobank.co.jp/ir/news/pdf/2026/ibarakigennkannfair20260515.pdf"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "第一地銀",
+      "title": "[群馬銀行] 「SDGs宣言書」の作成支援について",
+      "url": "https://www.gunmabank.co.jp/info/news/20260515.html"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "第一地銀",
+      "title": "[東邦銀行] ＴＳＵＢＡＳＡ共同事務センター株式会社の設立決定及び相続手続の共同化に向けたシステム開発について〜「ＴＳＵＢＡＳＡアライアンス」提携施策〜",
+      "url": "https://www.tohobank.co.jp/cms_source/data/newsrelease/files/20260515-1.pdf"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "第一地銀",
       "title": "[山梨中央銀行] 山梨中銀ディーシーカード株式会社のInstagramの開設について",
       "url": "https://www.yamanashibank.co.jp/assets/files/K20260515_i.pdf"
     },
     {
       "date": "2026-05-15",
       "source": "第一地銀",
-      "title": "[山形銀行] 2026年3月期 決算短信",
-      "url": "https://www.yamagatabank.co.jp/investor/library/kessan/"
+      "title": "[東邦銀行] 2026年3月期決算について",
+      "url": "https://www.tohobank.co.jp/cms_source/data/newsrelease/detail/2026/5112.html"
     },
     {
       "date": "2026-05-15",
@@ -851,14 +785,26 @@
     {
       "date": "2026-05-15",
       "source": "第一地銀",
+      "title": "[東邦銀行] 役員の異動に関するお知らせ",
+      "url": "https://www.tohobank.co.jp/cms_source/data/newsrelease/files/20260515_047_2.pdf"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "第一地銀",
       "title": "[東邦銀行] 業績連動型報酬の改定に関するお知らせ",
       "url": "https://www.tohobank.co.jp/cms_source/data/newsrelease/files/20260515_047_3.pdf"
     },
     {
       "date": "2026-05-15",
+      "source": "JPEA",
+      "title": "MCPキャピタル株式会社 ： 株式会社さらによる株式会社 QLEA の株式譲受に関するお知らせ（PDF/356KB）",
+      "url": "https://jpea.group/2026/05/11/mcp%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%81%95%e3%82%89%e3%81%ab%e3%82%88%e3%82%8b%e6%a0%aa%e5%bc%8f/"
+    },
+    {
+      "date": "2026-05-15",
       "source": "第一地銀",
-      "title": "[東邦銀行] ＴＳＵＢＡＳＡ共同事務センター株式会社の設立決定及び相続手続の共同化に向けたシステム開発について〜「ＴＳＵＢＡＳＡアライアンス」提携施策〜",
-      "url": "https://www.tohobank.co.jp/cms_source/data/newsrelease/files/20260515-1.pdf"
+      "title": "[東邦銀行] 剰余金の配当（増配）に関するお知らせ",
+      "url": "https://www.tohobank.co.jp/cms_source/data/newsrelease/files/20260515_047_1.pdf"
     },
     {
       "date": "2026-05-15",
@@ -868,15 +814,9 @@
     },
     {
       "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[東邦銀行] 役員の異動に関するお知らせ",
-      "url": "https://www.tohobank.co.jp/cms_source/data/newsrelease/files/20260515_047_2.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[青森みちのく銀行] 「海外挑戦塾」第2期生募集のご案内",
-      "url": "https://www.am-bk.co.jp/news/2026/05/2-3.html"
+      "source": "JPEA",
+      "title": "農林中金キャピタル株式会社 ： 農林中金キャピタル戦略協創１号投資事業有限会社責任組合を通じて、宿泊施設へのオールインワンシステムを提供するCheck Inn株式会社へ出資しましたのでお知らせいたします。",
+      "url": "https://jpea.group/2026/05/13/%e8%be%b2%e6%9e%97%e4%b8%ad%e9%87%91%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e8%be%b2%e6%9e%97%e4%b8%ad%e9%87%91%e3%82%ad%e3%83%a3%e3%83%94-13/"
     },
     {
       "date": "2026-05-15",
@@ -887,14 +827,20 @@
     {
       "date": "2026-05-15",
       "source": "JPEA",
+      "title": "「CHRO（最高人事責任者）を活かす経営とは？」｜株式会社ZENTech 取締役　武田雅子様",
+      "url": "https://jpea.group/2026/05/15/20260514/"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "JPEA",
       "title": "株式会社ひろしまイノベーション推進機構 ： ボレーグループの株式譲渡について",
       "url": "https://jpea.group/2026/04/03/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%81%b2%e3%82%8d%e3%81%97%e3%81%be%e3%82%a4%e3%83%8e%e3%83%99%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e6%8e%a8%e9%80%b2%e6%a9%9f%e6%a7%8b-%ef%bc%9a-%e3%83%9c%e3%83%ac/"
     },
     {
       "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[東邦銀行] 剰余金の配当（増配）に関するお知らせ",
-      "url": "https://www.tohobank.co.jp/cms_source/data/newsrelease/files/20260515_047_1.pdf"
+      "source": "JPEA",
+      "title": "三井住友ファイナンス＆リース株式会社 ： SMBC Aviation Capitalが参画する米国航空機リース会社Air Lease Corporationの買収完了について（PDF : 313.4 KB）",
+      "url": "https://jpea.group/2026/04/09/%e4%b8%89%e4%ba%95%e4%bd%8f%e5%8f%8b%e3%83%95%e3%82%a1%e3%82%a4%e3%83%8a%e3%83%b3%e3%82%b9%ef%bc%86%e3%83%aa%e3%83%bc%e3%82%b9%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-smbc-aviation-capital/"
     },
     {
       "date": "2026-05-15",
@@ -959,12 +905,6 @@
     {
       "date": "2026-05-15",
       "source": "JPEA",
-      "title": "MCPキャピタル株式会社 ： 株式会社さらによる株式会社 QLEA の株式譲受に関するお知らせ（PDF/356KB）",
-      "url": "https://jpea.group/2026/05/11/mcp%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%81%95%e3%82%89%e3%81%ab%e3%82%88%e3%82%8b%e6%a0%aa%e5%bc%8f/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
       "title": "ニューホライズンキャピタル株式会社 ： 株式会社ラヴォックスへの投資実行について",
       "url": "https://jpea.group/2026/05/11/%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%9b%e3%83%a9%e3%82%a4%e3%82%ba%e3%83%b3%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e6%a0%aa%e5%bc%8f%e4%bc%9a-12/"
     },
@@ -976,21 +916,9 @@
     },
     {
       "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "EQTパートナーズジャパン株式会社 ： EQT to Launch Tender Offer to Privatize Kakaku.com",
-      "url": "https://jpea.group/2026/05/12/eqt%e3%83%91%e3%83%bc%e3%83%88%e3%83%8a%e3%83%bc%e3%82%ba%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-eqt-to-launch-tender-offer-to-privatize-kakaku-com/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "農林中金キャピタル株式会社 ： 農林中金キャピタル戦略協創１号投資事業有限会社責任組合を通じて、宿泊施設へのオールインワンシステムを提供するCheck Inn株式会社へ出資しましたのでお知らせいたします。",
-      "url": "https://jpea.group/2026/05/13/%e8%be%b2%e6%9e%97%e4%b8%ad%e9%87%91%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e8%be%b2%e6%9e%97%e4%b8%ad%e9%87%91%e3%82%ad%e3%83%a3%e3%83%94-13/"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "「CHRO（最高人事責任者）を活かす経営とは？」｜株式会社ZENTech 取締役　武田雅子様",
-      "url": "https://jpea.group/2026/05/15/20260514/"
+      "source": "第一地銀",
+      "title": "[青森みちのく銀行] 「海外挑戦塾」第2期生募集のご案内",
+      "url": "https://www.am-bk.co.jp/news/2026/05/2-3.html"
     },
     {
       "date": "2026-05-15",
@@ -1000,27 +928,15 @@
     },
     {
       "date": "2026-05-15",
-      "source": "JPEA",
-      "title": "三井住友ファイナンス＆リース株式会社 ： SMBC Aviation Capitalが参画する米国航空機リース会社Air Lease Corporationの買収完了について（PDF : 313.4 KB）",
-      "url": "https://jpea.group/2026/04/09/%e4%b8%89%e4%ba%95%e4%bd%8f%e5%8f%8b%e3%83%95%e3%82%a1%e3%82%a4%e3%83%8a%e3%83%b3%e3%82%b9%ef%bc%86%e3%83%aa%e3%83%bc%e3%82%b9%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-smbc-aviation-capital/"
+      "source": "第一地銀",
+      "title": "[青森みちのく銀行] 青森みちのくアプリの全面リニューアルについて 〜スマホの中にもメインバンクを。〜",
+      "url": "https://www.am-bk.co.jp/news/2026/05/post-255.html"
     },
     {
       "date": "2026-05-15",
       "source": "第一地銀",
-      "title": "[荘内銀行] 株主還元方針の見直しに関するお知らせ",
-      "url": "https://www.shonai.co.jp/cms_source/data/shonai/info/files/20260515_3.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[荘内銀行] 2026年3月期決算短信〔日本基準〕（連結）",
-      "url": "https://www.shonai.co.jp/cms_source/data/shonai/info/files/20260515_5.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[東邦銀行] 2026年3月期決算について",
-      "url": "https://www.tohobank.co.jp/cms_source/data/newsrelease/detail/2026/5112.html"
+      "title": "[北都銀行] 自己株式取得に係る事項の決定に関するお知らせ（会社法第165条第2項の規定による定款の定めに基づく自己株式の取得）",
+      "url": "https://www.hokutobank.co.jp/cms_source/data/hokuto/info/files/20260515-2.pdf"
     },
     {
       "date": "2026-05-15",
@@ -1043,6 +959,12 @@
     {
       "date": "2026-05-15",
       "source": "第一地銀",
+      "title": "[山形銀行] 2026年3月期 決算短信",
+      "url": "https://www.yamagatabank.co.jp/investor/library/kessan/"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "第一地銀",
       "title": "[荘内銀行] 自己株式取得に係る事項の決定に関するお知らせ（会社法第165条第2項の規定による定款の定めに基づく自己株式の取得）",
       "url": "https://www.shonai.co.jp/cms_source/data/shonai/info/files/20260515_2.pdf"
     },
@@ -1055,20 +977,26 @@
     {
       "date": "2026-05-15",
       "source": "第一地銀",
-      "title": "[青森みちのく銀行] 青森みちのくアプリの全面リニューアルについて 〜スマホの中にもメインバンクを。〜",
-      "url": "https://www.am-bk.co.jp/news/2026/05/post-255.html"
+      "title": "[荘内銀行] 株主還元方針の見直しに関するお知らせ",
+      "url": "https://www.shonai.co.jp/cms_source/data/shonai/info/files/20260515_3.pdf"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "第一地銀",
+      "title": "[岩手銀行] 「いわぎんSDGs評価・宣言サポートサービス」によるSDGs宣言策定支援について（株式会社上路商店）",
+      "url": "https://www.iwatebank.co.jp/assets/pdf/20260515_sdgs.pdf"
+    },
+    {
+      "date": "2026-05-15",
+      "source": "第一地銀",
+      "title": "[荘内銀行] 2026年3月期決算短信〔日本基準〕（連結）",
+      "url": "https://www.shonai.co.jp/cms_source/data/shonai/info/files/20260515_5.pdf"
     },
     {
       "date": "2026-05-15",
       "source": "第一地銀",
       "title": "[荘内銀行] 役員の異動に関するお知らせ",
       "url": "https://www.shonai.co.jp/cms_source/data/shonai/info/files/20260515_1.pdf"
-    },
-    {
-      "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[北都銀行] 自己株式取得に係る事項の決定に関するお知らせ（会社法第165条第2項の規定による定款の定めに基づく自己株式の取得）",
-      "url": "https://www.hokutobank.co.jp/cms_source/data/hokuto/info/files/20260515-2.pdf"
     },
     {
       "date": "2026-05-15",
@@ -1114,9 +1042,9 @@
     },
     {
       "date": "2026-05-15",
-      "source": "第一地銀",
-      "title": "[岩手銀行] 「いわぎんSDGs評価・宣言サポートサービス」によるSDGs宣言策定支援について（株式会社上路商店）",
-      "url": "https://www.iwatebank.co.jp/assets/pdf/20260515_sdgs.pdf"
+      "source": "JPEA",
+      "title": "EQTパートナーズジャパン株式会社 ： EQT to Launch Tender Offer to Privatize Kakaku.com",
+      "url": "https://jpea.group/2026/05/12/eqt%e3%83%91%e3%83%bc%e3%83%88%e3%83%8a%e3%83%bc%e3%82%ba%e3%82%b8%e3%83%a3%e3%83%91%e3%83%b3%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-eqt-to-launch-tender-offer-to-privatize-kakaku-com/"
     },
     {
       "date": "2026-05-14",
@@ -1169,14 +1097,14 @@
     {
       "date": "2026-05-13",
       "source": "METI",
-      "title": "井野経済産業副大臣がモンゴル国のドルジハンド副首相と会談を行いました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260514004/20260514004.html"
+      "title": "生成AIの開発力強化に向けたプロジェクト「GENIAC」において、新たに製造業データ等のAI-Ready化に関する研究開発テーマ計9件及びロボット基盤モデルに関する研究開発テーマ計2件を採択しました",
+      "url": "https://www.meti.go.jp/press/2026/05/20260514001/20260514001.html"
     },
     {
       "date": "2026-05-13",
       "source": "METI",
-      "title": "生成AIの開発力強化に向けたプロジェクト「GENIAC」において、新たに製造業データ等のAI-Ready化に関する研究開発テーマ計9件及びロボット基盤モデルに関する研究開発テーマ計2件を採択しました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260514001/20260514001.html"
+      "title": "井野経済産業副大臣がモンゴル国のドルジハンド副首相と会談を行いました",
+      "url": "https://www.meti.go.jp/press/2026/05/20260514004/20260514004.html"
     },
     {
       "date": "2026-05-13",
@@ -1195,6 +1123,12 @@
       "source": "WSJ",
       "title": "ウォール街で長期的なインフレ懸念強まる",
       "url": "https://jp.wsj.com/articles/wall-street-is-getting-more-anxious-about-long-term-inflation-14ef1e4c"
+    },
+    {
+      "date": "2026-05-13",
+      "source": "JVCA",
+      "title": "ニュースレターNO.58を発行いたしましたJVCAニュースレターNO.58を発行いたしました",
+      "url": "https://jvca.jp/news/45608.html"
     }
   ]
 }

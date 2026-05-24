@@ -1,7 +1,61 @@
 {
-  "updated_at": "2026/05/23 05:53 JST",
-  "count": 91,
+  "updated_at": "2026/05/25 06:11 JST",
+  "count": 90,
   "headlines": [
+    {
+      "date": "2026-05-24",
+      "source": "WSJ",
+      "title": "米国人の気分は最悪、株式市場は絶好調　その理由は？",
+      "url": "https://jp.wsj.com/articles/the-stock-market-has-never-been-so-good-when-people-have-felt-so-bad-cebd7011"
+    },
+    {
+      "date": "2026-05-24",
+      "source": "Nikkei",
+      "title": "PayPay銀行新社長、コード決済「チャージ不要に」　預金獲得へ布石",
+      "url": "https://www.nikkei.com/article/DGXZQOUB15A900V10C26A4000000/"
+    },
+    {
+      "date": "2026-05-24",
+      "source": "Nikkei",
+      "title": "ふくおかFG、中東情勢関連の信用コスト97億円　影響長期化に備え",
+      "url": "https://www.nikkei.com/article/DGXZQOJC184Q60Y6A510C2000000/"
+    },
+    {
+      "date": "2026-05-24",
+      "source": "Nikkei",
+      "title": "日銀が後手なら日本売りも　高市首相は6月利上げに理解示すか",
+      "url": "https://www.nikkei.com/article/DGXZQOCD21DH70R20C26A5000000/"
+    },
+    {
+      "date": "2026-05-23",
+      "source": "METI",
+      "title": "赤澤経済産業大臣が中国に出張しました",
+      "url": "https://www.meti.go.jp/press/2026/05/20260524001/20260524001.html"
+    },
+    {
+      "date": "2026-05-23",
+      "source": "Nikkei",
+      "title": "東京電力会長に6月就任予定の横尾敬介さん　「興銀魂」の改革請負人",
+      "url": "https://www.nikkei.com/article/DGXZQOUB211Z60R20C26A5000000/"
+    },
+    {
+      "date": "2026-05-23",
+      "source": "Nikkei",
+      "title": "生保の個人配当1年で4割増、株高による顧客流出防止　最高の2400億円",
+      "url": "https://www.nikkei.com/article/DGXZQOUB173640X10C26A4000000/"
+    },
+    {
+      "date": "2026-05-23",
+      "source": "Nikkei",
+      "title": "高市政権の判断、夏に集中　成長戦略・消費税減税・骨太の方針...",
+      "url": "https://www.nikkei.com/article/DGXZQOUA2239P0S6A520C2000000/"
+    },
+    {
+      "date": "2026-05-22",
+      "source": "WSJ",
+      "title": "ウォーシュFRB議長、利下げ迫る政権と問われる独立性",
+      "url": "https://jp.wsj.com/articles/trump-picked-warsh-to-cut-rates-markets-are-bracing-for-the-opposite-9e0c6d39"
+    },
     {
       "date": "2026-05-22",
       "source": "METI",
@@ -29,14 +83,14 @@
     {
       "date": "2026-05-22",
       "source": "FSA",
-      "title": "「コーポレートガバナンス・コードの改訂に関する有識者会議」（令和７年度第３回）議事録について公表しました。",
-      "url": "https://www.fsa.go.jp/singi/revision_corporategovernance/gijiroku/260403.html"
+      "title": "公認会計士の懲戒処分について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r7/sonota/20260522.html"
     },
     {
       "date": "2026-05-22",
       "source": "FSA",
-      "title": "公認会計士の懲戒処分について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/sonota/20260522.html"
+      "title": "「コーポレートガバナンス・コードの改訂に関する有識者会議」（令和７年度第３回）議事録について公表しました。",
+      "url": "https://www.fsa.go.jp/singi/revision_corporategovernance/gijiroku/260403.html"
     },
     {
       "date": "2026-05-22",
@@ -46,15 +100,9 @@
     },
     {
       "date": "2026-05-22",
-      "source": "FSA",
-      "title": "企業会計審議会第56回監査部会議事録について公表しました。",
-      "url": "https://www.fsa.go.jp/singi/singi_kigyou/gijiroku/kansa/20260424.html"
-    },
-    {
-      "date": "2026-05-22",
-      "source": "FSA",
-      "title": "企業会計審議会総会議事録について公表しました。",
-      "url": "https://www.fsa.go.jp/singi/singi_kigyou/gijiroku/soukai/20260424.html"
+      "source": "BOJ",
+      "title": "実質輸出入の動向",
+      "url": "http://www.boj.or.jp/research/research_data/reri/index.htm"
     },
     {
       "date": "2026-05-22",
@@ -70,9 +118,15 @@
     },
     {
       "date": "2026-05-22",
-      "source": "BOJ",
-      "title": "実質輸出入の動向",
-      "url": "http://www.boj.or.jp/research/research_data/reri/index.htm"
+      "source": "FSA",
+      "title": "企業会計審議会総会議事録について公表しました。",
+      "url": "https://www.fsa.go.jp/singi/singi_kigyou/gijiroku/soukai/20260424.html"
+    },
+    {
+      "date": "2026-05-22",
+      "source": "FSA",
+      "title": "企業会計審議会第56回監査部会議事録について公表しました。",
+      "url": "https://www.fsa.go.jp/singi/singi_kigyou/gijiroku/kansa/20260424.html"
     },
     {
       "date": "2026-05-22",
@@ -95,18 +149,6 @@
     {
       "date": "2026-05-22",
       "source": "FSA",
-      "title": "「金融商品取引法施行令の一部を改正する政令」等の公布及びパブリックコメントの結果について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/shouken/20260522/20260522.html"
-    },
-    {
-      "date": "2026-05-22",
-      "source": "FSA",
-      "title": "令和７年資金決済法改正に係る政令の公布及びパブリックコメントの結果等について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/sonota/20260522/20260522.html"
-    },
-    {
-      "date": "2026-05-22",
-      "source": "FSA",
       "title": "「フロンティアAIによる脅威変化を踏まえた金融機関等の短期的な対応」に係る要請について公表しました。",
       "url": "https://www.fsa.go.jp/news/r7/sonota/20260522-5/20260522.html"
     },
@@ -118,15 +160,39 @@
     },
     {
       "date": "2026-05-22",
+      "source": "FSA",
+      "title": "「金融商品取引法施行令の一部を改正する政令」等の公布及びパブリックコメントの結果について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r7/shouken/20260522/20260522.html"
+    },
+    {
+      "date": "2026-05-22",
+      "source": "FSA",
+      "title": "令和７年資金決済法改正に係る政令の公布及びパブリックコメントの結果等について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r7/sonota/20260522/20260522.html"
+    },
+    {
+      "date": "2026-05-22",
       "source": "BOJ",
       "title": "営業毎旬報告（5月20日現在）",
       "url": "http://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac260520.htm"
     },
     {
       "date": "2026-05-22",
-      "source": "PPC",
-      "title": "会見概要",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai295/kaiken_gaiyo295.pdf"
+      "source": "Nikkei",
+      "title": "金融サービスは止まるもの　AIミュトスで変わるサイバー防御",
+      "url": "https://www.nikkei.com/article/DGXZQOUB21CJD0R20C26A5000000/"
+    },
+    {
+      "date": "2026-05-22",
+      "source": "Nikkei",
+      "title": "ミュトス対応「システム能動的停止も」　金融庁が要請",
+      "url": "https://www.nikkei.com/article/DGXZQOUB221KG0S6A520C2000000/"
+    },
+    {
+      "date": "2026-05-22",
+      "source": "Nikkei",
+      "title": "日本国債「恐怖指数」1年ぶり高水準　価格変動リスク、米国債上回る",
+      "url": "https://www.nikkei.com/article/DGXZQOUB212P10R20C26A5000000/"
     },
     {
       "date": "2026-05-22",
@@ -143,14 +209,8 @@
     {
       "date": "2026-05-22",
       "source": "Nikkei",
-      "title": "経済｢完全ブロックチェーン化｣構想　租税回避地バミューダ諸島が活路",
+      "title": "経済「完全ブロックチェーン化」構想　租税回避地バミューダ諸島が活路",
       "url": "https://www.nikkei.com/article/DGXZQOGN062QW0W6A500C2000000/"
-    },
-    {
-      "date": "2026-05-22",
-      "source": "Nikkei",
-      "title": "金融サービスは止まるもの、ミュトスで変わるサイバー防御",
-      "url": "https://www.nikkei.com/article/DGXZQOUB21CJD0R20C26A5000000/"
     },
     {
       "date": "2026-05-22",
@@ -161,50 +221,20 @@
     {
       "date": "2026-05-22",
       "source": "Nikkei",
-      "title": "秋田銀行、中計目標を上方修正　28年3月期に連結純利益100億円以上",
-      "url": "https://www.nikkei.com/article/DGXZQOCC224GB0S6A520C2000000/"
-    },
-    {
-      "date": "2026-05-22",
-      "source": "Nikkei",
-      "title": "日本国債「恐怖指数」1年ぶり高水準　価格変動リスク、米国債上回る",
-      "url": "https://www.nikkei.com/article/DGXZQOUB212P10R20C26A5000000/"
-    },
-    {
-      "date": "2026-05-22",
-      "source": "Nikkei",
       "title": "JPモルガン、40億ドル超のPE向け融資の売却検討　FT報道",
       "url": "https://www.nikkei.com/article/DGXZQOGN22CVZ0S6A520C2000000/"
     },
     {
       "date": "2026-05-22",
       "source": "Nikkei",
-      "title": "世界インフラ融資2倍の100兆円、AI・経済安保に需要　三菱UFJ首位",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1532C0V10C26A4000000/"
-    },
-    {
-      "date": "2026-05-22",
-      "source": "Nikkei",
-      "title": "日銀・植田総裁、高市首相と会談　金融政策めぐり「有益な意見交換」",
-      "url": "https://www.nikkei.com/article/DGXZQOUA229PK0S6A520C2000000/"
-    },
-    {
-      "date": "2026-05-22",
-      "source": "Nikkei",
-      "title": "英銀スタンチャートCEO「価値の低い人的資本」発言を謝罪　反発招く",
-      "url": "https://www.nikkei.com/article/DGXZQOUB22CBQ0S6A520C2000000/"
-    },
-    {
-      "date": "2026-05-22",
-      "source": "Nikkei",
-      "title": "ミュトス対応「システム能動的停止も」　金融庁が要請",
-      "url": "https://www.nikkei.com/article/DGXZQOUB221KG0S6A520C2000000/"
-    },
-    {
-      "date": "2026-05-22",
-      "source": "Nikkei",
       "title": "ウォーシュ氏、第17代FRB議長に就任　トランプ氏が宣誓式に出席",
       "url": "https://www.nikkei.com/article/DGXZQOGN19ATA0Z10C26A5000000/"
+    },
+    {
+      "date": "2026-05-22",
+      "source": "Nikkei",
+      "title": "世界インフラ融資2倍の100兆円、AI・経済安保に需要　三菱UFJ首位",
+      "url": "https://www.nikkei.com/article/DGXZQOUB1532C0V10C26A4000000/"
     },
     {
       "date": "2026-05-22",
@@ -217,6 +247,30 @@
       "source": "Nikkei",
       "title": "AI「ミュトス」アクセス権、政府・金融機関に付与　片山金融相が表明",
       "url": "https://www.nikkei.com/article/DGXZQOUB223F00S6A520C2000000/"
+    },
+    {
+      "date": "2026-05-22",
+      "source": "PPC",
+      "title": "会見概要",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai295/kaiken_gaiyo295.pdf"
+    },
+    {
+      "date": "2026-05-22",
+      "source": "Nikkei",
+      "title": "秋田銀行、中計目標を上方修正　28年3月期に連結純利益100億円以上",
+      "url": "https://www.nikkei.com/article/DGXZQOCC224GB0S6A520C2000000/"
+    },
+    {
+      "date": "2026-05-22",
+      "source": "Nikkei",
+      "title": "英銀スタンチャートCEO「価値の低い人的資本」発言を謝罪　AI活用巡り",
+      "url": "https://www.nikkei.com/article/DGXZQOUB22CBQ0S6A520C2000000/"
+    },
+    {
+      "date": "2026-05-22",
+      "source": "Nikkei",
+      "title": "日銀・植田総裁、高市首相と会談　金融政策めぐり「有益な意見交換」",
+      "url": "https://www.nikkei.com/article/DGXZQOUA229PK0S6A520C2000000/"
     },
     {
       "date": "2026-05-21",
@@ -293,32 +347,8 @@
     {
       "date": "2026-05-21",
       "source": "Nikkei",
-      "title": "欧米の金融、人よりAI優先に　JPモルガンCEO「バンカー採用は縮小」",
-      "url": "https://www.nikkei.com/article/DGXZQOCD21CAV0R20C26A5000000/"
-    },
-    {
-      "date": "2026-05-21",
-      "source": "Nikkei",
-      "title": "銀行株、早期利上げ観測で上昇　りそなHD5%高",
-      "url": "https://www.nikkei.com/article/DGXZQOUB216JL0R20C26A5000000/"
-    },
-    {
-      "date": "2026-05-21",
-      "source": "Nikkei",
-      "title": "農林中金が2期ぶり最終黒字1200億円　26年3月期、運用改善で",
-      "url": "https://www.nikkei.com/article/DGXZQOUB215OI0R20C26A5000000/"
-    },
-    {
-      "date": "2026-05-21",
-      "source": "Nikkei",
-      "title": "楽天銀行がストップ安　金融事業再編で希薄化を懸念",
-      "url": "https://www.nikkei.com/article/DGXZQOUB215D00R20C26A5000000/"
-    },
-    {
-      "date": "2026-05-21",
-      "source": "Nikkei",
-      "title": "あなたの会社買収→社長は20代の私　個人版ファンド、起業の新潮流に",
-      "url": "https://www.nikkei.com/article/DGXZQOUB111GP0R10C26A5000000/"
+      "title": "HSホールディングス社長に松村恭也氏",
+      "url": "https://www.nikkei.com/article/DGXZQOUB217RN0R20C26A5000000/"
     },
     {
       "date": "2026-05-21",
@@ -329,56 +359,44 @@
     {
       "date": "2026-05-21",
       "source": "Nikkei",
-      "title": "HSホールディングス社長に松村恭也氏",
-      "url": "https://www.nikkei.com/article/DGXZQOUB217RN0R20C26A5000000/"
+      "title": "楽天銀行がストップ安　金融事業再編で希薄化を懸念",
+      "url": "https://www.nikkei.com/article/DGXZQOUB215D00R20C26A5000000/"
     },
     {
       "date": "2026-05-21",
       "source": "Nikkei",
-      "title": "フランス中銀次期総裁、議会が承認　マクロン大統領が指名",
-      "url": "https://www.nikkei.com/article/DGXZQOGR2105U0R20C26A5000000/"
-    },
-    {
-      "date": "2026-05-21",
-      "source": "JPEA",
-      "title": "AVCJプライベート・エクイティフォーラム ジャパン 2026、マージャーマーケットM&Aフォーラム ジャパン 2026のご案内",
-      "url": "https://jpea.group/2026/05/21/avcj-private-equity-forum-japan-2026/"
+      "title": "農林中金が2期ぶり最終黒字1200億円　26年3月期、運用改善で",
+      "url": "https://www.nikkei.com/article/DGXZQOUB215OI0R20C26A5000000/"
     },
     {
       "date": "2026-05-21",
       "source": "Nikkei",
-      "title": "オリックスとカタール投資庁ファンド、システム会社買収　数百億円",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1881R0Y6A510C2000000/"
+      "title": "銀行株、早期利上げ観測で上昇　りそなHD5%高",
+      "url": "https://www.nikkei.com/article/DGXZQOUB216JL0R20C26A5000000/"
     },
     {
       "date": "2026-05-21",
       "source": "Nikkei",
-      "title": "日本相互証券社長に牛島真丞氏",
-      "url": "https://www.nikkei.com/article/DGXZQOUB2166F0R20C26A5000000/"
+      "title": "欧米の金融、人よりAI優先に　JPモルガンCEO「バンカー採用は縮小」",
+      "url": "https://www.nikkei.com/article/DGXZQOCD21CAV0R20C26A5000000/"
     },
     {
       "date": "2026-05-21",
       "source": "Nikkei",
-      "title": "筑邦銀行が6.0%賃上げ　6月から、4年連続ベア",
-      "url": "https://www.nikkei.com/article/DGXZQOJC215CX0R20C26A5000000/"
-    },
-    {
-      "date": "2026-05-21",
-      "source": "Nikkei",
-      "title": "燃料高騰や航路閉鎖など複合危機に警戒　ECB元総裁トリシェ氏",
-      "url": "https://www.nikkei.com/article/DGXZQOGR01BGX0R00C26A5000000/"
-    },
-    {
-      "date": "2026-05-21",
-      "source": "Nikkei",
-      "title": "SBIグループ、地方創生で新会社　地域の名品をブランド化",
-      "url": "https://www.nikkei.com/article/DGXZQOUB18A4J0Y6A510C2000000/"
+      "title": "あなたの会社買収→社長は20代の私　個人版ファンド、起業の新潮流に",
+      "url": "https://www.nikkei.com/article/DGXZQOUB111GP0R10C26A5000000/"
     },
     {
       "date": "2026-05-21",
       "source": "Nikkei",
       "title": "トモニHD、26年に「防災士」150人超　被災先の金融支援へ計画",
       "url": "https://www.nikkei.com/article/DGXZQOCC210NO0R20C26A5000000/"
+    },
+    {
+      "date": "2026-05-21",
+      "source": "JPEA",
+      "title": "AVCJプライベート・エクイティフォーラム ジャパン 2026、マージャーマーケットM&Aフォーラム ジャパン 2026のご案内",
+      "url": "https://jpea.group/2026/05/21/avcj-private-equity-forum-japan-2026/"
     },
     {
       "date": "2026-05-20",
@@ -412,6 +430,12 @@
     },
     {
       "date": "2026-05-20",
+      "source": "PPC",
+      "title": "議事要旨",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai295/gijiyoshi295.pdf"
+    },
+    {
+      "date": "2026-05-20",
       "source": "BOJ",
       "title": "報告省令レート（6月分）",
       "url": "http://www.boj.or.jp/about/services/tame/tame_rate/syorei/hou2606.htm"
@@ -421,12 +445,6 @@
       "source": "BOJ",
       "title": "基準外国為替相場及び裁定外国為替相場（6月分）",
       "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2606.htm"
-    },
-    {
-      "date": "2026-05-20",
-      "source": "PPC",
-      "title": "議事要旨",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai295/gijiyoshi295.pdf"
     },
     {
       "date": "2026-05-19",
@@ -461,14 +479,14 @@
     {
       "date": "2026-05-19",
       "source": "JVCA",
-      "title": "ベンチャーキャピタリスト育成事業",
-      "url": "https://jvca.jp/news/10762.html"
+      "title": "スタートアップ経営株主への 「ミニマムタックス」強化に関する緊急調査結果のご報告　～ 強い経済をつくるためのスタートアップ政策と整合性ある税制改正の実現を～令和8(2026)年度税制改正においては、令和7(2025)年から適用されている「極めて高い水準の所得に対する負担の適正化措置」(「ミニマムタックス」)の更なる課税強化が決定されました。国際的にスタートアップ株式の譲渡所得が突出して重い水準...",
+      "url": "https://jvca.jp/news/45632.html"
     },
     {
       "date": "2026-05-19",
-      "source": "PPC",
-      "title": "議事要旨",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai294/gijiyoshi294.pdf"
+      "source": "JVCA",
+      "title": "ベンチャーキャピタリスト育成事業",
+      "url": "https://jvca.jp/news/10762.html"
     },
     {
       "date": "2026-05-19",
@@ -478,9 +496,9 @@
     },
     {
       "date": "2026-05-19",
-      "source": "JVCA",
-      "title": "スタートアップ経営株主への 「ミニマムタックス」強化に関する緊急調査結果のご報告　～ 強い経済をつくるためのスタートアップ政策と整合性ある税制改正の実現を～令和8(2026)年度税制改正においては、令和7(2025)年から適用されている「極めて高い水準の所得に対する負担の適正化措置」(「ミニマムタックス」)の更なる課税強化が決定されました。国際的にスタートアップ株式の譲渡所得が突出して重い水準...",
-      "url": "https://jvca.jp/news/45632.html"
+      "source": "PPC",
+      "title": "議事要旨",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai294/gijiyoshi294.pdf"
     },
     {
       "date": "2026-05-18",
@@ -523,30 +541,6 @@
       "source": "PPC",
       "title": "議事録",
       "url": "https://www.yuseimineika.go.jp/iinkai/dai292/gijiroku292.pdf"
-    },
-    {
-      "date": "2026-05-17",
-      "source": "BOJ",
-      "title": "「預金者別預金」（2026年3月）等の公表について",
-      "url": "http://www.boj.or.jp/statistics/outline/notice_2026/not260518a.htm"
-    },
-    {
-      "date": "2026-05-17",
-      "source": "METI",
-      "title": "赤澤経済産業大臣がオコンジョ＝イウェアラWTO（世界貿易機関）事務局長と会談を行いました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260518004/20260518004.html"
-    },
-    {
-      "date": "2026-05-17",
-      "source": "METI",
-      "title": "赤澤経済産業大臣がブラジル連邦共和国のヴィエイラ外務大臣と会談を行いました",
-      "url": "https://www.meti.go.jp/press/2026/05/20260518003/20260518003.html"
-    },
-    {
-      "date": "2026-05-16",
-      "source": "BOJ",
-      "title": "【講演】氷見野副総裁「通貨の単一性と中央銀行の役割」（日本金融学会）",
-      "url": "http://www.boj.or.jp/about/press/koen_2026/ko260516a.htm"
     }
   ]
 }

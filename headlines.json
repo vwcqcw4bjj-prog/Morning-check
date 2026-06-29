@@ -1,18 +1,180 @@
 {
-  "updated_at": "2026/06/29 06:52 JST",
-  "count": 94,
+  "updated_at": "2026/06/30 06:49 JST",
+  "count": 144,
   "headlines": [
     {
-      "date": "2026-06-28",
+      "date": "2026-06-29",
+      "source": "BOJ",
+      "title": "（日銀レビュー）日本銀行が参加するアジアの国際会議の発展と深化",
+      "url": "http://www.boj.or.jp/research/wps_rev/rev_2026/rev26j09.htm"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "BOJ",
+      "title": "国債市場の流動性指標（5月）",
+      "url": "http://www.boj.or.jp/paym/bond/ryudo.pdf"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "METI",
+      "title": "広告業における取適法違反被疑事件の集中調査の結果を公表します",
+      "url": "https://www.meti.go.jp/press/2026/06/20260629001/20260629001.html"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "METI",
+      "title": "令和8年6月24日からの大雨に伴う災害に関して被災中小企業・小規模事業者支援措置を行います【第2報】",
+      "url": "https://www.meti.go.jp/press/2026/06/20260629002/20260629002.html"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "FSA",
+      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年６月26日）について掲載しました。",
+      "url": "https://www.fsa.go.jp/common/conference/minister/2026a/20260626-1.html"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "FSA",
+      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣ぶら下がり記者会見の概要（令和８年６月24日）について掲載しました。",
+      "url": "https://www.fsa.go.jp/common/conference/minister/2026a/20260624-1.html"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "FSA",
+      "title": "その他,無登録で金融商品取引業を行う者の名称等について更新しました。",
+      "url": "https://www.fsa.go.jp/ordinary/chuui/mutouroku.html"
+    },
+    {
+      "date": "2026-06-29",
       "source": "Nikkei",
-      "title": "AIブーム、過剰投資は「逆回転のリスク高める」　BISが警鐘",
-      "url": "https://www.nikkei.com/article/DGXZQOGR2833R0Y6A620C2000000/"
+      "title": "未来語らぬウォーシュ新FRB議長　「発信より分析集中」に市場身構え",
+      "url": "https://www.nikkei.com/article/DGXZQOGN22BAO0S6A620C2000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "ラガルドECB総裁、政策金利「慎重に調整」　急速な利上げには否定的",
+      "url": "https://www.nikkei.com/article/DGXZQOGR24CX90U6A620C2000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "「将来性」担保の新型融資、関西でも始動　枚方信金など目利き力磨く",
+      "url": "https://www.nikkei.com/article/DGXZQOUF159M30V10C26A6000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "日本ドライTOB、物言う運用会社が求めた長期目線　「隠れAI」評価で溝",
+      "url": "https://www.nikkei.com/article/DGXZQOUB26CUX0W6A620C2000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "オリコ、中小加盟店向け資金管理アプリ提供開始　調達まで一貫支援",
+      "url": "https://www.nikkei.com/article/DGXZQOUB235NL0T20C26A6000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "全信組連会長に大東京信組の柳沢会長兼理事長が就任　13年ぶり交代",
+      "url": "https://www.nikkei.com/article/DGXZQOUB298DL0Z20C26A6000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "三菱UFJ銀行、全拠点に血圧計　健康経営へ従業員3万人の測定後押し",
+      "url": "https://www.nikkei.com/article/DGXZQOUB293540Z20C26A6000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "冷めぬ買収ファンドの「日本熱」、米欧中堅も進出　事業分離に商機",
+      "url": "https://www.nikkei.com/article/DGXZQOUB26B7Y0W6A620C2000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "ティアフォー7月上場へ　日本発の自動運転、NVIDIA拡張で埋没懸念",
+      "url": "https://www.nikkei.com/article/DGXZQOUC252LK0V20C26A6000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "伊予銀行、日立製作所から和解金60億円　勘定系システム開発中止で",
+      "url": "https://www.nikkei.com/article/DGXZQOCC296W50Z20C26A6000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "四国銀行、法人向けスマホアプリ提供",
+      "url": "https://www.nikkei.com/article/DGXZQOCC294VG0Z20C26A6000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "マネフォ系資金管理会社、三井住友信託などから10億円調達　富裕層向け",
+      "url": "https://www.nikkei.com/article/DGXZQOUB294CY0Z20C26A6000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "沖縄銀行、PFI推進機構と連携協定　公共インフラの更新を後押し",
+      "url": "https://www.nikkei.com/article/DGXZQOJC294A00Z20C26A6000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "イオン銀やPayPay銀などネット銀4社、住宅ローン不正防止で連携",
+      "url": "https://www.nikkei.com/article/DGXZQOUB267B20W6A620C2000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "みなと銀行、商業施設に出店で相続に的　事業承継支援ではファンド",
+      "url": "https://www.nikkei.com/article/DGXZQOUF224T60S6A620C2000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "京都北都信用金庫、外国為替業務の取り扱い終了　27年1月29日",
+      "url": "https://www.nikkei.com/article/DGXZQOUF264110W6A620C2000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "大成建設、過去最大の融資枠3000億円　大型工事や中小支援で資金需要",
+      "url": "https://www.nikkei.com/article/DGXZQOUB252HJ0V20C26A6000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "政投銀九州支店長に森正則氏　「九州を成長生み続ける場所に」",
+      "url": "https://www.nikkei.com/article/DGXZQOJC24AIT0U6A620C2000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "日銀利上げ「評価する」58% 「評価しない」29%　日経世論調査",
+      "url": "https://www.nikkei.com/article/DGXZQOUA282BR0Y6A620C2000000/"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "Nikkei",
+      "title": "大企業製造業の景況感、悪化か　日銀6月短観の民間予測",
+      "url": "https://www.nikkei.com/article/DGXZQOUB239AM0T20C26A6000000/"
     },
     {
       "date": "2026-06-28",
       "source": "Nikkei",
       "title": "ネット銀、夏の定期預金1%台に　メガバンクのポイント攻勢で競争激化",
       "url": "https://www.nikkei.com/article/DGXZQOUB2112C0R20C26A6000000/"
+    },
+    {
+      "date": "2026-06-28",
+      "source": "Nikkei",
+      "title": "AIブーム、過剰投資は「逆回転のリスク高める」　BISが警鐘",
+      "url": "https://www.nikkei.com/article/DGXZQOGR2833R0Y6A620C2000000/"
     },
     {
       "date": "2026-06-27",
@@ -59,14 +221,14 @@
     {
       "date": "2026-06-26",
       "source": "FSA",
-      "title": "「経営者保証に関するガイドライン」等の活用実績について（2025年度の実績）公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/ginkou/20260626/20260626.html"
+      "title": "「金融商品取引法施行令第七条第五項第二号の規定に基づき電子情報処理組織を指定する件」の一部改正について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r7/shouken/20260626-2/20260626-2.html"
     },
     {
       "date": "2026-06-26",
       "source": "FSA",
-      "title": "企業会計審議会第１回サステナビリティ情報保証部会議事録について掲載しました。",
-      "url": "https://www.fsa.go.jp/singi/singi_kigyou/gijiroku/hoshou/20260525.html"
+      "title": "「経営者保証に関するガイドライン」等の活用実績について（2025年度の実績）公表しました。",
+      "url": "https://www.fsa.go.jp/news/r7/ginkou/20260626/20260626.html"
     },
     {
       "date": "2026-06-26",
@@ -77,14 +239,14 @@
     {
       "date": "2026-06-26",
       "source": "FSA",
-      "title": "「金融商品取引法施行令第七条第五項第二号の規定に基づき電子情報処理組織を指定する件」の一部改正について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/shouken/20260626-2/20260626-2.html"
+      "title": "企業会計審議会第１回サステナビリティ情報保証部会議事録について掲載しました。",
+      "url": "https://www.fsa.go.jp/singi/singi_kigyou/gijiroku/hoshou/20260525.html"
     },
     {
       "date": "2026-06-26",
       "source": "FSA",
-      "title": "認可法人の役職員の給与水準（令和７年度分）について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/sonota/20260626-2/20260626.html"
+      "title": "「犯罪による収益の移転防止に関する法律施行規則の一部を改正する命令」の公布等及びパブリックコメントの結果等について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r7/sonota/20260626/20260626.html"
     },
     {
       "date": "2026-06-26",
@@ -95,14 +257,14 @@
     {
       "date": "2026-06-26",
       "source": "FSA",
-      "title": "「犯罪による収益の移転防止に関する法律施行規則の一部を改正する命令」の公布等及びパブリックコメントの結果等について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/sonota/20260626/20260626.html"
+      "title": "認可法人の役職員の給与水準（令和７年度分）について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r7/sonota/20260626-2/20260626.html"
     },
     {
       "date": "2026-06-26",
-      "source": "METI",
-      "title": "「新たな世界を切り開く玩具産業企業20選」の選定企業を決定しました",
-      "url": "https://www.meti.go.jp/press/2026/06/20260626001/20260626001.html"
+      "source": "BOJ",
+      "title": "令和8年6月24日からの大雨に伴う災害等に対する金融上の措置について（福岡県）",
+      "url": "http://www.boj.or.jp/about/bcp/fso/fso260626a.pdf"
     },
     {
       "date": "2026-06-26",
@@ -112,9 +274,9 @@
     },
     {
       "date": "2026-06-26",
-      "source": "BOJ",
-      "title": "令和8年6月24日からの大雨に伴う災害等に対する金融上の措置について（福岡県）",
-      "url": "http://www.boj.or.jp/about/bcp/fso/fso260626a.pdf"
+      "source": "METI",
+      "title": "「新たな世界を切り開く玩具産業企業20選」の選定企業を決定しました",
+      "url": "https://www.meti.go.jp/press/2026/06/20260626001/20260626001.html"
     },
     {
       "date": "2026-06-26",
@@ -148,9 +310,93 @@
     },
     {
       "date": "2026-06-26",
-      "source": "Nikkei",
-      "title": "群馬銀行、若手・後継「育成塾」　堀江専務「実践の場として活用を」",
-      "url": "https://www.nikkei.com/article/DGXZQOCC251M10V20C26A6000000/"
+      "source": "第一地銀",
+      "title": "[広島銀行] 「〈ひろぎん〉サステナビリティ経営導入サポートサービス」のご利用について［共進株式会社］",
+      "url": "https://www.hirogin.co.jp/ir/news/paper/news260626-3.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[スルガ銀行] アパマン問題の解決に向けた進捗状況について（2026年6月20日時点）",
+      "url": "https://www.surugabank.co.jp/surugabank/kojin/topics/pdf/260626.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[紀陽銀行] 譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "url": "https://www.kiyobank.co.jp/personal/get_pdf.php?f=00003217"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[紀陽銀行] 新役員体制について",
+      "url": "https://www.kiyobank.co.jp/personal/get_pdf.php?f=00003216"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[紀陽銀行] 地域の脱炭素化の実現に向けた取り組み〜有田川町および株式会社バイウィルとの３者連携協定締結について〜",
+      "url": "https://www.kiyobank.co.jp/personal/get_pdf.php?f=00003214"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[池田泉州銀行] イノベーションファンド25Next による株式会社SkyDrive への投資実行について",
+      "url": "https://www.sihd-bk.jp/fresh_news/0000002851/pdf/fresh.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[京都銀行] 京都銀行 役員異動および主要人事異動のお知らせ",
+      "url": "https://www.kyotobank.co.jp/news/2026/0626_01.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[福井銀行] 株式会社シマキュウさま 銀行保証付き私募債「ふくぎんSDGs私募債（寄付先支援型）」の引受けについて",
+      "url": "https://www.fukuibank.co.jp/info/2026/sdgsshibosai_shimakyu.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[大垣共立銀行] 「OKBクイックプラザ今小町」の新設",
+      "url": "https://www.okb.co.jp/archive/2026/20260626-02.html"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[八十二長野銀行] 譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "url": "https://bank.82group.jp/file.jsp?id=release/2026/pdf/news20260626_1.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[福井銀行] 志摩機械株式会社さま 銀行保証付き私募債「ふくぎんSDGs私募債（寄付先支援型）」の引受けについて",
+      "url": "https://www.fukuibank.co.jp/info/2026/sdgsshibosai_shimakikai.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[福井銀行] 「夏のキャンペーン『特別金利定期預金』と『お子さま普通預金口座開設でプレゼント』」の実施について",
+      "url": "https://www.fukuibank.co.jp/info/2026/campaign_natsu2026.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[福井銀行] 「ふくぎんSDGs私募債(寄付先支援型)」受託に係る寄贈式の開催について（株式会社HITさま 2026年2月16日発行分）",
+      "url": "https://www.fukuibank.co.jp/info/2026/sdgsshibosai_kizou_hit.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[北陸銀行] インドの規制環境を読み解くセミナー「円滑な市場参入とコンプライアンス対応への第一歩」を開催しました",
+      "url": "https://www.hokugin.co.jp/info/files/pdf/260626.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[中国銀行] 「おかやまハレバレ電子納税キャンペーン」スタート",
+      "url": "https://www.chugin.co.jp/news/3456.html"
     },
     {
       "date": "2026-06-26",
@@ -160,57 +406,27 @@
     },
     {
       "date": "2026-06-26",
-      "source": "Nikkei",
-      "title": "監視委、I−neに課徴金勧告　商標権巡り不正開示",
-      "url": "https://www.nikkei.com/article/DGXZQOUB266G40W6A620C2000000/"
+      "source": "第一地銀",
+      "title": "[広島銀行] 「〈ひろぎん〉サステナビリティ経営導入サポートサービス」のご利用について［有限会社藤井鉄工所］",
+      "url": "https://www.hirogin.co.jp/ir/news/paper/news260626-4.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[肥後銀行] ローカル・ゼブラ預金の募集総額到達のお知らせ",
+      "url": "https://www.higobank.co.jp/article/newsrelease/files/49d7c33b1b02bf32caa6d7a955a43e8d0b461728.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[山梨中央銀行] 臨時報告書",
+      "url": "https://www.yamanashibank.co.jp/assets/files/K20260626_rh.pdf"
     },
     {
       "date": "2026-06-26",
       "source": "Nikkei",
-      "title": "京都信用金庫の純利益42%増　26年3月期、金利上げで利息収入伸びる",
-      "url": "https://www.nikkei.com/article/DGXZQOUF266WD0W6A620C2000000/"
-    },
-    {
-      "date": "2026-06-26",
-      "source": "Nikkei",
-      "title": "個人の資産運用、AIチャットで完結　銀行28社連合が28年度にも実現へ",
-      "url": "https://www.nikkei.com/article/DGXZQOUB246DY0U6A620C2000000/"
-    },
-    {
-      "date": "2026-06-26",
-      "source": "Nikkei",
-      "title": "第一生命、企業買収向け融資を組成へ　国内生保で初認可",
-      "url": "https://www.nikkei.com/article/DGXZQOUB2612K0W6A620C2000000/"
-    },
-    {
-      "date": "2026-06-26",
-      "source": "Nikkei",
-      "title": "今村証券、投資家層拡大へVポイント導入　情報提供も効率化",
-      "url": "https://www.nikkei.com/article/DGXZQOCC264H70W6A620C2000000/"
-    },
-    {
-      "date": "2026-06-26",
-      "source": "Nikkei",
-      "title": "新潟県、日本IBM・第四北越FGとDX連携協定を締結",
-      "url": "https://www.nikkei.com/article/DGXZQOCC2688V0W6A620C2000000/"
-    },
-    {
-      "date": "2026-06-26",
-      "source": "Nikkei",
-      "title": "宮崎銀行系が自動車寄付、被災者の「足」に　リース終了車両活用",
-      "url": "https://www.nikkei.com/article/DGXZQOJC259F60V20C26A6000000/"
-    },
-    {
-      "date": "2026-06-26",
-      "source": "Nikkei",
-      "title": "群馬銀行・東和銀行も普通預金金利0.4%に　短プラも引き上げ",
-      "url": "https://www.nikkei.com/article/DGXZQOCC266YL0W6A620C2000000/"
-    },
-    {
-      "date": "2026-06-26",
-      "source": "Nikkei",
-      "title": "群馬のアイオー信用金庫、26年3月期は32億円の最終赤字　債券売却損で",
-      "url": "https://www.nikkei.com/article/DGXZQOCC25CM60V20C26A6000000/"
+      "title": "次の利上げ、はや思惑交錯　田村審議委員は到達点「2%」明示",
+      "url": "https://www.nikkei.com/article/DGXZQOUB253250V20C26A6000000/"
     },
     {
       "date": "2026-06-26",
@@ -221,20 +437,206 @@
     {
       "date": "2026-06-26",
       "source": "Nikkei",
-      "title": "次の利上げ、はや思惑交錯　田村審議委員は到達点「2%」明示",
-      "url": "https://www.nikkei.com/article/DGXZQOUB253250V20C26A6000000/"
+      "title": "群馬のアイオー信用金庫、26年3月期は32億円の最終赤字　債券売却損で",
+      "url": "https://www.nikkei.com/article/DGXZQOCC25CM60V20C26A6000000/"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "Nikkei",
+      "title": "群馬銀行・東和銀行も普通預金金利0.4%に　短プラも引き上げ",
+      "url": "https://www.nikkei.com/article/DGXZQOCC266YL0W6A620C2000000/"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[沖縄銀行] 2026年台風7号を「自然災害復旧支援資金」の融資対象災害に追加指定いたします",
+      "url": "https://www.okinawa-bank.co.jp/news_release/2026062600024/"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[筑邦銀行] ミニディスクロージャー誌/第102期営業のご報告発行",
+      "url": "https://www.chikugin.co.jp/about/ir/ir_mini_disclosure/"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[広島銀行] 公益信託「サニクリーン中国 環境美化基金」2026年度助成先の決定について",
+      "url": "https://www.hirogin.co.jp/ir/news/paper/news260626-2.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[四国銀行] 本部機構の改正",
+      "url": "https://www.shikokubank.co.jp/newsrelease/assets/20260626.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[伊予銀行] 神戸支店建替えに伴う仮店舗移転について",
+      "url": "https://www.iyobank.co.jp/press-release/2026/__icsFiles/afieldfile/2026/06/26/26-071.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[伊予銀行] 津久見支店建替えに伴う仮店舗移転について",
+      "url": "https://www.iyobank.co.jp/press-release/2026/__icsFiles/afieldfile/2026/06/26/26-070.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[伊予銀行] 大阪北支店建替えに伴う仮店舗移転について",
+      "url": "https://www.iyobank.co.jp/press-release/2026/__icsFiles/afieldfile/2026/06/26/26-072.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[阿波銀行] 「あわぎん創業１３０周年記念 定期預金ありがとうキャンペーン２０２６」 取扱総額の追加および取扱期間の変更について",
+      "url": "https://www.awabank.co.jp/kojin/news/2026/news20260626a/"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[広島銀行] 広島県内11金融機関合同「電子納税キャンペーン」実施について",
+      "url": "https://www.hirogin.co.jp/ir/news/paper/news260626-1.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[八十二長野銀行] 「信州ベンチャーコンテスト2026」の開催と発表者募集について",
+      "url": "https://bank.82group.jp/file.jsp?id=release/2026/pdf/news20260626.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[常陽銀行] 子育て世帯の資産形成を支援！「子育て応援定期」エントリー件数が3,000件に到達",
+      "url": "https://pdf.irpocket.com/C8333/WvLb/ZLQp/LUOx.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[第四北越銀行] 「地域プラットフォーム」の設立およびキックオフミーティングの開催について",
+      "url": "https://www.dhbk.co.jp/news/1202761_2128.html"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[常陽銀行] 「SDGs宣言 フォローアップセミナー」の開催について",
+      "url": "https://pdf.irpocket.com/C8333/WvLb/ZLQp/Hc9V.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[第四北越銀行] 「SDGsリンク・ファイナンス」2026年5月の取組案件について",
+      "url": "https://www.dhbk.co.jp/news/1202760_2128.html"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[北海道銀行] 「がんばれレバンガ定期預金」における寄付金の贈呈について",
+      "url": "https://www.hokkaidobank.co.jp/business/news/uploads/4393ad6b931c9869a9827f70aaa9c62c.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[北海道銀行] 株式会社Seaplusと「ポジティブ・インパクト・ファイナンス」の契約を締結",
+      "url": "https://www.hokkaidobank.co.jp/business/news/uploads/603f30bb340da018b067744546c0870e.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[青森みちのく銀行] 2026年11月の店舗統合（移転）について（石江支店兼石江新城支店、三内支店）",
+      "url": "https://www.am-bk.co.jp/news/2026/06/202611.html"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[青森みちのく銀行] 2026年6月25日の岩手県沖を震源とする地震被害に関する災害復旧融資の取扱開始について",
+      "url": "https://www.am-bk.co.jp/news/2026/06/2026625.html"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[七十七銀行] 「ミニディスクロージャー誌」の発行について",
+      "url": "https://www.77bank.co.jp/pdf/newsrelease/2026/26062601_minidisclosure.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[七十七銀行] 資産形成をテーマとしたセミナーの開催について",
+      "url": "https://www.77bank.co.jp/pdf/newsrelease/2026/26062602_seminar.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[東邦銀行] 譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "url": "https://www.tohobank.co.jp/cms_source/data/newsrelease/files/20260626.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "Nikkei",
+      "title": "新潟県、日本IBM・第四北越FGとDX連携協定を締結",
+      "url": "https://www.nikkei.com/article/DGXZQOCC2688V0W6A620C2000000/"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[群馬銀行] 人材紹介事業のバリエーション強化による取組状況について〜多様化するニーズに対応し、中期経営計画の目標件数の約5割に到達〜",
+      "url": "https://www.gunmabank.co.jp/info/news/20260626d.html"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[横浜銀行] 株式会社小田急SCディベロップメント主催「キッズおしごと体験イベント2026」への参画について〜新百合ヶ丘エルミロード・本厚木ミロードの2拠点で「おかねの教室」を実施します〜",
+      "url": "https://ssl4.eir-parts.net/doc/7186/ir_material33/281437/00.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[群馬銀行] 円預金金利および短期プライムレートの引上げについて",
+      "url": "https://www.gunmabank.co.jp/info/news/20260626a.html"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[群馬銀行] 群馬県における口座振替関連サービスに関わる公募型プロポーザルの受託について〜群馬県税および公立高校授業料などの口座振替受付手続きがオンラインで可能に〜",
+      "url": "https://www.gunmabank.co.jp/info/news/20260626b.html"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[武蔵野銀行] 「埼玉西武ライオンズ応援定期預金2026」の取扱開始について",
+      "url": "https://www.musashinobank.co.jp/ir/news/pdf/2026/lionesouennteiki2060626.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[千葉銀行] 「2026/2027 Ｊリーグプレシーズンマッチ 第31回ちばぎんカップ〜ジェフユナイテッド市原・千葉 VS 柏レイソル〜」への特別協賛について ＜2026年8月1日（土）19時00分 キックオフ＞",
+      "url": "https://www.chibabank.co.jp/news/news20260626_01"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[千葉銀行] 譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "url": "https://www.chibabank.co.jp/news/news20260626_02"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[千葉興業銀行] 「お客さま本位の業務運営に関する取組方針」にかかる取組状況の公表",
+      "url": "https://www.chibakogyo-bank.co.jp/news/topics/assets/3109.pdf"
+    },
+    {
+      "date": "2026-06-26",
+      "source": "第一地銀",
+      "title": "[群馬銀行] 健康経営の取組みについて〜回答法人全体トップの偏差値を獲得、地域の健康経営オピニオンリーダーを目指す〜",
+      "url": "https://www.gunmabank.co.jp/info/news/20260626c.html"
     },
     {
       "date": "2026-06-25",
       "source": "METI",
       "title": "イタリア共和国企業・メイドインイタリー省とサプライチェーン強靭化に関する協力覚書に署名しました",
       "url": "https://www.meti.go.jp/press/2026/06/20260616003/20260616003.html"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "METI",
-      "title": "小森経済産業大臣政務官が「海外スタートアップ東証上場ワークショップ2026」に登壇しました",
-      "url": "https://www.meti.go.jp/press/2026/06/20260625001/20260625001.html"
     },
     {
       "date": "2026-06-25",
@@ -247,24 +649,6 @@
       "source": "FSA",
       "title": "国際関係,FATFによる市中協議文書「FATF改訂勧告16ガイダンス案」について公表しました。",
       "url": "https://www.fsa.go.jp/inter/fatf/20260624/20260626.html"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "FSA",
-      "title": "その他,審判手続状況一覧を更新しました。",
-      "url": "https://www.fsa.go.jp/policy/kachoukin/06.html"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "FSA",
-      "title": "講演等：金融庁",
-      "url": "https://www.fsa.go.jp/common/conference/danwa/index_kouen.html#Vice_Minister_for_International_Affairs"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "FSA",
-      "title": "ドゥラックアセットマネジメント株式会社に対する行政処分について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r7/shouken/20260625.html"
     },
     {
       "date": "2026-06-25",
@@ -317,12 +701,6 @@
     {
       "date": "2026-06-25",
       "source": "METI",
-      "title": "越智経済産業大臣政務官がゲックラー米日経済協議会会長一行による表敬を受けました",
-      "url": "https://www.meti.go.jp/press/2026/06/20260625003/20260625003.html"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "METI",
       "title": "井野経済産業副大臣が「チームカナダ・対日貿易ミッション」関連イベントに参加しました",
       "url": "https://www.meti.go.jp/press/2026/06/20260625004/20260625004.html"
     },
@@ -334,87 +712,27 @@
     },
     {
       "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "メキシコ中銀、3会合ぶりの金利据え置き　「利下げ終了」再度明言",
-      "url": "https://www.nikkei.com/article/DGXZQOGN25D6D0V20C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "武藤敏郎・元財務次官「米は政権内に対中パイプ役、日本にはいない」",
-      "url": "https://www.nikkei.com/article/DGXZQOUA229PC0S6A620C2000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "東和銀行前頭取「収益改善し成長を」　新頭取「リスク取り中小支える」",
-      "url": "https://www.nikkei.com/article/DGXZQOCC1728F0X10C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "JPモルガン、次期CEO候補に有力2人　ダイモン氏後継者選びが大詰め",
-      "url": "https://www.nikkei.com/article/DGXZQOGN25C0A0V20C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "美容サロン向けコスメのand US、福証プロ市場に7月上場へ",
-      "url": "https://www.nikkei.com/article/DGXZQOJC253Q50V20C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "衣料品販売のモデラートが4億円調達　地方都市での出店加速へ",
-      "url": "https://www.nikkei.com/article/DGXZQOCC259OR0V20C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "SBI新生銀行、島根銀・福島銀を持ち分法適用会社に　グループ内で移管",
-      "url": "https://www.nikkei.com/article/DGXZQOUB19C6Z0Z10C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "トヨタ、MS&AD株を約3000億円で全株売却　政策保有株削減を加速",
-      "url": "https://www.nikkei.com/article/DGXZQOFD256XA0V20C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "フジHD、SBIとメディア事業提携　独立路線転換しコンテンツ共同制作",
-      "url": "https://www.nikkei.com/article/DGXZQOUB250U70V20C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "米大手ステーブルコイン、日本企業向け参入へ　野村と組み外貨即時決済",
-      "url": "https://www.nikkei.com/article/DGXZQOUB23BJW0T20C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "ドゥラックアセットマネジメントに登録取り消し処分、関東財務局",
-      "url": "https://www.nikkei.com/article/DGXZQOUB257W00V20C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "GPIF、運用会社の対話実態を公表　事例共有で業界の底上げ狙う",
-      "url": "https://www.nikkei.com/article/DGXZQOUB255EK0V20C26A6000000/"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "Nikkei",
-      "title": "レオス退任の藤野氏「人生は二毛作」　スタートアップ育成へ再出発",
-      "url": "https://www.nikkei.com/article/DGXZQOUB195290Z10C26A6000000/"
+      "source": "JPEA",
+      "title": "第11回JPEAアウォード（2024年度）Exit賞受賞案件勉強会「カーライル・ジャパン・エルエルシーによる、リガク・ホールディングス株式会社への投資案件について」｜カーライル・ジャパン・エルエルシー　マネージングディレクター　寺阪 令司様",
+      "url": "https://jpea.group/2026/06/25/20260725/"
     },
     {
       "date": "2026-06-25",
       "source": "JPEA",
-      "title": "第11回JPEAアウォード（2024年度）Exit賞受賞案件勉強会「カーライル・ジャパン・エルエルシーによる、リガク・ホールディングス株式会社への投資案件について」｜カーライル・ジャパン・エルエルシー　マネージングディレクター　寺阪 令司様",
-      "url": "https://jpea.group/2026/06/25/20260725/"
+      "title": "横浜キャピタル株式会社 ： 新規投資のお知らせ（モデラート株式会社）",
+      "url": "https://jpea.group/2026/06/25/%e6%a8%aa%e6%b5%9c%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e6%96%b0%e8%a6%8f%e6%8a%95%e8%b3%87%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-6/"
+    },
+    {
+      "date": "2026-06-25",
+      "source": "第一地銀",
+      "title": "[岩手銀行] 「いわぎんサステナ応援ローン」の実行について（有限会社松田林業）",
+      "url": "https://www.iwatebank.co.jp/assets/pdf/20260625_sustainable.pdf"
+    },
+    {
+      "date": "2026-06-25",
+      "source": "第一地銀",
+      "title": "[岩手銀行] 「いわぎんサステナ応援ローン」の実行について（株式会社花兵衛本店）",
+      "url": "https://www.iwatebank.co.jp/assets/pdf/20260625_sustainable_2.pdf"
     },
     {
       "date": "2026-06-24",
@@ -427,6 +745,18 @@
       "source": "WSJ",
       "title": "電力巡るAI企業の競争、アマゾンとグーグルがリード",
       "url": "https://jp.wsj.com/articles/as-ai-companies-race-for-power-amazon-and-google-have-the-lead-312e48e8"
+    },
+    {
+      "date": "2026-06-24",
+      "source": "METI",
+      "title": "小森経済産業大臣政務官が「海外スタートアップ東証上場ワークショップ2026」に登壇しました",
+      "url": "https://www.meti.go.jp/press/2026/06/20260625001/20260625001.html"
+    },
+    {
+      "date": "2026-06-24",
+      "source": "METI",
+      "title": "越智経済産業大臣政務官がゲックラー米日経済協議会会長一行による表敬を受けました",
+      "url": "https://www.meti.go.jp/press/2026/06/20260625003/20260625003.html"
     },
     {
       "date": "2026-06-24",
@@ -467,14 +797,20 @@
     {
       "date": "2026-06-24",
       "source": "PPC",
+      "title": "配布資料",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai299/gijishidai.html"
+    },
+    {
+      "date": "2026-06-24",
+      "source": "PPC",
       "title": "会見のポイント",
       "url": "https://www.yuseimineika.go.jp/iinkai/dai299/kaiken_point299.pdf"
     },
     {
       "date": "2026-06-24",
-      "source": "PPC",
-      "title": "配布資料",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai299/gijishidai.html"
+      "source": "JPEA",
+      "title": "株式会社海外需要開拓支援機構 ： 構造タンパク質事業資産管理株式会社の株式譲渡について",
+      "url": "https://jpea.group/2026/06/24/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e6%b5%b7%e5%a4%96%e9%9c%80%e8%a6%81%e9%96%8b%e6%8b%93%e6%94%af%e6%8f%b4%e6%a9%9f%e6%a7%8b-%ef%bc%9a-%e6%a7%8b%e9%80%a0%e3%82%bf%e3%83%b3%e3%83%91%e3%82%af%e8%b3%aa/"
     },
     {
       "date": "2026-06-24",
@@ -493,12 +829,6 @@
       "source": "BOJ",
       "title": "金融政策決定会合における主な意見（6月15、16日開催分）",
       "url": "http://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi260616.pdf"
-    },
-    {
-      "date": "2026-06-23",
-      "source": "METI",
-      "title": "赤澤経済産業大臣がグロッシーIAEA事務局長と会談を行いました",
-      "url": "https://www.meti.go.jp/press/2026/06/20260623002/20260623002.html"
     },
     {
       "date": "2026-06-23",
@@ -535,36 +865,6 @@
       "source": "BOJ",
       "title": "営業毎旬報告（6月20日現在）",
       "url": "http://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac260620.htm"
-    },
-    {
-      "date": "2026-06-22",
-      "source": "METI",
-      "title": "赤澤経済産業大臣がウズベキスタン共和国のクドラートフ投資・産業・貿易大臣と会談を行いました",
-      "url": "https://www.meti.go.jp/press/2026/06/20260623001/20260623001.html"
-    },
-    {
-      "date": "2026-06-22",
-      "source": "METI",
-      "title": "山田経済産業副大臣がウクライナ（キーウ）を訪問します",
-      "url": "https://www.meti.go.jp/press/2026/06/20260623003/20260623003.html"
-    },
-    {
-      "date": "2026-06-22",
-      "source": "BOJ",
-      "title": "通貨及び金融の調節に関する報告書",
-      "url": "http://www.boj.or.jp/mopo/diet/d_report_2026/semi2606a.pdf"
-    },
-    {
-      "date": "2026-06-22",
-      "source": "WSJ",
-      "title": "米国人の経済不安、富裕層にも広がる　WSJ調査",
-      "url": "https://jp.wsj.com/articles/americas-economic-anxiety-is-rising-up-the-income-ladder-8bb4b462"
-    },
-    {
-      "date": "2026-06-22",
-      "source": "WSJ",
-      "title": "ウォーシュ新議長、初の試練は「AIブームの見極め」",
-      "url": "https://jp.wsj.com/articles/warshs-first-test-as-fed-chairman-reading-the-ai-boom-cd655edd"
     }
   ]
 }

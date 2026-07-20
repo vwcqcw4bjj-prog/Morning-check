@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026/07/20 06:03 JST",
-  "count": 65,
+  "updated_at": "2026/07/21 06:47 JST",
+  "count": 63,
   "headlines": [
+    {
+      "date": "2026-07-20",
+      "source": "Nikkei",
+      "title": "ECB、7月は利上げ見送りへ　インフレ減速で追加対応急がず",
+      "url": "https://www.nikkei.com/article/DGXZQOGR170BS0X10C26A7000000/"
+    },
+    {
+      "date": "2026-07-20",
+      "source": "Nikkei",
+      "title": "ゴールドマンCOO、日本経済「最大のリスクは円安」　日銀の対応注視",
+      "url": "https://www.nikkei.com/article/DGXZQOUB09CLD0Z00C26A7000000/"
+    },
     {
       "date": "2026-07-19",
       "source": "Nikkei",
@@ -23,26 +35,14 @@
     {
       "date": "2026-07-18",
       "source": "Nikkei",
-      "title": "「中央銀行vs政治」高まる緊迫度　日米欧、それぞれの独立性危機",
-      "url": "https://www.nikkei.com/article/DGXZQODK182010Y6A710C2000000/"
-    },
-    {
-      "date": "2026-07-18",
-      "source": "Nikkei",
       "title": "地銀・信金の与信管理、金融庁が点検へ　全東信破産でリスク精査",
       "url": "https://www.nikkei.com/article/DGXZQOUB16BJK0W6A710C2000000/"
     },
     {
-      "date": "2026-07-17",
-      "source": "FSA",
-      "title": "「公認会計士及び監査法人におけるマネー・ローンダリング、テロ資金供与及び拡散金融対策に関するガイドライン（案）」に対するパブリックコメントの結果等について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/sonota/20260717-3/20260717.html"
-    },
-    {
-      "date": "2026-07-17",
-      "source": "FSA",
-      "title": "「中小企業の事業再生等に関するガイドライン」の活用実績について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/ginkou/20260717-2/20260717-2.html"
+      "date": "2026-07-18",
+      "source": "Nikkei",
+      "title": "「中央銀行vs政治」高まる緊迫度　日米欧、それぞれの独立性危機",
+      "url": "https://www.nikkei.com/article/DGXZQODK182010Y6A710C2000000/"
     },
     {
       "date": "2026-07-17",
@@ -59,8 +59,14 @@
     {
       "date": "2026-07-17",
       "source": "FSA",
-      "title": "「保険会社向けの総合的な監督指針」等の一部改正（案）に対するパブリックコメントの結果等について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/sonota/20260717-2/20260717.html"
+      "title": "「公認会計士及び監査法人におけるマネー・ローンダリング、テロ資金供与及び拡散金融対策に関するガイドライン（案）」に対するパブリックコメントの結果等について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/sonota/20260717-3/20260717.html"
+    },
+    {
+      "date": "2026-07-17",
+      "source": "FSA",
+      "title": "「中小企業の事業再生等に関するガイドライン」の活用実績について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/ginkou/20260717-2/20260717-2.html"
     },
     {
       "date": "2026-07-17",
@@ -71,8 +77,14 @@
     {
       "date": "2026-07-17",
       "source": "FSA",
-      "title": "その他,「ESG評価・データ提供機関に係る行動規範」の受入れを表明した評価機関等リスト（令和８年６月30日時点）について公表しました。",
-      "url": "https://www.fsa.go.jp/singi/esg_hyouka/list.html"
+      "title": "「風水害リスクに関する金融機関の取組の動向や課題」について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/sonota/20260717/20260717.html"
+    },
+    {
+      "date": "2026-07-17",
+      "source": "FSA",
+      "title": "「保険会社向けの総合的な監督指針」等の一部改正（案）に対するパブリックコメントの結果等について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/sonota/20260717-2/20260717.html"
     },
     {
       "date": "2026-07-17",
@@ -83,8 +95,8 @@
     {
       "date": "2026-07-17",
       "source": "FSA",
-      "title": "「風水害リスクに関する金融機関の取組の動向や課題」について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/sonota/20260717/20260717.html"
+      "title": "その他,「ESG評価・データ提供機関に係る行動規範」の受入れを表明した評価機関等リスト（令和８年６月30日時点）について公表しました。",
+      "url": "https://www.fsa.go.jp/singi/esg_hyouka/list.html"
     },
     {
       "date": "2026-07-17",
@@ -113,26 +125,8 @@
     {
       "date": "2026-07-17",
       "source": "Nikkei",
-      "title": "大手監査法人は通年監視へ　監査審査会、会計不正増加で再発防止",
-      "url": "https://www.nikkei.com/article/DGXZQOUB176PR0X10C26A7000000/"
-    },
-    {
-      "date": "2026-07-17",
-      "source": "BOJ",
-      "title": "報告省令レート（8月分）",
-      "url": "http://www.boj.or.jp/about/services/tame/tame_rate/syorei/hou2608.htm"
-    },
-    {
-      "date": "2026-07-17",
-      "source": "BOJ",
-      "title": "基準外国為替相場及び裁定外国為替相場（8月分）",
-      "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2608.htm"
-    },
-    {
-      "date": "2026-07-17",
-      "source": "Nikkei",
-      "title": "「助っ人CxO」は元投資銀行バンカー　PEファンド買収先で改革実行",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1485Q0U6A710C2000000/"
+      "title": "生保協・隅野会長、代理店の社保逃れ問題「重く受け止め」",
+      "url": "https://www.nikkei.com/article/DGXZQOUB093LQ0Z00C26A7000000/"
     },
     {
       "date": "2026-07-17",
@@ -149,8 +143,26 @@
     {
       "date": "2026-07-17",
       "source": "Nikkei",
-      "title": "生保協・隅野会長、代理店の社保逃れ問題「重く受け止め」",
-      "url": "https://www.nikkei.com/article/DGXZQOUB093LQ0Z00C26A7000000/"
+      "title": "大手監査法人は通年監視へ　監査審査会、会計不正増加で再発防止",
+      "url": "https://www.nikkei.com/article/DGXZQOUB176PR0X10C26A7000000/"
+    },
+    {
+      "date": "2026-07-17",
+      "source": "Nikkei",
+      "title": "群馬銀行、東京駅近くのビル建て替え　29年5月完成目指す",
+      "url": "https://www.nikkei.com/article/DGXZQOCC1770P0X10C26A7000000/"
+    },
+    {
+      "date": "2026-07-17",
+      "source": "Nikkei",
+      "title": "欧州ファンドEQT、カカクコムのTOB価格引き上げ発表　1株3450円に",
+      "url": "https://www.nikkei.com/article/DGXZQOUB176W20X10C26A7000000/"
+    },
+    {
+      "date": "2026-07-17",
+      "source": "BOJ",
+      "title": "基準外国為替相場及び裁定外国為替相場（8月分）",
+      "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2608.htm"
     },
     {
       "date": "2026-07-17",
@@ -161,20 +173,20 @@
     {
       "date": "2026-07-17",
       "source": "Nikkei",
+      "title": "「助っ人CxO」は元投資銀行バンカー　PEファンド買収先で改革実行",
+      "url": "https://www.nikkei.com/article/DGXZQOUB1485Q0U6A710C2000000/"
+    },
+    {
+      "date": "2026-07-17",
+      "source": "Nikkei",
       "title": "銀行融資で「利ざや拡大」、17年ぶり高水準に　日銀調査",
       "url": "https://www.nikkei.com/article/DGXZQOUB136TB0T10C26A7000000/"
     },
     {
       "date": "2026-07-17",
-      "source": "Nikkei",
-      "title": "欧州ファンドEQT、カカクコムのTOB価格引き上げ発表　1株3450円に",
-      "url": "https://www.nikkei.com/article/DGXZQOUB176W20X10C26A7000000/"
-    },
-    {
-      "date": "2026-07-17",
-      "source": "Nikkei",
-      "title": "群馬銀行、東京駅近くのビル建て替え　29年5月完成目指す",
-      "url": "https://www.nikkei.com/article/DGXZQOCC1770P0X10C26A7000000/"
+      "source": "BOJ",
+      "title": "報告省令レート（8月分）",
+      "url": "http://www.boj.or.jp/about/services/tame/tame_rate/syorei/hou2608.htm"
     },
     {
       "date": "2026-07-16",
@@ -209,14 +221,26 @@
     {
       "date": "2026-07-16",
       "source": "Nikkei",
-      "title": "全銀協会長、防衛産業への投融資「国際条約を踏まえ判断」",
-      "url": "https://www.nikkei.com/article/DGXZQOUB160FI0W6A710C2000000/"
+      "title": "保険代理店で「社保逃れ」疑惑の連鎖　社労士がスキーム考案か",
+      "url": "https://www.nikkei.com/article/DGXZQOUB165IU0W6A710C2000000/"
     },
     {
       "date": "2026-07-16",
       "source": "Nikkei",
-      "title": "保険代理店で「社保逃れ」疑惑の連鎖　社労士がスキーム考案か",
-      "url": "https://www.nikkei.com/article/DGXZQOUB165IU0W6A710C2000000/"
+      "title": "群馬県の金融機関など、全東信破産で相談窓口　東和銀は代替決済案内",
+      "url": "https://www.nikkei.com/article/DGXZQOCC162D60W6A710C2000000/"
+    },
+    {
+      "date": "2026-07-16",
+      "source": "Nikkei",
+      "title": "三菱UFJ銀行、支店の空きスペースに高校生向け学習施設",
+      "url": "https://www.nikkei.com/article/DGXZQOUB15BXT0V10C26A7000000/"
+    },
+    {
+      "date": "2026-07-16",
+      "source": "Nikkei",
+      "title": "保険代理店とは　保険商品の販売組織、訪問型から来店型に",
+      "url": "https://www.nikkei.com/article/DGXZQOUB164CZ0W6A710C2000000/"
     },
     {
       "date": "2026-07-16",
@@ -251,44 +275,20 @@
     {
       "date": "2026-07-16",
       "source": "Nikkei",
-      "title": "岡山・真庭市が農業支援会社、パソナや中国銀と　営農支援や販路開拓",
-      "url": "https://www.nikkei.com/article/DGXZQOCC15A120V10C26A7000000/"
-    },
-    {
-      "date": "2026-07-16",
-      "source": "Nikkei",
       "title": "米フィンテックのアルパカ、220億円調達　インドで事業拡大",
       "url": "https://www.nikkei.com/article/DGXZQOGN166PN0W6A710C2000000/"
     },
     {
       "date": "2026-07-16",
       "source": "Nikkei",
-      "title": "保険代理店とは　保険商品の販売組織、訪問型から来店型に",
-      "url": "https://www.nikkei.com/article/DGXZQOUB164CZ0W6A710C2000000/"
+      "title": "岡山・真庭市が農業支援会社、パソナや中国銀と　営農支援や販路開拓",
+      "url": "https://www.nikkei.com/article/DGXZQOCC15A120V10C26A7000000/"
     },
     {
       "date": "2026-07-16",
       "source": "Nikkei",
-      "title": "三菱UFJ銀行、支店の空きスペースに高校生向け学習施設",
-      "url": "https://www.nikkei.com/article/DGXZQOUB15BXT0V10C26A7000000/"
-    },
-    {
-      "date": "2026-07-16",
-      "source": "Nikkei",
-      "title": "群馬県の金融機関など、全東信破産で相談窓口　東和銀は代替決済案内",
-      "url": "https://www.nikkei.com/article/DGXZQOCC162D60W6A710C2000000/"
-    },
-    {
-      "date": "2026-07-16",
-      "source": "Nikkei",
-      "title": "個人の物価予想、86%が「5年後上昇」　日銀6月調査",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1365H0T10C26A7000000/"
-    },
-    {
-      "date": "2026-07-16",
-      "source": "Nikkei",
-      "title": "クレジットカード、一時使えず　国際ブランドの通信障害か",
-      "url": "https://www.nikkei.com/article/DGXZQOUD162GI0W6A710C2000000/"
+      "title": "全銀協会長、防衛産業への投融資「国際条約を踏まえ判断」",
+      "url": "https://www.nikkei.com/article/DGXZQOUB160FI0W6A710C2000000/"
     },
     {
       "date": "2026-07-16",
@@ -299,8 +299,8 @@
     {
       "date": "2026-07-16",
       "source": "Nikkei",
-      "title": "保険代理店で「社保逃れ」横行の疑い　業界団体が一斉点検を要請へ",
-      "url": "https://www.nikkei.com/article/DGXZQOUB154R70V10C26A7000000/"
+      "title": "個人の物価予想、86%が「5年後上昇」　日銀6月調査",
+      "url": "https://www.nikkei.com/article/DGXZQOUB1365H0T10C26A7000000/"
     },
     {
       "date": "2026-07-16",
@@ -379,18 +379,6 @@
       "source": "WSJ",
       "title": "米国株は本当に割安か、基準次第で異なる「見え方」",
       "url": "https://jp.wsj.com/articles/think-the-s-p-500-looks-cheap-read-the-fine-print-fc592155"
-    },
-    {
-      "date": "2026-07-13",
-      "source": "BOJ",
-      "title": "令和8年7月滋賀県甲賀市の土砂崩れに係る災害等に対する金融上の措置について（滋賀県）",
-      "url": "http://www.boj.or.jp/about/bcp/fso/fso260713a.pdf"
-    },
-    {
-      "date": "2026-07-13",
-      "source": "WSJ",
-      "title": "イラン戦争、米に根強いインフレもたらす　エコノミスト予想",
-      "url": "https://jp.wsj.com/articles/war-leaves-economy-with-more-stubborn-inflation-economists-project-a8531a21"
     }
   ]
 }

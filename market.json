@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/26 06:16 JST",
+  "updated_at": "2026/08/25 22:26 JST",
   "market": [
     {
       "name": "TOPIX",
@@ -16,25 +16,32 @@
       "m1": 2.32
     },
     {
+      "name": "S&P500",
+      "value": 7677.28,
+      "d1": 0.32,
+      "w1": -0.19,
+      "m1": 2.5
+    },
+    {
       "name": "TOPIX Banks ETF",
-      "value": null,
-      "d1": null,
-      "w1": null,
-      "m1": null
+      "value": 742.0,
+      "d1": 1.2,
+      "w1": -3.67,
+      "m1": 1.64
     },
     {
       "name": "Japan Post",
-      "value": null,
-      "d1": null,
-      "w1": null,
-      "m1": null
+      "value": 2378.0,
+      "d1": 1.52,
+      "w1": -1.04,
+      "m1": -0.17
     },
     {
       "name": "JP Bank",
-      "value": null,
-      "d1": null,
-      "w1": null,
-      "m1": null
+      "value": 3187.0,
+      "d1": 1.14,
+      "w1": -4.35,
+      "m1": 2.44
     },
     {
       "name": "JGB2Y",

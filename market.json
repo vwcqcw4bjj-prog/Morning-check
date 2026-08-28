@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/27 22:18 JST",
+  "updated_at": "2026/08/28 05:58 JST",
   "market": [
     {
       "name": "TOPIX",
@@ -45,29 +45,29 @@
     },
     {
       "name": "JGB2Y",
-      "value": 1.697,
-      "d1": 0.0,
+      "value": 1.696,
+      "d1": -0.06,
       "w1": null,
       "m1": null
     },
     {
       "name": "JGB5Y",
-      "value": 2.172,
-      "d1": 0.0,
+      "value": 2.182,
+      "d1": 0.46,
       "w1": null,
       "m1": null
     },
     {
       "name": "JGB10Y",
-      "value": 2.892,
-      "d1": 0.0,
+      "value": 2.897,
+      "d1": 0.17,
       "w1": null,
       "m1": null
     },
     {
       "name": "JGB20Y",
-      "value": 3.756,
-      "d1": 0.0,
+      "value": 3.764,
+      "d1": 0.21,
       "w1": null,
       "m1": null
     }

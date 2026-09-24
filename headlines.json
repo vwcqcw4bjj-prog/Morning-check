@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026/09/25 06:31 JST",
-  "count": 67,
+  "updated_at": "2026/09/25 06:42 JST",
+  "count": 71,
   "headlines": [
     {
       "date": "2026-09-24",
@@ -55,6 +55,12 @@
       "source": "WSJ",
       "title": "金利上昇の中に見える光明、予想外に強じんな世界経済",
       "url": "https://jp.wsj.com/articles/the-silver-lining-in-soaring-interest-rates-the-economy-can-handle-them-ec5bfdb4"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "METI",
+      "title": "令和8年台風第25号に伴う災害に関して被災中小企業・小規模事業者支援措置を行います",
+      "url": "https://www.meti.go.jp/press/2026/09/20260924001.html"
     },
     {
       "date": "2026-09-24",
@@ -157,6 +163,12 @@
       "source": "WSJ",
       "title": "米予測市場カルシでほぼ同規模の取引相次ぐ、当局が調査",
       "url": "https://jp.wsj.com/articles/-5-billion-flurry-of-nearly-identical-kalshi-trades-draws-scrutiny-db504b10"
+    },
+    {
+      "date": "2026-09-23",
+      "source": "METI",
+      "title": "赤澤経済産業大臣がフィリピン共和国及びタイ王国に出張しました",
+      "url": "https://www.meti.go.jp/press/2026/09/20260923001.html"
     },
     {
       "date": "2026-09-23",
@@ -343,6 +355,18 @@
       "source": "WSJ",
       "title": "サウジの原油輸出、次善の選択肢はやはりホルムズ海峡",
       "url": "https://jp.wsj.com/articles/saudi-arabia-has-another-option-to-get-its-oil-out-256326da"
+    },
+    {
+      "date": "2026-09-18",
+      "source": "METI",
+      "title": "第70回国際原子力機関（IAEA）総会において、「東京電力福島第一原子力発電所の廃炉と福島の復興」に関する情報発信を行いました",
+      "url": "https://www.meti.go.jp/press/2026/09/20260918002.html"
+    },
+    {
+      "date": "2026-09-18",
+      "source": "METI",
+      "title": "越智経済産業大臣政務官がG20豊富なエネルギーに関する大臣会合に出席しました",
+      "url": "https://www.meti.go.jp/press/2026/09/20260918003.html"
     },
     {
       "date": "2026-09-18",

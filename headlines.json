@@ -1,12 +1,168 @@
 {
-  "updated_at": "2026/09/24 06:38 JST",
-  "count": 69,
+  "updated_at": "2026/09/25 06:31 JST",
+  "count": 67,
   "headlines": [
+    {
+      "date": "2026-09-24",
+      "source": "BOJ",
+      "title": "令和8年台風第25号に伴う災害等に対する金融上の措置について（千葉県、東京都）",
+      "url": "http://www.boj.or.jp/about/bcp/fso/fso260924a.pdf"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "BOJ",
+      "title": "【記者会見】植田総裁（9月18日分）",
+      "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk260924a.pdf"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "BOJ",
+      "title": "FSBレポ統計の日本分集計結果",
+      "url": "http://www.boj.or.jp/statistics/bis/repo/index.htm"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "FSA",
+      "title": "令和８年台風第25号に伴う災害等に対する金融上の措置について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/ginkou/20260924.html"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "FSA",
+      "title": "その他,つみたて投資枠対象商品届出一覧及びつみたて投資枠対象商品の概要を更新しました。",
+      "url": "https://www.fsa.go.jp/policy/nisa2/products/index.html"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "FSA",
+      "title": "金融審議会「保険制度ワーキング・グループ」（第１回）の開催について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/singi/20260924.html"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "FSA",
+      "title": "MUデジタルバンク設立準備株式会社に対する銀行業の免許の付与について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/ginkou/20260924/20260924.html"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "FSA",
+      "title": "人事異動（令和８年９月18日付幹部名簿の更新）について公表しました。",
+      "url": "https://www.fsa.go.jp/common/about/jinji/index.html"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "WSJ",
+      "title": "金利上昇の中に見える光明、予想外に強じんな世界経済",
+      "url": "https://jp.wsj.com/articles/the-silver-lining-in-soaring-interest-rates-the-economy-can-handle-them-ec5bfdb4"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "メキシコ中銀、政策金利6.5%に据え置き　3会合連続",
+      "url": "https://www.nikkei.com/article/DGXZQOGN24ATB0U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "三菱UFJ銀行、JAXAと宇宙飛行の技術調査　無重力創薬など投資にらむ",
+      "url": "https://www.nikkei.com/article/DGXZQOUB23CGC0T20C26A6000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "ジャングリアに沖縄公庫がつなぎ融資30億円　続く赤字、25日株主総会",
+      "url": "https://www.nikkei.com/article/DGXZQOJC243Q00U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "「金利ある世界」に眠る家計資産",
+      "url": "https://www.nikkei.com/article/DGXZQOUB17AI80X10C26A9000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "若者の生命保険離れ、支払期間が4年短縮　生保の国債運用に影響",
+      "url": "https://www.nikkei.com/article/DGXZQOUB152S80V10C26A9000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "ノルウェー中銀、3会合ぶり利上げで4.5%に　インフレ高止まり",
+      "url": "https://www.nikkei.com/article/DGXZQOGR249CC0U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "三菱UFJ、27年1〜3月にデジタル銀行「エムットバンク」　金融庁が免許",
+      "url": "https://www.nikkei.com/article/DGXZQOUB242SD0U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "西京銀、さいきょうPAY11月開始　加盟店手数料ゼロ・翌日入金",
+      "url": "https://www.nikkei.com/article/DGXZQOCC245UH0U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "トマト銀行、定期預金金利を引き上げ　5年もの0.65%に",
+      "url": "https://www.nikkei.com/article/DGXZQOCC244Z40U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "証券取引で不正疑い、AppleやGoogleアカウント乗っ取りでも発生",
+      "url": "https://www.nikkei.com/article/DGXZQOUB247730U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "JPモルガン・チェース銀行東京支店長に加藤政紀氏",
+      "url": "https://www.nikkei.com/article/DGXZQOUB2426N0U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "JPモルガン証券社長にフランチェスコ・ラバテリ氏",
+      "url": "https://www.nikkei.com/article/DGXZQOUB241WK0U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "スイス中銀、ゼロ金利を維持　インフレ圧力「わずかに増加」",
+      "url": "https://www.nikkei.com/article/DGXZQOGR245ZM0U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "関西みらい銀行・みなと銀行、普通預金金利0.5%に上げ　11月2日から",
+      "url": "https://www.nikkei.com/article/DGXZQOUF244W50U6A920C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "三井住友銀行、防災向け融資で異常気象に対応　邦銀初の国際基準取得",
+      "url": "https://www.nikkei.com/article/DGXZQOUB148PS0U6A910C2000000/"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "Nikkei",
+      "title": "信金が熊本復興支援の定期積金　0.25%寄付、中小の再建後押し",
+      "url": "https://www.nikkei.com/article/DGXZQOUB177FY0X10C26A9000000/"
+    },
     {
       "date": "2026-09-23",
       "source": "WSJ",
       "title": "米予測市場カルシでほぼ同規模の取引相次ぐ、当局が調査",
       "url": "https://jp.wsj.com/articles/-5-billion-flurry-of-nearly-identical-kalshi-trades-draws-scrutiny-db504b10"
+    },
+    {
+      "date": "2026-09-23",
+      "source": "Nikkei",
+      "title": "米モルガン・スタンレー、投資銀行部門でIPO案件リスト漏洩　米報道",
+      "url": "https://www.nikkei.com/article/DGXZQOGN240950U6A920C2000000/"
     },
     {
       "date": "2026-09-23",
@@ -99,28 +255,10 @@
       "url": "https://jp.wsj.com/articles/metas-ai-agent-has-a-trust-problem-fa2051e4"
     },
     {
-      "date": "2026-09-19",
-      "source": "Nikkei",
-      "title": "日本生命、データセンターに2兆円融資　日本マネーが米AI開発の軸に",
-      "url": "https://www.nikkei.com/article/DGXZQOUB076LF0X00C26A9000000/"
-    },
-    {
-      "date": "2026-09-19",
-      "source": "Nikkei",
-      "title": "「望まぬ利上げ加速」招いた高市財政　市場混乱で沈黙、危うい同床異夢",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1226R0S6A910C2000000/"
-    },
-    {
       "date": "2026-09-18",
       "source": "BOJ",
       "title": "総裁記者会見（9月18日）動画の配信開始",
       "url": "http://www.boj.or.jp/about/release/sousaidouga.htm"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "BOJ",
-      "title": "金融市場調節方針の変更について",
-      "url": "http://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k260918a.pdf"
     },
     {
       "date": "2026-09-18",
@@ -161,20 +299,8 @@
     {
       "date": "2026-09-18",
       "source": "FSA",
-      "title": "その他,つみたて投資枠対象商品届出一覧及びつみたて投資枠対象商品の概要を更新しました。",
-      "url": "https://www.fsa.go.jp/policy/nisa2/products/index.html"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "FSA",
       "title": "「主要行等向けの総合的な監督指針」等の一部改正（案）に対するパブリックコメントの結果等について公表しました。",
       "url": "https://www.fsa.go.jp/news/r8/sonota/20260918/20260918.html"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "FSA",
-      "title": "人事異動（令和８年９月17日付幹部名簿の更新）について公表しました。",
-      "url": "https://www.fsa.go.jp/common/about/jinji/index.html"
     },
     {
       "date": "2026-09-18",
@@ -220,6 +346,18 @@
     },
     {
       "date": "2026-09-18",
+      "source": "JPEA",
+      "title": "アント・キャピタル・パートナーズ株式会社 ： 株式会社ツバキスタイルとの資本業務提携のお知らせ",
+      "url": "https://jpea.group/2026/09/18/%e3%82%a2%e3%83%b3%e3%83%88%e3%83%bb%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e3%83%bb%e3%83%91%e3%83%bc%e3%83%88%e3%83%8a%e3%83%bc%e3%82%ba%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-25/"
+    },
+    {
+      "date": "2026-09-18",
+      "source": "JPEA",
+      "title": "ティーキャピタルパートナーズ株式会社 ： 日本マイクロバイオファーマ株式会社の株式譲渡について",
+      "url": "https://jpea.group/2026/09/18/%e3%83%86%e3%82%a3%e3%83%bc%e3%82%ad%e3%83%a3%e3%83%94%e3%82%bf%e3%83%ab%e3%83%91%e3%83%bc%e3%83%88%e3%83%8a%e3%83%bc%e3%82%ba%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-%ef%bc%9a-%e6%97%a5%e6%9c%ac-2/"
+    },
+    {
+      "date": "2026-09-18",
       "source": "中小機構",
       "title": "中小機構出資ファンド投資先「akippa（株）」が東京証券取引所スタンダード市場に上場しました",
       "url": "https://www.smrj.go.jp/sme/funding/fund/news/index.html"
@@ -229,156 +367,6 @@
       "source": "中小機構",
       "title": "中小機構出資ファンド投資先「（株）テクノクラフト」が東京証券取引所スタンダード市場に上場しました",
       "url": "https://www.smrj.go.jp/sme/funding/fund/news/index.html"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "日銀利上げ、20〜30代は年2万円超の負担増　住宅ローンかさむ",
-      "url": "https://www.nikkei.com/article/DGXZQOUB118J50R10C26A9000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "ベトナム金融都市、成功の条件　グアニー・リム氏",
-      "url": "https://www.nikkei.com/article/DGXZQOCD1419H0U6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "政策金利とは　中銀が調節、引き上げで物価と景気を下押し",
-      "url": "https://www.nikkei.com/article/DGXZQOUB181980Y6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "福岡銀行や西日本シティ銀行、普通預金金利0.5%に引き上げ",
-      "url": "https://www.nikkei.com/article/DGXZQOJC1897C0Y6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "日銀総裁「基調的な物価、2%に接近」　会見要旨",
-      "url": "https://www.nikkei.com/article/DGXZQOUB149R20U6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "関西地銀、日銀利上げで増益期待　関西みらいは資金利益が年45億円増",
-      "url": "https://www.nikkei.com/article/DGXZQOUF155I40V10C26A9000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "AI半導体市場の行方は？　キオクシア担当記者とロンドン×東京で語る",
-      "url": "https://www.nikkei.com/article/DGXZQOCD15AQJ0V10C26A9000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "3メガ銀、普通預金の金利0.5%に　利上げで34年ぶり水準",
-      "url": "https://www.nikkei.com/article/DGXZQOUB184EB0Y6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "日銀1.25%に利上げ、「適切な数字」　山口同友会代表幹事",
-      "url": "https://www.nikkei.com/article/DGXZQOUA187JM0Y6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "小泉防衛相「防衛産業の成長への一歩」　三菱UFJの融資基準新設方針",
-      "url": "https://www.nikkei.com/article/DGXZQOUA186S70Y6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "ゆうちょ銀、フィンテック企業に出資　資産形成サービス強化",
-      "url": "https://www.nikkei.com/article/DGXZQOUA181JY0Y6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "東海東京証券、元社員2人が不適切な金銭受領　計1億円私的流用",
-      "url": "https://www.nikkei.com/article/DGXZQOUB186PV0Y6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "朝日生命、営業職員が111万円金銭詐取　保険金「手数料」偽り",
-      "url": "https://www.nikkei.com/article/DGXZQOUB184L70Y6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "生保協会、保険販売員の監督指針を年内改正へ　金融庁ルール変更で",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1857J0Y6A910C2000000/"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "Nikkei",
-      "title": "ふくおかFG、熊本県益城町に行員派遣　窓口業務担い自治体支援",
-      "url": "https://www.nikkei.com/article/DGXZQOJC1813C0Y6A910C2000000/"
-    },
-    {
-      "date": "2026-09-17",
-      "source": "BOJ",
-      "title": "実質輸出入の動向",
-      "url": "http://www.boj.or.jp/research/research_data/reri/index.htm"
-    },
-    {
-      "date": "2026-09-17",
-      "source": "BOJ",
-      "title": "資金循環統計（速報）（2026年第2四半期）",
-      "url": "http://www.boj.or.jp/statistics/sj/sj.htm"
-    },
-    {
-      "date": "2026-09-17",
-      "source": "FSA",
-      "title": "その他,令和８年６月、令和８年７月に開催された業界団体との意見交換会において、金融庁が提起した主な論点を公表しました。",
-      "url": "https://www.fsa.go.jp/common/ronten/index.html"
-    },
-    {
-      "date": "2026-09-17",
-      "source": "FSA",
-      "title": "公開買付け等に係る株式発行者役員からの情報受領者による（株）グッドスピード株式に係る内部者取引に対する課徴金納付命令の決定について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/shouken/20260917/20260917-2.html"
-    },
-    {
-      "date": "2026-09-17",
-      "source": "FSA",
-      "title": "ＥＮＥＣＨＡＮＧＥ（株）における四半期報告書等の虚偽記載に対する課徴金納付命令の決定について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/shouken/20260917/20260917-3.html"
-    },
-    {
-      "date": "2026-09-17",
-      "source": "FSA",
-      "title": "（株）Ｉ－ｎｅにおける有価証券報告書の不記載に対する課徴金納付命令の決定について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/shouken/20260917/20260917-4.html"
-    },
-    {
-      "date": "2026-09-17",
-      "source": "FSA",
-      "title": "ベースフード（株）株式外２銘柄に係る相場操縦に対する課徴金納付命令の決定について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/shouken/20260917/20260917-1.html"
-    },
-    {
-      "date": "2026-09-17",
-      "source": "WSJ",
-      "title": "タカ派に転じたFRB議長、利上げ継続の構え",
-      "url": "https://jp.wsj.com/articles/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-93b2049f"
-    },
-    {
-      "date": "2026-09-17",
-      "source": "WSJ",
-      "title": "トランプ氏、利上げ後もウォーシュ議長を支持",
-      "url": "https://jp.wsj.com/articles/trump-says-he-backs-warsh-after-central-bank-raised-interest-rates-6901d905"
-    },
-    {
-      "date": "2026-09-17",
-      "source": "WSJ",
-      "title": "FRB、3年ぶりに利上げ　全会一致",
-      "url": "https://jp.wsj.com/articles/fed-raises-rates-for-first-time-in-three-years-1ea5453e"
     },
     {
       "date": "2026-09-11",

@@ -1,7 +1,253 @@
 {
-  "updated_at": "2026/09/29 06:08 JST",
-  "count": 130,
+  "updated_at": "2026/09/30 07:16 JST",
+  "count": 139,
   "headlines": [
+    {
+      "date": "2026-09-30",
+      "source": "WSJ",
+      "title": "米国債の高利回りを生かすシンプルな方法",
+      "url": "https://jp.wsj.com/articles/a-simple-way-to-take-advantage-of-higher-yields-6301363d"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "FSA",
+      "title": "「連結財務諸表の用語、様式及び作成方法に関する規則に規定する金融庁長官が定める企業会計の基準を指定する件の一部を改正する件」の公布及びパブリックコメントの結果について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/sonota/20260929.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "FSA",
+      "title": "新潟縣信用組合・興栄信用組合の組織再編成等実施計画の認定について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/ginkou/20260929.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "FSA",
+      "title": "第34回金融機能強化審査会 議事要旨について公表しました。",
+      "url": "https://www.fsa.go.jp/singi/soff/gijiyoshi/20260902.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "FSA",
+      "title": "金融庁広報誌アクセスＦＳＡ第277号（2026年９月号）を発行しました。",
+      "url": "https://www.fsa.go.jp/access/index.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "FSA",
+      "title": "「FinTech実証実験ハブ・決済高度化プロジェクト（PIP）」支援決定案件について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/sonota/20260929-2/20260929.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "WSJ",
+      "title": "「エネルギー大国」カナダ、米の圧力で目覚めるか",
+      "url": "https://jp.wsj.com/articles/u-s-pressure-is-awakening-an-energy-giant-in-canada-b55ad8e9"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "METI",
+      "title": "みなし小売電気事業者9社から特定小売供給約款の変更届出を受理しました",
+      "url": "https://www.meti.go.jp/press/2026/09/20260929003.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "METI",
+      "title": "関西電力株式会社から報告徴収命令に対する回答を受領し、同社に対して指導を行いました",
+      "url": "https://www.meti.go.jp/press/2026/09/20260929005.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "METI",
+      "title": "中部電力株式会社に対して電気事業法に基づく報告を求めました",
+      "url": "https://www.meti.go.jp/press/2026/09/20260929006.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "METI",
+      "title": "中部電力ミライズ株式会社から報告徴収命令に対する回答を受領し、同社に対して指導を行いました",
+      "url": "https://www.meti.go.jp/press/2026/09/20260929004.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "METI",
+      "title": "株式会社不二製作所に対する取適法に基づく勧告が行われました",
+      "url": "https://www.meti.go.jp/press/2026/09/20260929001.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "METI",
+      "title": "国内最大級のオープンデータプラットフォームである地域経済分析システム（RESAS）をアップデートしました",
+      "url": "https://www.meti.go.jp/press/2026/09/20260929002.html"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "米銀の新設18年ぶり高水準　信託銀が中心、仮想通貨企業が資産管理",
+      "url": "https://www.nikkei.com/article/DGXZQOGN16C0H0W6A910C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "企業統治指針「まるで行政指導」　規範のはずが政策実現の道具に",
+      "url": "https://www.nikkei.com/article/DGXZQOUB249RI0U6A820C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "西日本FH10年、20兆円クラブと一線　事業性貸出金5000億円増へ",
+      "url": "https://www.nikkei.com/article/DGXZQOJC174EQ0X10C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "山口FG、地域再生をプロデュース　「同舟共命」掲げ理想追う",
+      "url": "https://www.nikkei.com/article/DGXZQOCC222II0S6A920C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "関西みらい銀行が新定期預金、JR西日本のポイント付与　協業第1弾",
+      "url": "https://www.nikkei.com/article/DGXZQOUF2824Z0Y6A720C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "工場設備保全のM2X、東京海上HD系と資本業務提携　中小に販路拡大",
+      "url": "https://www.nikkei.com/article/DGXZQOUC270QX0X20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "第一ライフ系シンクタンク、理事長にブラックロックの有田浩之元会長",
+      "url": "https://www.nikkei.com/article/DGXZQOUB189TO0Y6A910C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "貿易決済にステーブルコイン活用　金融庁、メガ銀などの実証実験支援",
+      "url": "https://www.nikkei.com/article/DGXZQOUB293IN0Z20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "今村証券、メールに公式ロゴマーク表示　なりすましなど詐欺防止",
+      "url": "https://www.nikkei.com/article/DGXZQOCC296U70Z20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "日銀、26年度のベア3.4%　過去最大の引き上げ幅",
+      "url": "https://www.nikkei.com/article/DGXZQOUB298N40Z20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "北洋銀行、店舗別の混雑をAIで予測　職員の適正配置も",
+      "url": "https://www.nikkei.com/article/DGXZQOFC297HZ0Z20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "ニッセイアセット、食料・農業分野の課題解決を支援　ファンド組成",
+      "url": "https://www.nikkei.com/article/DGXZQOUB287DQ0Y6A920C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "山口銀行など普通預金金利0.5%に引き上げ",
+      "url": "https://www.nikkei.com/article/DGXZQOCC296YS0Z20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "群馬銀行、次世代経営者「育成塾」修了生が会合　人材育成など学ぶ",
+      "url": "https://www.nikkei.com/article/DGXZQOCC270IJ0X20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "防衛スタートアップに出資、国が新法人　「日本版FMS」で輸出も主導",
+      "url": "https://www.nikkei.com/article/DGXZQOUA256X90V20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "島根銀行スマホ支店、普通預金金利年0.9%に上げ　10月から",
+      "url": "https://www.nikkei.com/article/DGXZQOCC296GU0Z20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "ダイナース、若者限定の新クレカ　食事・旅行の特典充実",
+      "url": "https://www.nikkei.com/article/DGXZQOUB2899T0Y6A920C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "オリックス、大分・山形で蓄電所開発　三菱UFJ信託などと共同出資",
+      "url": "https://www.nikkei.com/article/DGXZQOUB098ML0Z00C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "あおぞら・りそな銀、ファンド融資500億円　買収資金を供給",
+      "url": "https://www.nikkei.com/article/DGXZQOUB2586F0V20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "朝日生命、ベトナム生保買収で営業員1000人採用　「日本式」輸出へ",
+      "url": "https://www.nikkei.com/article/DGXZQOUB142SV0U6A910C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "大企業製造業の景況感、AI需要で改善予測　日銀9月短観の民間各社",
+      "url": "https://www.nikkei.com/article/DGXZQOUB270M00X20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "欧州系ファンドのEQT、カカクコムへのTOB期間を再延長　価格は1円上げ",
+      "url": "https://www.nikkei.com/article/DGXZQOUB296BC0Z20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "生成AIがカスハラ客を再現、ゆうちょ銀が研修活用",
+      "url": "https://www.nikkei.com/article/DGXZQOUA295YP0Z20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "東北銀行、40億円規模の増資へ　SBIや地元企業から第三者割り当てで",
+      "url": "https://www.nikkei.com/article/DGXZQOUB2958H0Z20C26A9000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "オーストラリア中銀、4.6%に利上げ　15年ぶり水準に",
+      "url": "https://www.nikkei.com/article/DGXZQOGM283K00Y6A920C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "スイス銀行規制案、UBSと政府のさや当て続く　移転・合併観測も",
+      "url": "https://www.nikkei.com/article/DGXZQOGR28AAN0Y6A920C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "宮崎銀行、アプリでVポイント　取引先の広告閲覧でポイント",
+      "url": "https://www.nikkei.com/article/DGXZQOJC286XR0Y6A920C2000000/"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Nikkei",
+      "title": "アドバンスクリエイト、特別注意銘柄に　不適切会計で東証が指定",
+      "url": "https://www.nikkei.com/article/DGXZQOUF2923G0Z20C26A9000000/"
+    },
     {
       "date": "2026-09-28",
       "source": "BOJ",
@@ -51,172 +297,10 @@
       "url": "https://www.nikkei.com/article/DGXZQOGM187JN0Y6A910C2000000/"
     },
     {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "山口FG20周年、成長への野心さらに　広域営業網の強み生かす",
-      "url": "https://www.nikkei.com/article/DGXZQOCC2624K0W6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "北九州銀行、開業15年「南進」の夏　半導体の熊本でトップセールス",
-      "url": "https://www.nikkei.com/article/DGXZQOJC051EG0V00C26A9000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "企業の保険代理店「特例」廃止へ　金融庁が30年度、再編の引き金に",
-      "url": "https://www.nikkei.com/article/DGXZQOUB147TS0U6A910C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "東京海上、英グリーンシルの保険契約巡る訴訟でクレディと和解",
-      "url": "https://www.nikkei.com/article/DGXZQOUB287JR0Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "プロミス、返済相談に生成AI　貸金業で国内初",
-      "url": "https://www.nikkei.com/article/DGXZQOUB246PF0U6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "八十二長野銀行、普通預金金利0.5%に引き上げ　11月2日から",
-      "url": "https://www.nikkei.com/article/DGXZQOCC287QQ0Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "群馬銀行、普通預金金利0.5%に　短プラも引き上げ",
-      "url": "https://www.nikkei.com/article/DGXZQOCC286WV0Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "政投銀、UNICONホールディングスに出資　建設業の人的資本を強化",
-      "url": "https://www.nikkei.com/article/DGXZQOCC286K20Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "北陸銀、北国銀、富山第一銀の3行が普通預金金利を0.5%に引き上げ",
-      "url": "https://www.nikkei.com/article/DGXZQOCC285C50Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "四国銀行、ビジネスカジュアルを導入　女性の制服は廃止",
-      "url": "https://www.nikkei.com/article/DGXZQOCC2847V0Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "アセマネOne、国内初の「AI運用者」に　シンガポール新興に出資",
-      "url": "https://www.nikkei.com/article/DGXZQOUB17A4E0X10C26A9000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "阿波銀行と徳島大正銀行、普通預金金利を0.1%引き上げ　11月2日から",
-      "url": "https://www.nikkei.com/article/DGXZQOCC285P00Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "りそな銀行、口座番号など約9000人の顧客情報紛失　誤って破棄か",
-      "url": "https://www.nikkei.com/article/DGXZQOUB286C20Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "中国銀行、普通預金金利を0.5%に引き上げ　11月2日から",
-      "url": "https://www.nikkei.com/article/DGXZQOCC286RO0Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "西日本シティ銀行、熊本地震支援へ私募債新設　義援金も寄付",
-      "url": "https://www.nikkei.com/article/DGXZQOJC2853Q0Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "三井住友海上が社福法人と提携　社員がケアマネに相談、介護離職防ぐ",
-      "url": "https://www.nikkei.com/article/DGXZQOUB240X40U6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "東京海上グループ、企業向け施設管理サービス提供　老朽化対策支援",
-      "url": "https://www.nikkei.com/article/DGXZQOUB240R80U6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "滋賀・池田泉州・紀陽銀行、普通預金金利0.5%に上げ　11月2日から",
-      "url": "https://www.nikkei.com/article/DGXZQOUF2865B0Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "琉球銀行、普通預金金利を0.5%に引き上げ　11月2日から",
-      "url": "https://www.nikkei.com/article/DGXZQOJC282H60Y6A920C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "日銀、金融政策「物価上振れ回避に局面変化」　7月議事要旨",
-      "url": "https://www.nikkei.com/article/DGXZQOUB256Y80V20C26A9000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "電力取引、現物と先物の発注統一　リスク管理効率化へ取引所連携",
-      "url": "https://www.nikkei.com/article/DGXZQOUB080UG0Y6A900C2000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "8月の企業サービス価格3.7%上昇、中東混迷で伸び率拡大　日銀調査",
-      "url": "https://www.nikkei.com/article/DGXZQOUB256AT0V20C26A9000000/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Nikkei",
-      "title": "沖縄銀行、普通預金金利を0.5%に引き上げ　11月2日から",
-      "url": "https://www.nikkei.com/article/DGXZQOJC2811B0Y6A920C2000000/"
-    },
-    {
       "date": "2026-09-27",
       "source": "第一地銀",
       "title": "[但馬銀行] お客様本位の業務運営に関する取組方針および取組状況の公表について",
       "url": "https://www.tajimabank.co.jp/news/release/news_release_20260927.pdf"
-    },
-    {
-      "date": "2026-09-27",
-      "source": "Nikkei",
-      "title": "三菱UFJ・半沢淳一社長、目指す世界トップ5「背中見えてきた」",
-      "url": "https://www.nikkei.com/article/DGXZQOUB241LZ0U6A920C2000000/"
-    },
-    {
-      "date": "2026-09-27",
-      "source": "Nikkei",
-      "title": "日本の非公開株、世界最大の米取引所で売買へ　大手銀出資の証券会社",
-      "url": "https://www.nikkei.com/article/DGXZQOUB15ARO0V10C26A9000000/"
-    },
-    {
-      "date": "2026-09-26",
-      "source": "Nikkei",
-      "title": "住友生命、書類提出遅れで14億円追徴　予防には「地道な確認」不可欠",
-      "url": "https://www.nikkei.com/article/DGXZQOUF19A9X0Z10C26A8000000/"
-    },
-    {
-      "date": "2026-09-26",
-      "source": "Nikkei",
-      "title": "住友生命、保険を選ぶ日本初のAI　顧客の意向反映しやすく",
-      "url": "https://www.nikkei.com/article/DGXZQOUB10AAE0Q6A910C2000000/"
     },
     {
       "date": "2026-09-25",
@@ -663,12 +747,6 @@
       "url": "https://www.33bank.co.jp/release/back-number/2026/pdf/20260925b.pdf"
     },
     {
-      "date": "2026-09-25",
-      "source": "Nikkei",
-      "title": "米ブラックストーン、PE部門トップが退社へ　CEO交代見据え",
-      "url": "https://www.nikkei.com/article/DGXZQOGN25BMS0V20C26A9000000/"
-    },
-    {
       "date": "2026-09-24",
       "source": "BOJ",
       "title": "令和8年台風第25号に伴う災害等に対する金融上の措置について（千葉県、東京都）",
@@ -691,24 +769,6 @@
       "source": "FSA",
       "title": "令和８年台風第25号に伴う災害等に対する金融上の措置について公表しました。",
       "url": "https://www.fsa.go.jp/news/r8/ginkou/20260924.html"
-    },
-    {
-      "date": "2026-09-24",
-      "source": "FSA",
-      "title": "その他,つみたて投資枠対象商品届出一覧及びつみたて投資枠対象商品の概要を更新しました。",
-      "url": "https://www.fsa.go.jp/policy/nisa2/products/index.html"
-    },
-    {
-      "date": "2026-09-24",
-      "source": "FSA",
-      "title": "金融審議会「保険制度ワーキング・グループ」（第１回）の開催について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/singi/20260924.html"
-    },
-    {
-      "date": "2026-09-24",
-      "source": "FSA",
-      "title": "MUデジタルバンク設立準備株式会社に対する銀行業の免許の付与について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/ginkou/20260924/20260924.html"
     },
     {
       "date": "2026-09-24",
@@ -775,12 +835,6 @@
       "source": "中小機構",
       "title": "中小機構出資ファンド投資先「（株）エブリー」が東京証券取引所グロース市場に上場しました",
       "url": "https://www.smrj.go.jp/sme/funding/fund/news/index.html"
-    },
-    {
-      "date": "2026-07-31",
-      "source": "中小機構",
-      "title": "中小企業成長支援ファンド「グロービス8号ファンド投資事業有限責任組合」に出資を行う組合契約を締結",
-      "url": "https://www.smrj.go.jp/sme/funding/fund/news/fbrion0000001zma-att/qsktgp0000003sfe.pdf"
     }
   ]
 }

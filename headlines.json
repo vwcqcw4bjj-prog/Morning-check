@@ -1,12 +1,252 @@
 {
-  "updated_at": "2026/10/27 07:54 JST",
-  "count": 142,
+  "updated_at": "2026/10/28 07:15 JST",
+  "count": 139,
   "headlines": [
+    {
+      "date": "2026-10-27",
+      "source": "BOJ",
+      "title": "消費者物価のコア指標",
+      "url": "http://www.boj.or.jp/research/research_data/cpi/index.htm"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "BOJ",
+      "title": "情報セキュリティ・セミナー「AIエージェント時代に求められるセキュリティ戦略と課題」開催のお知らせ",
+      "url": "http://www.boj.or.jp/about/release_2026/rel261027a.htm"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "BOJ",
+      "title": "企業向けサービス価格指数（9月）",
+      "url": "http://www.boj.or.jp/statistics/pi/cspi_release/sppi2609.pdf"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "FSA",
+      "title": "信用格付業者の登録について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/shouken/20261027/20261027.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "FSA",
+      "title": "その他,「第２回　気候変動関連データの活用と適応に関する実践パネル」の発表資料及び議事要旨について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/sonota/20260819.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "FSA",
+      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年10月23日）について掲載しました。",
+      "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261023-1.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "FSA",
+      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年10月20日）について掲載しました。",
+      "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261020-1.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "FSA",
+      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年10月16日）について掲載しました。",
+      "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261016-1.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "FSA",
+      "title": "多重債務問題対策推進懇談会の議事次第等について公表しました。",
+      "url": "https://www.fsa.go.jp/policy/kashikin/tajusaimukondankai/20261028/20261028.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "WSJ",
+      "title": "シーメンス・エナジー、見過ごされたAI割安株",
+      "url": "https://jp.wsj.com/articles/this-german-energy-giant-is-an-overlooked-ai-bargain-3be884bc"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "WSJ",
+      "title": "ブラジル市場急落、ルラ大統領が予想外の再選で",
+      "url": "https://jp.wsj.com/articles/brazilian-markets-crash-after-lulas-surprise-election-win-stuns-investors-93314739"
+    },
     {
       "date": "2026-10-27",
       "source": "WSJ",
       "title": "FRB、利上げ根拠強まる中でも金利据え置きに傾く理由",
       "url": "https://jp.wsj.com/articles/why-the-fed-is-expected-to-hold-rates-steady-despite-a-case-for-raising-them-7cd22d85"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "JVCA",
+      "title": "新規会員入会のお知らせ　株式会社SMBC Edge/One Capital 株式会社下記の企業が2026年10月27日付で入会しました 株式会社SMBC Edge（VC会員）One Capital 株式会社（VC会員）",
+      "url": "https://jvca.jp/news/46454.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "JVCA",
+      "title": "ベンチャーキャピタリスト育成事業",
+      "url": "https://jvca.jp/news/10762.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "METI",
+      "title": "中華人民共和国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました",
+      "url": "https://www.meti.go.jp/press/2026/10/20261027001.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "METI",
+      "title": "ドラガン・ストイコビッチ・ピクシー氏の日本館PRアンバサダー就任、日本館協賛企業第一弾を発表しました",
+      "url": "https://www.meti.go.jp/press/2026/10/20261027002.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "METI",
+      "title": "中小企業・小規模事業者向け「サイバーセキュリティ特別相談窓口」を設置します",
+      "url": "https://www.meti.go.jp/press/2026/10/20261027003.html"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "PPC",
+      "title": "会見概要",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai298/kaiken_gaiyo298.pdf"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "PPC",
+      "title": "議事要旨",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai298/gijiyoshi298.pdf"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "みずほが巨大IPO相次ぎ参画　スペースXで実績、アンソロピック幹事に",
+      "url": "https://www.nikkei.com/article/DGXZQOGN26ATA0W6A021C2000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "S&P500算出会社、予測市場カルシと提携　新指数の開発へ",
+      "url": "https://www.nikkei.com/article/DGXZQOGN27CLO0X21C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "琉球銀行島袋頭取、ジャングリア「継続が重要」　台湾で現法立ち上げ",
+      "url": "https://www.nikkei.com/article/DGXZQOJC207KJ0Q6A021C2000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "英HSBC純利益45%増、7〜9月　純金利収入が拡大",
+      "url": "https://www.nikkei.com/article/DGXZQOUB22C0H0S6A021C2000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "デジタル通貨で貿易決済　商工中金や3メガ、法改正で加速へ",
+      "url": "https://www.nikkei.com/article/DGXZQOUB227TX0S6A021C2000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "UPSIDER、経営幹部の交流サイトに不正アクセス　544人の情報漏洩",
+      "url": "https://www.nikkei.com/article/DGXZQOUB2795D0X21C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "GPIF吉沢CIO「運用業界、データ効率化を」　インフラ高度化に意欲",
+      "url": "https://www.nikkei.com/article/DGXZQOUB2785U0X21C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "日本円ステーブルコインJPYC、企業・電子決済に照準　黒字化は道半ば",
+      "url": "https://www.nikkei.com/article/DGXZQOUB15BLA0V11C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "今村証券の4〜9月、単独税引き益2.1倍　手数料増も見立ては慎重",
+      "url": "https://www.nikkei.com/article/DGXZQOCC2759D0X21C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "伊予銀行、農林事業者と民間企業をマッチング　キックオフ会開催",
+      "url": "https://www.nikkei.com/article/DGXZQOCC274KQ0X21C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "第一ライフ、不正接続で調査結果公表　流出数は12万4000人か",
+      "url": "https://www.nikkei.com/article/DGXZQOUB2777M0X21C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "SOMPOがサイバーリスク診断へ　12月から、無契約でも1回無償",
+      "url": "https://www.nikkei.com/article/DGXZQOUB153JT0V11C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "退職給付とは　大企業ほど充実、25%は制度なし",
+      "url": "https://www.nikkei.com/article/DGXZQOUB26A3I0W6A021C2000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "三井住友信託銀行、退職金・年金の年功廃止　長く勤めても増額なし",
+      "url": "https://www.nikkei.com/article/DGXZQOUB227860S6A021C2000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "ドコモSMTB、AI主導の顧客対応　回答時間は10分の1に短縮",
+      "url": "https://www.nikkei.com/article/DGXZQOUB263Z30W6A021C2000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "日本生命、元営業社員が給付金不正請求　書類偽造で計900万円",
+      "url": "https://www.nikkei.com/article/DGXZQOUB277990X21C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "百十四銀行の27年3月期、連結純利益を250億円に上方修正",
+      "url": "https://www.nikkei.com/article/DGXZQOCC276EX0X21C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "西京銀行、インドネシアの大学と協定　人材育て山口企業の進出後押し",
+      "url": "https://www.nikkei.com/article/DGXZQOCC2698T0W6A021C2000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "筑邦銀行の純利益89%増に上振れ　4〜9月、株式売却益が押し上げ",
+      "url": "https://www.nikkei.com/article/DGXZQOJC276FD0X21C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "りそなグループで顧客情報漏洩か　委託先への不正アクセスで",
+      "url": "https://www.nikkei.com/article/DGXZQOUB271L20X21C26A0000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "9月の企業向けサービス価格、3.7%上昇　原油高騰で輸送費に影響",
+      "url": "https://www.nikkei.com/article/DGXZQOUB262OV0W6A021C2000000/"
+    },
+    {
+      "date": "2026-10-27",
+      "source": "Nikkei",
+      "title": "GMO不正アクセス、FX5社で被害　片山金融相「監視強化を要請」",
+      "url": "https://www.nikkei.com/article/DGXZQOUB270N70X21C26A0000000/"
     },
     {
       "date": "2026-10-26",
@@ -37,6 +277,12 @@
       "source": "FSA",
       "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年10月13日）について掲載しました。",
       "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261013-1.html"
+    },
+    {
+      "date": "2026-10-26",
+      "source": "Nikkei",
+      "title": "米金融大手、ブロードコム製半導体の購入資金調達を支援　9兆円規模",
+      "url": "https://www.nikkei.com/article/DGXZQOGN2705E0X21C26A0000000/"
     },
     {
       "date": "2026-10-26",
@@ -81,120 +327,6 @@
       "url": "https://www.nikkei.com/article/DGXZQOUB2679O0W6A021C2000000/"
     },
     {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "愛媛銀行の27年3月期、純利益を77億円に上方修正　最高益更新",
-      "url": "https://www.nikkei.com/article/DGXZQOCC265SA0W6A021C2000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "いよぎんHD、システム開発のウインを完全子会社化　DX強化",
-      "url": "https://www.nikkei.com/article/DGXZQOCC266GC0W6A021C2000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "香川県内企業の景況感、3四半期ぶりにプラス　百十四銀行調べ",
-      "url": "https://www.nikkei.com/article/DGXZQOCC264ZC0W6A021C2000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "三井住友銀行、中国アントの海外関連会社と提携　アジア決済で協業",
-      "url": "https://www.nikkei.com/article/DGXZQOUB265FY0W6A021C2000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "三井住友銀行、神戸のVCやCVC集めた交流会　企業の連携促す",
-      "url": "https://www.nikkei.com/article/DGXZQOUF235X10T21C26A0000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "1億円体験やショート動画で金融教育　高松市で次世代向け企画",
-      "url": "https://www.nikkei.com/article/DGXZQOCC253E50V21C26A0000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "中国銀行、岡山県倉敷市で観光コンテンツ開発　欧米豪の富裕層誘客",
-      "url": "https://www.nikkei.com/article/DGXZQOCC214S90R21C26A0000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "明治安田生命、英運用大手マンに5%出資へ　2000億円運用委託",
-      "url": "https://www.nikkei.com/article/DGXZQOUB2667V0W6A021C2000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "七十七銀行、免許証での本人確認を廃止　なりすまし防止で厳格化",
-      "url": "https://www.nikkei.com/article/DGXZQOCC2669V0W6A021C2000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "公的資金をメガバンク・地銀通じて融資　経産省、成長投資を後押し",
-      "url": "https://www.nikkei.com/article/DGXZQOUA261R40W6A021C2000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "京都府交通安全協会と日本生命が協定、営業職員が交通ルールなど啓発",
-      "url": "https://www.nikkei.com/article/DGXZQOUF260LA0W6A021C2000000/"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Nikkei",
-      "title": "豪保険大手チャレンジャー、第一ライフの買収提案を拒否",
-      "url": "https://www.nikkei.com/article/DGXZQOGM260XE0W6A021C2000000/"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Nikkei",
-      "title": "眠らぬ市場の誘惑、長期投資には余計なこと？　米株23時間稼働に戸惑いも",
-      "url": "https://www.nikkei.com/article/DGXZQOFL193MYTZ11C26A0000000/"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Nikkei",
-      "title": "ECB、利上げ見送りの公算　仏金利上昇で「抜かずの宝刀」の出番は",
-      "url": "https://www.nikkei.com/article/DGXZQOGR22C4R0S6A021C2000000/"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Nikkei",
-      "title": "ポイント制する銀行に客来る、「＋α」で誘引　明暗わける日常使い",
-      "url": "https://www.nikkei.com/article/DGXZQOUB246YY0U6A920C2000000/"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Nikkei",
-      "title": "プリファードの国産AI、日本総研が導入　金融システム開発で活用",
-      "url": "https://www.nikkei.com/article/DGXZQOUC234O90T21C26A0000000/"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Nikkei",
-      "title": "日本のデリバティブ取引、個人投資家呼び込めず　背景に税制の壁も",
-      "url": "https://www.nikkei.com/article/DGXZQOUF155GI0V10C26A9000000/"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Nikkei",
-      "title": "FRB、「事前発信型」の金利据え置きか　27〜28日にFOMC",
-      "url": "https://www.nikkei.com/article/DGXZQOGN19AUP0Z11C26A0000000/"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Nikkei",
-      "title": "東京海上が国内初フィジカルAI保険　ロボット修理費補償、大市場に先手",
-      "url": "https://www.nikkei.com/article/DGXZQOUB121560S6A011C2000000/"
-    },
-    {
       "date": "2026-10-23",
       "source": "BOJ",
       "title": "バーゼル銀行監督委員会による「グローバルなシステム上重要な銀行（G-SIB）-ウィンドウ・ドレッシング行動に対処するための評価枠組みの改訂」及び市中協議文書「G-SIB評価手法のレビュー」の公表について",
@@ -235,30 +367,6 @@
       "source": "FSA",
       "title": "企業会計審議会第57回監査部会議事録について公表しました。",
       "url": "https://www.fsa.go.jp/singi/singi_kigyou/gijiroku/kansa/20261023.html"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "FSA",
-      "title": "国際関係,バーゼル銀行監督委員会による「グローバルなシステム上重要な銀行（G-SIB）－ウィンドウ・ドレッシング行動に対処するための評価枠組みの改訂」及び市中協議文書「G-SIB評価手法のレビュー」について公表しました。",
-      "url": "https://www.fsa.go.jp/inter/bis/20261023/20261023.html"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "FSA",
-      "title": "金融審議会「保険制度ワーキング・グループ」（第２回）の開催について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/singi/20261023.html"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "FSA",
-      "title": "その他,無登録で金融商品取引業を行う者の名称等について更新しました。",
-      "url": "https://www.fsa.go.jp/ordinary/chuui/mutouroku.html"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "FSA",
-      "title": "金融審議会「ディスクロージャーワーキング・グループ」（第６回）議事録について公表しました。",
-      "url": "https://www.fsa.go.jp/singi/singi_kinyu/disclosure_wg/gijiroku/20260904.html"
     },
     {
       "date": "2026-10-23",
@@ -513,30 +621,6 @@
       "url": "https://www.kagin.co.jp/kojin/newsrelease/20261023_041_2.html"
     },
     {
-      "date": "2026-10-23",
-      "source": "Nikkei",
-      "title": "米アメックス、従業員3500人削減　AI活用加速へ「人員スリム化」",
-      "url": "https://www.nikkei.com/article/DGXZQOGN23BTS0T21C26A0000000/"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "Nikkei",
-      "title": "滋賀銀行と池田泉州HD、スピード婚に「京都」の影　経営統合検討",
-      "url": "https://www.nikkei.com/article/DGXZQOUF236P10T21C26A0000000/"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "Nikkei",
-      "title": "証券の売買審査、切り札のAI活用は足踏み　それでも続くベテラン頼み",
-      "url": "https://www.nikkei.com/article/DGXZQOUB154CA0V11C26A0000000/"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "Nikkei",
-      "title": "小口融資の五常が陥った新興国M&Aのワナ　成長優先、ガバナンス後手",
-      "url": "https://www.nikkei.com/article/DGXZQOUC190W20Z11C26A0000000/"
-    },
-    {
       "date": "2026-10-22",
       "source": "BOJ",
       "title": "日本銀行が保有する国債の銘柄別残高",
@@ -571,18 +655,6 @@
       "source": "BOJ",
       "title": "FSBレポ統計の日本分集計結果",
       "url": "http://www.boj.or.jp/statistics/bis/repo/index.htm"
-    },
-    {
-      "date": "2026-10-22",
-      "source": "FSA",
-      "title": "企業会計審議会第３回サステナビリティ情報保証部会の開催について掲載しました。",
-      "url": "https://www.fsa.go.jp/news/r8/singi/20261029.html"
-    },
-    {
-      "date": "2026-10-22",
-      "source": "FSA",
-      "title": "採用,職員を募集しています。（資産運用会社等の監督等に従事する職員）",
-      "url": "https://www.fsa.go.jp/common/recruit/r8/shiho-03/shiho-03.html"
     },
     {
       "date": "2026-10-22",
@@ -729,90 +801,6 @@
       "url": "https://www.smrj.go.jp/sme/funding/fund/news/fbrion0000001zma-att/qsktgp000000emup.pdf"
     },
     {
-      "date": "2026-10-20",
-      "source": "BOJ",
-      "title": "バーゼル銀行監督委員会による「整合性評価プログラム（RCAP）におけるレバレッジ比率規制の評価」の公表について",
-      "url": "http://www.boj.or.jp/finsys/intlact_fs/kisei/kis261020a.htm"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "BOJ",
-      "title": "【記者会見】植田総裁（G20、10月16日分）",
-      "url": "http://www.boj.or.jp/about/press/kaiken_2026/kk261020a.pdf"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "BOJ",
-      "title": "「金融研究」掲載論文（2026年収録分）",
-      "url": "http://www.boj.or.jp/research/imes/mes/mes26.htm"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "BOJ",
-      "title": "報告省令レート（11月分）",
-      "url": "http://www.boj.or.jp/about/services/tame/tame_rate/syorei/hou2611.htm"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "BOJ",
-      "title": "基準外国為替相場及び裁定外国為替相場（11月分）",
-      "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2611.htm"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "WSJ",
-      "title": "AIブームで痛手の「選別投資」、ついに好機到来か",
-      "url": "https://jp.wsj.com/articles/https-www-wsj-com-finance-stocks-stock-pickers-burned-by-the-ai-boom-think-their-moment-has-finally-arrived-07878da7-3c69456b"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "WSJ",
-      "title": "ペプシコ、小手先の対策ではもはや手遅れ",
-      "url": "https://jp.wsj.com/articles/its-too-late-for-small-fixes-at-pepsi-72f04d0b"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "WSJ",
-      "title": "選別されるAI関連債券、弱点も明らかに",
-      "url": "https://jp.wsj.com/articles/the-weak-points-in-ai-bonds-are-becoming-clearer-8ed7a8b3"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "METI",
-      "title": "髙木経済産業副大臣が第4回日・ルーマニアイノベーションフォーラムに出席しました",
-      "url": "https://www.meti.go.jp/press/2026/10/20261020004.html"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "METI",
-      "title": "中部電力ミライズ株式会社から特定小売供給約款の変更届出を受理しました",
-      "url": "https://www.meti.go.jp/press/2026/10/20261020002.html"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "METI",
-      "title": "ブルーインパルスによる展示飛行に国産SAFを使用し、原料となる廃食用油を回収するキャンペーンを実施します",
-      "url": "https://www.meti.go.jp/press/2026/10/20261020001.html"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "METI",
-      "title": "日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催しました",
-      "url": "https://www.meti.go.jp/press/2026/10/20261020003.html"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "PPC",
-      "title": "議事録",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai299/gijiroku299.pdf"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "JPEA",
-      "title": "PEファンドが知っておくべき企業価値担保権の基礎｜森・濱田松本法律事務所外国法共同事業　パートナー弁護士　飯島 隆博 様",
-      "url": "https://jpea.group/2026/10/20/20261019/"
-    },
-    {
       "date": "2026-10-08",
       "source": "中小機構",
       "title": "中小企業再生ファンド「しこく活性化2号ファンド投資事業有限責任組合」に出資を行う組合契約を締結",
@@ -847,12 +835,6 @@
       "source": "中小機構",
       "title": "中小企業経営力強化支援ファンド（令和2・3年度補正予算）「ドーガン価値伝承投資事業有限責任組合」に出資を行う組合契約を締結",
       "url": "https://www.smrj.go.jp/sme/funding/fund/news/fbrion0000001zma-att/qsktgp0000008t7l.pdf"
-    },
-    {
-      "date": "2026-08-28",
-      "source": "中小機構",
-      "title": "被災事業者の二重債務問題に対応する「能登半島地震復興支援ファンド」による第6号案件への投資実行について",
-      "url": "https://www.smrj.go.jp/sme/funding/fund/news/fbrion0000001zma-att/qsktgp0000007rgq.pdf"
     }
   ]
 }

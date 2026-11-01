@@ -1,7 +1,55 @@
 {
-  "updated_at": "2026/10/31 11:23 JST",
+  "updated_at": "2026/11/02 06:19 JST",
   "count": 110,
   "headlines": [
+    {
+      "date": "2026-11-02",
+      "source": "METI",
+      "title": "令和8年秋の褒章受章者が決定されました（経済産業省推薦分）",
+      "url": "https://www.meti.go.jp/press/2026/11/20261102001.html"
+    },
+    {
+      "date": "2026-11-01",
+      "source": "Nikkei",
+      "title": "サイバー保険問い合わせ3倍　高まる危機感、GMO問題で保険料上昇懸念",
+      "url": "https://www.nikkei.com/article/DGXZQOUB296YF0Z21C26A0000000/"
+    },
+    {
+      "date": "2026-11-01",
+      "source": "Nikkei",
+      "title": "バイナンス攻撃、FBI「北朝鮮ハッカー関与」　会社は被害の95%補塡",
+      "url": "https://www.nikkei.com/article/DGXZQOUB0112O0R01C26A1000000/"
+    },
+    {
+      "date": "2026-10-31",
+      "source": "Nikkei",
+      "title": "「トークン化預金」の大波、押し返されるステーブルコイン",
+      "url": "https://www.nikkei.com/article/DGXZQOUB304JM0Q6A031C2000000/"
+    },
+    {
+      "date": "2026-10-31",
+      "source": "Nikkei",
+      "title": "サムライ債とは　海外の政府や企業による円建て債",
+      "url": "https://www.nikkei.com/article/DGXZQOUB209PB0Q6A021C2000000/"
+    },
+    {
+      "date": "2026-10-31",
+      "source": "Nikkei",
+      "title": "日銀「普通の中銀」道半ば　残る異次元緩和のツケ",
+      "url": "https://www.nikkei.com/article/DGXZQOUB2866V0Y6A021C2000000/"
+    },
+    {
+      "date": "2026-10-31",
+      "source": "Nikkei",
+      "title": "AIマネー争奪戦、日本に波及　円建て債発行2.5兆円で過去最大に",
+      "url": "https://www.nikkei.com/article/DGXZQOUB062QC0W6A001C2000000/"
+    },
+    {
+      "date": "2026-10-31",
+      "source": "Nikkei",
+      "title": "フィッチ、フランス国債の格付け見通しを「ネガティブ」に引き下げ",
+      "url": "https://www.nikkei.com/article/DGXZQOCD310PF0R31C26A0000000/"
+    },
     {
       "date": "2026-10-30",
       "source": "BOJ",
@@ -315,12 +363,6 @@
       "url": "https://www.nikkei.com/article/DGXZQOUB3037W0Q6A031C2000000/"
     },
     {
-      "date": "2026-10-30",
-      "source": "Nikkei",
-      "title": "カイカデジタル、サイバー対策の研究所新設　攻撃手法の情報発信",
-      "url": "https://www.nikkei.com/article/DGXZQOUC297EG0Z21C26A0000000/"
-    },
-    {
       "date": "2026-10-29",
       "source": "FSA",
       "title": "金融審議会「保険制度ワーキング・グループ」（第１回）議事録について公表しました。",
@@ -423,42 +465,6 @@
       "url": "https://www.meti.go.jp/press/2026/10/20261029001.html"
     },
     {
-      "date": "2026-10-29",
-      "source": "Nikkei",
-      "title": "選別進むAI相場に中東マネー、次の上昇支える巨額資金の危うさ",
-      "url": "https://www.nikkei.com/article/DGXZQOGN29B4N0Z21C26A0000000/"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "Nikkei",
-      "title": "日銀会合、2%物価目標に到達と表明へ　政策金利は据え置きの公算",
-      "url": "https://www.nikkei.com/article/DGXZQOUB285Y50Y6A021C2000000/"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "Nikkei",
-      "title": "W杯や選挙「結果当てたら小遣いに」　新ポイ活、利用9割が10〜20代",
-      "url": "https://www.nikkei.com/article/DGXZQOUB283MK0Y6A021C2000000/"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "Nikkei",
-      "title": "ECBラガルド総裁「金融政策以外に関与」　仏大統領選前の退任を決断",
-      "url": "https://www.nikkei.com/article/DGXZQOGR29B4Z0Z21C26A0000000/"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "Nikkei",
-      "title": "米地銀大手、AI向け資金需要で9%増益　金利上昇で先行きには警戒感",
-      "url": "https://www.nikkei.com/article/DGXZQOGN23CB70T21C26A0000000/"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "Nikkei",
-      "title": "三井住友FGとSBI、ステーブルコインで協業　開発企業に5%出資",
-      "url": "https://www.nikkei.com/article/DGXZQOUB28BHG0Y6A021C2000000/"
-    },
-    {
       "date": "2026-10-28",
       "source": "BOJ",
       "title": "金融市場調節取引の2026年度対象先公募の結果等について",
@@ -541,12 +547,6 @@
       "source": "METI",
       "title": "「Global Startup EXPO」の主催者となる地方公共団体を募集します",
       "url": "https://www.meti.go.jp/press/2026/10/20261028002.html"
-    },
-    {
-      "date": "2026-10-28",
-      "source": "METI",
-      "title": "赤澤経済産業大臣がAPECビジネス諮問委員会（ABAC）から「APEC首脳への提言」を受け取りました",
-      "url": "https://www.meti.go.jp/press/2026/10/20261028001.html"
     },
     {
       "date": "2026-10-28",

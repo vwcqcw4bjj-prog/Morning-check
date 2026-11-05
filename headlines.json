@@ -1,7 +1,193 @@
 {
-  "updated_at": "2026/11/05 07:08 JST",
-  "count": 156,
+  "updated_at": "2026/11/06 06:24 JST",
+  "count": 152,
   "headlines": [
+    {
+      "date": "2026-11-05",
+      "source": "BOJ",
+      "title": "「債券市場参加者会合」（第25回）の開催について",
+      "url": "http://www.boj.or.jp/paym/bond/mbond_list/mbond261105.pdf"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "BOJ",
+      "title": "日銀当座預金増減要因（11月見込み）",
+      "url": "http://www.boj.or.jp/statistics/boj/fm/juqp/juqp2611.xlsx"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "BOJ",
+      "title": "金融政策決定会合議事要旨（9月17、18日開催分）",
+      "url": "http://www.boj.or.jp/mopo/mpmsche_minu/minu_2026/g260918.pdf"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "METI",
+      "title": "赤澤経済産業大臣がクウェート国のルーミー石油大臣とオンライン会談を行いました",
+      "url": "https://www.meti.go.jp/press/2026/11/20261105003.html"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "METI",
+      "title": "国際原子力機関（IAEA）の枠組みの下での追加的モニタリングの分析結果に関する報告書が公表されました",
+      "url": "https://www.meti.go.jp/press/2026/11/20261105002.html"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "METI",
+      "title": "令和8年度ガス保安功労者経済産業大臣表彰の受賞者が決定しました",
+      "url": "https://www.meti.go.jp/press/2026/11/20261105001.html"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "PPC",
+      "title": "会見のポイント",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai305/kaiken_point305.pdf"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "PPC",
+      "title": "配布資料",
+      "url": "https://www.yuseimineika.go.jp/iinkai/dai305/gijishidai.html"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "ECB次期総裁、年内決定へ調整　独仏は専務理事ポストに照準",
+      "url": "https://www.nikkei.com/article/DGXZQOGR05BNQ0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "三菱UFJの新銀行、キャッシュカード廃止の狙いは　動画でクイック解説",
+      "url": "https://www.nikkei.com/article/DGXZQOFH0490F0U6A101C2000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "香港保険の新規払込額、最高の5.5兆円　高利回り求め本土マネー流入",
+      "url": "https://www.nikkei.com/article/DGXZQOGM047V60U6A101C2000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "独コメルツ銀、伊銀による買収「価値創出を確信」　一転前向きに",
+      "url": "https://www.nikkei.com/article/DGXZQOGR05B9U0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "日銀の追加利上げ「27年末に2.25%」「12月以降ペース減速」",
+      "url": "https://www.nikkei.com/article/DGXZQOUB027SK0S6A101C2000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "英中銀、約3年ぶり利上げ　インフレリスク警戒で政策金利4%に",
+      "url": "https://www.nikkei.com/article/DGXZQOCD032K80T01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "楽天証券、顧客のメールアドレス2109件漏洩　アララ不正アクセスで",
+      "url": "https://www.nikkei.com/article/DGXZQOUB05AJ80V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "朝日生命、メールアドレス1.9万件が流出　アララ不正アクセスで",
+      "url": "https://www.nikkei.com/article/DGXZQOUB058FA0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "JPX総研、非上場株流通のスマートラウンドに出資　2次流通整備へ",
+      "url": "https://www.nikkei.com/article/DGXZQOUC054130V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "京都FG、スタートアップと大企業の協業支援イベント　48社参加",
+      "url": "https://www.nikkei.com/article/DGXZQOUF054R60V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "あしぎん国際交流財団、留学生らに助成金458万円　研究活動支援も",
+      "url": "https://www.nikkei.com/article/DGXZQOCC04B9F0U6A101C2000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "プルデンシャル第三者委報告「経営責任論じる材料ない」　格付け機関",
+      "url": "https://www.nikkei.com/article/DGXZQOUB056S10V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "三菱UFJ、家計簿アプリ「マネーツリー」でGoogleの健康管理と連携",
+      "url": "https://www.nikkei.com/article/DGXZQOUB056SP0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "ペイオフとは　破綻した金融機関の預金「1000万円＋利息」まで保護",
+      "url": "https://www.nikkei.com/article/DGXZQOUB0527Z0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "個人預金「ペイオフ保護なし」140兆円に　相続で大口化、金融リスクに",
+      "url": "https://www.nikkei.com/article/DGXZQOUB055590V01C26A0000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "足利銀行、メッセージ動画の作成・保管サービス　相続や終活を支援",
+      "url": "https://www.nikkei.com/article/DGXZQOCC0549M0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "じもとHDの26年4〜9月期純利益、8%増の16億円に上方修正",
+      "url": "https://www.nikkei.com/article/DGXZQOCC056GB0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "三井住友系の消費者金融大手、カードローン契約額など32万人分漏洩",
+      "url": "https://www.nikkei.com/article/DGXZQOUB056CV0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "高知銀行、債権4億円回収不能・遅延の恐れ　経常赤字3億円に下方修正",
+      "url": "https://www.nikkei.com/article/DGXZQOCC0566S0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "三井住友信託銀とATR協業　大企業と海外スタートアップの事業化支援",
+      "url": "https://www.nikkei.com/article/DGXZQOUF040TD0U6A101C2000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "三井住友銀行、メールアドレス22万件が漏洩　アララ不正アクセスで",
+      "url": "https://www.nikkei.com/article/DGXZQOUB0556H0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "フランスの銀行にサイバー攻撃　不正取引被害、暗号資産か",
+      "url": "https://www.nikkei.com/article/DGXZQOGM052XL0V01C26A1000000/"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Nikkei",
+      "title": "日銀、政策金利「早めにゴールに近づけるべき」　9月議事要旨",
+      "url": "https://www.nikkei.com/article/DGXZQOUB045230U6A101C2000000/"
+    },
     {
       "date": "2026-11-04",
       "source": "BOJ",
@@ -117,126 +303,6 @@
       "url": "https://www.nikkei.com/article/DGXZQOUB048AM0U6A101C2000000/"
     },
     {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "アイフル、インドネシアの中古車ローン会社を買収　40億円で",
-      "url": "https://www.nikkei.com/article/DGXZQOUB046PA0U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "阿波銀行や百十四銀行など、定期預金金利を引き上げ",
-      "url": "https://www.nikkei.com/article/DGXZQOCC309MJ0Q6A031C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "プルデンシャルHD、改善諮問委員会を設置　金銭詐取防止へ外部知見",
-      "url": "https://www.nikkei.com/article/DGXZQOUB048KI0U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "スウェーデン中銀、3年ぶり0.25%利上げ　エネルギー高で",
-      "url": "https://www.nikkei.com/article/DGXZQOGR02ASZ0S6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "日本生命、米生保に590億円追加出資　持ち分法適用を維持",
-      "url": "https://www.nikkei.com/article/DGXZQOUB045TD0U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "金融庁、ソニーFGに立ち入り検査　生保子会社の金銭不祥事で",
-      "url": "https://www.nikkei.com/article/DGXZQOUB0481H0U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "ゆうちょ銀行も銀証連携にシフト　松井証券に出資、資産形成を強化",
-      "url": "https://www.nikkei.com/article/DGXZQOUA27CHH0X21C26A0000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "三菱UFJ銀行、東海の自治体向けにスポーツ経営セミナー開催",
-      "url": "https://www.nikkei.com/article/DGXZQOFD045N80U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "PayPay、7〜9月営業利益62%増　決済事業が好調",
-      "url": "https://www.nikkei.com/article/DGXZQOUB040Q30U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "東和銀行の26年4〜9月期、純利益12億円上振れ　資産売却など",
-      "url": "https://www.nikkei.com/article/DGXZQOCC046LK0U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "TISI、地銀の提携カード発行を支援　地元事業者とコラボしやすく",
-      "url": "https://www.nikkei.com/article/DGXZQOUB250Z30V21C26A0000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "ゆうちょ銀行、松井証券に2割出資を正式発表　アプリで株売買仲介",
-      "url": "https://www.nikkei.com/article/DGXZQOUA027KQ0S6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "ソニー銀行、不正アクセスで621件の個人情報漏洩　一部は口座番号も",
-      "url": "https://www.nikkei.com/article/DGXZQOUB033KO0T01C26A1000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "琉球銀行、9万6000件のメールアドレス漏洩　委託先に不正アクセス",
-      "url": "https://www.nikkei.com/article/DGXZQOJC0451C0U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "群馬銀行、群馬グリーンウイングス応援定期　抽選でサイン入りグッズ",
-      "url": "https://www.nikkei.com/article/DGXZQOCC0419J0U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "野村系、機関投資家向けサービスで情報漏洩　不正アクセスで停止",
-      "url": "https://www.nikkei.com/article/DGXZQOUB041MH0U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "三井住友海上とあいおい、不正アクセス検知　顧客向けサイト一時停止",
-      "url": "https://www.nikkei.com/article/DGXZQOUB041JN0U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "JBIC、マレーシア国営エネ会社に950億円協調融資　CO2貯留向け",
-      "url": "https://www.nikkei.com/article/DGXZQOUB041AW0U6A101C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "三菱UFJと三井住友、ニデック融資枠6000億円　契約更新も期限は1年",
-      "url": "https://www.nikkei.com/article/DGXZQOUB2087L0Q6A021C2000000/"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Nikkei",
-      "title": "豊和銀行、15歳以上25歳未満のATM手数料を無料に　27年2月から",
-      "url": "https://www.nikkei.com/article/DGXZQOJC0414A0U6A101C2000000/"
-    },
-    {
       "date": "2026-11-03",
       "source": "WSJ",
       "title": "中国、IPOラッシュを抑制　AI巡る懸念で株式市場が動揺",
@@ -253,24 +319,6 @@
       "source": "METI",
       "title": "令和8年秋の勲章受章者が決定されました（経済産業省推薦分）",
       "url": "https://www.meti.go.jp/press/2026/11/20261103001.html"
-    },
-    {
-      "date": "2026-11-03",
-      "source": "Nikkei",
-      "title": "米プルデンシャル、7〜9月は日本事業の利益25%減　営業停止響く",
-      "url": "https://www.nikkei.com/article/DGXZQOGN033MF0T01C26A1000000/"
-    },
-    {
-      "date": "2026-11-03",
-      "source": "Nikkei",
-      "title": "「ネット取引の草分け」松井証券とは　ゆうちょ銀行、4日出資発表へ",
-      "url": "https://www.nikkei.com/article/DGXZQOUB307V50Q6A031C2000000/"
-    },
-    {
-      "date": "2026-11-03",
-      "source": "Nikkei",
-      "title": "長期金利3%、個人向け国債の販売好調　西日本シティ銀行は3年で17倍",
-      "url": "https://www.nikkei.com/article/DGXZQOJC134U10T11C26A0000000/"
     },
     {
       "date": "2026-11-02",
@@ -829,78 +877,6 @@
       "source": "第一地銀",
       "title": "[八十二長野銀行] SDGsローン＜寄付型＞の実行に伴う寄付の実施について",
       "url": "https://bank.82group.jp/file.jsp?id=release/2026/pdf/news20261030a.pdf"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "FSA",
-      "title": "金融審議会「保険制度ワーキング・グループ」（第１回）議事録について公表しました。",
-      "url": "https://www.fsa.go.jp/singi/singi_kinyu/hokenseido_wg/gijiroku/20261001.html"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "FSA",
-      "title": "金融審議会「保険制度ワーキング・グループ」（第２回）議事次第について公表しました。",
-      "url": "https://www.fsa.go.jp/singi/singi_kinyu/hokenseido_wg/gijishidai/20261030.html"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "FSA",
-      "title": "国際関係,「Japan Global Capital Markets Conference」の開催について公表しました。",
-      "url": "https://www.fsa.go.jp/inter/etc/20261029/20261029-2.html"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "WSJ",
-      "title": "湾岸原油輸出は回復も1バレル100ドル超が続く理由",
-      "url": "https://jp.wsj.com/articles/oil-is-gushing-out-of-the-gulf-why-are-prices-still-above-100-a-barrel-9eecec17"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "WSJ",
-      "title": "FRBが抱える難題、「高金利でAIブームは減速するのか」",
-      "url": "https://jp.wsj.com/articles/the-feds-ai-puzzle-will-high-rates-slow-the-boom-778f4922"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "WSJ",
-      "title": "AIブームで融資急増、それでも銀行業界は浮かれず",
-      "url": "https://jp.wsj.com/articles/ai-boom-drives-a-jump-in-lending-but-bankers-still-sound-cautious-95d28ff9"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "WSJ",
-      "title": "FRB、金利据え置き　当局者2人は追加利上げ主張",
-      "url": "https://jp.wsj.com/articles/fed-holds-rates-steady-but-two-officials-sought-another-increase-34e5249c"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "METI",
-      "title": "中部電力株式会社から3月31日に行った報告徴収命令に対する回答を受領しました",
-      "url": "https://www.meti.go.jp/press/2026/10/20261029011.html"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "METI",
-      "title": "中部電力株式会社から9月25日に行った報告徴収命令に対する回答を受領しました",
-      "url": "https://www.meti.go.jp/press/2026/10/20261029010.html"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "METI",
-      "title": "中部電力株式会社から9月29日に行った報告徴収命令に対する回答を受領しました",
-      "url": "https://www.meti.go.jp/press/2026/10/20261029009.html"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "METI",
-      "title": "第19回日ASEANサイバーセキュリティ政策会議を開催しました",
-      "url": "https://www.meti.go.jp/press/2026/10/20261029005.html"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "METI",
-      "title": "赤澤経済産業大臣がべスタス社のヘンリック・アンダーセンCEO、鈴木健太秋田県知事等と会談しました",
-      "url": "https://www.meti.go.jp/press/2026/10/20261029002.html"
     },
     {
       "date": "2026-10-21",

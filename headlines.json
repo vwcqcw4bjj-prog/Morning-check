@@ -1,12 +1,210 @@
 {
-  "updated_at": "2026/11/17 07:20 JST",
-  "count": 150,
+  "updated_at": "2026/11/18 07:17 JST",
+  "count": 147,
   "headlines": [
+    {
+      "date": "2026-11-18",
+      "source": "WSJ",
+      "title": "アンソロピック、IPO価格引き上げの見通し　旺盛な需要踏まえ",
+      "url": "https://jp.wsj.com/articles/anthropic-plans-to-raise-ipo-price-after-strong-demand-32de2557"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "BOJ",
+      "title": "金融安定理事会による「クロスボーダー送金の改善に向けたG20ロードマップ：2026年統合進捗報告書」の公表について",
+      "url": "http://www.boj.or.jp/intl_finance/meeting/group/gro261117a.htm"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "BOJ",
+      "title": "「貸出先別貸出金」（2026年9月）等の公表について",
+      "url": "http://www.boj.or.jp/statistics/outline/notice_2026/not261117a.htm"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "FSA",
+      "title": "イベント,「Japan Fintech Week 2027」の開催について公表しました。",
+      "url": "https://www.fsa.go.jp/news/r8/sonota/20261113/japanfintechweek.html"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "FSA",
+      "title": "国際関係,金融安定理事会による「クロスボーダー送金の改善に向けたG20ロードマップ：2026年統合進捗報告書」について公表しました。",
+      "url": "https://www.fsa.go.jp/inter/fsf/20261117/261117.html"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "FSA",
+      "title": "金融審議会「ディスクロージャーワーキング・グループ」（第７回）議事次第について公表しました。",
+      "url": "https://www.fsa.go.jp/singi/singi_kinyu/disclosure_wg/shiryou/20261118.html"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "FSA",
+      "title": "IOSCO(証券監督者国際機構) 常設委員会議長・副議長選出について公表しました。",
+      "url": "https://www.fsa.go.jp/inter/ios/20261117/20261117.html"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "FSA",
+      "title": "採用,職員を募集しています。（金融モニタリング業務（各種リスク管理態勢）に従事する職員）",
+      "url": "https://www.fsa.go.jp/common/recruit/r8/ginnsyou-10/ginnsyou-10.html"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "FSA",
+      "title": "採用,職員を募集しています。（金融モニタリング業務（マネー・ローンダリング・テロ資金供与対策）に従事する職員）",
+      "url": "https://www.fsa.go.jp/common/recruit/r8/ginnsyou-12/ginnsyou-12.html"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "FSA",
+      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年11月13日）について掲載しました。",
+      "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261113-1.html"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "WSJ",
+      "title": "データセンターへの逆風、立地で異なるテック大手への影響",
+      "url": "https://jp.wsj.com/articles/big-tech-needs-to-spread-its-bets-on-data-centers-c59519e7"
+    },
     {
       "date": "2026-11-17",
       "source": "WSJ",
       "title": "FRB、AIによる米経済への影響を検証",
       "url": "https://jp.wsj.com/articles/warsh-says-fed-is-gaming-out-how-ai-could-reshape-economy-96f2e68a"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "METI",
+      "title": "赤澤経済産業大臣がフィリピン共和国に出張しました",
+      "url": "https://www.meti.go.jp/press/2026/11/20261117004.html"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "METI",
+      "title": "独立行政法人理事長の公募を開始します",
+      "url": "https://www.meti.go.jp/press/2026/11/20261117003.html"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "FRB理事、不正調査への出席拒否　「トランプ氏は解任の結論ありき」",
+      "url": "https://www.nikkei.com/article/DGXZQOGN17CRF0X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "JPモルガン、三菱UFJの時価総額3.7倍　M&Aで高めた総合力",
+      "url": "https://www.nikkei.com/article/DGXZQOGN130BG0T11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "JPモルガン社長「AI投資、勝者と敗者分かれる局面」　変動は必然",
+      "url": "https://www.nikkei.com/article/DGXZQOGN1308L0T11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "ドイツ銀、ロシア制裁対象と取引拡大の実態　内部文書1500万件で判明",
+      "url": "https://www.nikkei.com/article/DGXZQOGR17BER0X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "データセンター債権、英HSBCが損失覚悟の大幅割引で売却",
+      "url": "https://www.nikkei.com/article/DGXZQOCD17C2H0X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "楽天証券、年収など顧客情報漏洩　不正アクセスで最大447万口座分",
+      "url": "https://www.nikkei.com/article/DGXZQOUB179TR0X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "今村証券、自衛隊石川地方協力本部から感謝状　陸自隊員を採用",
+      "url": "https://www.nikkei.com/article/DGXZQOCC175990X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "モルガン・スタンレー・インベストメント共同社長に西原氏と森川氏",
+      "url": "https://www.nikkei.com/article/DGXZQOUB16AOI0W6A111C2000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "八十二長野銀行など4社、スマート物流推進で連携　中山間地で実装へ",
+      "url": "https://www.nikkei.com/article/DGXZQOCC172WA0X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "池田泉州銀、新興企業のピッチイベント　滋賀銀の取引先企業も登壇",
+      "url": "https://www.nikkei.com/article/DGXZQOUF178K10X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "アセマネOneがテック株投信　ヘッジファンド型、下げ相場でも利益追求",
+      "url": "https://www.nikkei.com/article/DGXZQOUB163GV0W6A111C2000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "三菱UFJ、次世代AI開発で松尾研究所と提携　相続支援など導入視野に",
+      "url": "https://www.nikkei.com/article/DGXZQOUB1765V0X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "広島信用金庫の4〜9月、税引き利益11%増　貸出金利息が拡大",
+      "url": "https://www.nikkei.com/article/DGXZQOCC171R40X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "金融機関のサイバー対策、金融庁検査でAI活用し診断　自民提言案",
+      "url": "https://www.nikkei.com/article/DGXZQOUA169490W6A111C2000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "信金の預金金利、8割が銀行下回る　格差広がり流出の歯止め重要に",
+      "url": "https://www.nikkei.com/article/DGXZQOUB102TK0Q6A011C2000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "大手生保4社、営業職員数5年ぶり増　介護など「保険外」で競う",
+      "url": "https://www.nikkei.com/article/DGXZQOUB115630R11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "三井住友信託、シンガポール運用会社に出資　富裕層に投資商品",
+      "url": "https://www.nikkei.com/article/DGXZQOUB174C80X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "七十七銀行と東北学院、若者定着に向け連携　地元企業と接点づくり",
+      "url": "https://www.nikkei.com/article/DGXZQOCC1726K0X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "りそな銀行、河島英五氏を題材とする東大阪市の映画制作事業に寄付",
+      "url": "https://www.nikkei.com/article/DGXZQOUF1742M0X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Nikkei",
+      "title": "日銀参与、日本商工会議所の小林健氏を再任",
+      "url": "https://www.nikkei.com/article/DGXZQOUB171EW0X11C26A1000000/"
     },
     {
       "date": "2026-11-16",
@@ -77,6 +275,12 @@
     {
       "date": "2026-11-16",
       "source": "Nikkei",
+      "title": "米BofAトップ、アンソロピックIPOで「他案件が2027年初にずれ」",
+      "url": "https://www.nikkei.com/article/DGXZQOGN1705S0X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "Nikkei",
       "title": "バークシャー、7〜9月に金融株を売却　アルファベットは買い増さず",
       "url": "https://www.nikkei.com/article/DGXZQOGN1601M0W6A111C2000000/"
     },
@@ -85,12 +289,6 @@
       "source": "Nikkei",
       "title": "目覚める債券市場、野村など大手の販売は3割増　社債活性化は正念場",
       "url": "https://www.nikkei.com/article/DGXZQOUB13CV80T11C26A1000000/"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "Nikkei",
-      "title": "金融機関のサイバー対策、金融庁検査でAI活用し診断　自民提言案",
-      "url": "https://www.nikkei.com/article/DGXZQOUA169490W6A111C2000000/"
     },
     {
       "date": "2026-11-16",
@@ -135,100 +333,10 @@
       "url": "https://www.nikkei.com/article/DGXZQOCC068I30W6A101C2000000/"
     },
     {
-      "date": "2026-11-16",
-      "source": "Nikkei",
-      "title": "三井住友銀行など、企業の若手定着巡り講演会　サウナ部など事例紹介",
-      "url": "https://www.nikkei.com/article/DGXZQOJC092250Z01C26A1000000/"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "Nikkei",
-      "title": "接骨院運営のヒューマンアジャスト、福証新興市場に上場　12月21日に",
-      "url": "https://www.nikkei.com/article/DGXZQOJC163F80W6A111C2000000/"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "Nikkei",
-      "title": "日銀・高田委員、利上げの累積効果発生「タイミングはまだ先」",
-      "url": "https://www.nikkei.com/article/DGXZQOUB163M30W6A111C2000000/"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "Nikkei",
-      "title": "みずほ信託、株式報酬ネットで確認容易に　顧客企業社員の意欲高める",
-      "url": "https://www.nikkei.com/article/DGXZQOUB062P50W6A101C2000000/"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "Nikkei",
-      "title": "損保ジャパン、タマホーム不正請求問題「社内調査進める」",
-      "url": "https://www.nikkei.com/article/DGXZQOUB167660W6A111C2000000/"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "Nikkei",
-      "title": "十六FG系のカンダまちおこし　クラウドファンディング課金手法見直し",
-      "url": "https://www.nikkei.com/article/DGXZQOFD164K50W6A111C2000000/"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "Nikkei",
-      "title": "ポラリス、500億円の成長投資ファンド　新興の事業拡大後押し",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1230S0S6A111C2000000/"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "Nikkei",
-      "title": "プルデンシャルジブラルタファイナンシャル生命保険社長に外池宏之氏",
-      "url": "https://www.nikkei.com/article/DGXZQOUB136SW0T11C26A1000000/"
-    },
-    {
-      "date": "2026-11-15",
-      "source": "Nikkei",
-      "title": "大手銀行「預金増えぬ時代」に備え　社債調達5割増、融資は選別",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1222E0S6A111C2000000/"
-    },
-    {
-      "date": "2026-11-15",
-      "source": "Nikkei",
-      "title": "アンソロピックIPO、19日まで国内募集　AI本丸銘柄に個人マネー参戦",
-      "url": "https://www.nikkei.com/article/DGXZQOUB118700R11C26A1000000/"
-    },
-    {
-      "date": "2026-11-15",
-      "source": "Nikkei",
-      "title": "ネット証券、個人を米国株へ　アンソロピックIPOは23時間取引の前哨戦",
-      "url": "https://www.nikkei.com/article/DGXZQOUB126UT0S6A111C2000000/"
-    },
-    {
       "date": "2026-11-14",
       "source": "WSJ",
       "title": "ウォーシュFRB議長、金利決定回数の削減にも独自色",
       "url": "https://jp.wsj.com/articles/kevin-warsh-puts-his-stamp-on-the-fed-one-canceled-rate-decision-at-a-time-4148d5f5"
-    },
-    {
-      "date": "2026-11-14",
-      "source": "Nikkei",
-      "title": "「脱リフレ」まだ信じ切れぬ市場　言葉より行動、日本買い再開の条件",
-      "url": "https://www.nikkei.com/article/DGXZQOUB12CLE0S6A111C2000000/"
-    },
-    {
-      "date": "2026-11-14",
-      "source": "Nikkei",
-      "title": "金利の上がる世界「バブル抑制を」　日銀やIMFの元幹部が警鐘",
-      "url": "https://www.nikkei.com/article/DGXZQOCD282X00Y6A021C2000000/"
-    },
-    {
-      "date": "2026-11-14",
-      "source": "Nikkei",
-      "title": "ソニー生命の金銭不正、調査期間中も継続か　詐取問題の解明後手に",
-      "url": "https://www.nikkei.com/article/DGXZQOUB124LQ0S6A111C2000000/"
-    },
-    {
-      "date": "2026-11-14",
-      "source": "Nikkei",
-      "title": "タマホームが保険代理業を廃業へ　損保各社に申し入れ、不正請求問題",
-      "url": "https://www.nikkei.com/article/DGXZQOUC140J50U6A111C2000000/"
     },
     {
       "date": "2026-11-13",
@@ -609,36 +717,6 @@
       "url": "https://www.awabank.co.jp/common/common/news20261113c.pdf"
     },
     {
-      "date": "2026-11-13",
-      "source": "Nikkei",
-      "title": "AIデータセンター向け債務拡大、「規模を把握できず」　FRBが警鐘",
-      "url": "https://www.nikkei.com/article/DGXZQOGN13CZK0T11C26A1000000/"
-    },
-    {
-      "date": "2026-11-13",
-      "source": "Nikkei",
-      "title": "アンソロピックCEO、IPO「期待上回る成果出す」　投資家需要は6倍",
-      "url": "https://www.nikkei.com/article/DGXZQOGN13C7M0T11C26A1000000/"
-    },
-    {
-      "date": "2026-11-13",
-      "source": "Nikkei",
-      "title": "50年住宅ローン、始まった融資引き締め　金融庁が問題視「新たな火種」",
-      "url": "https://www.nikkei.com/article/DGXZQOUB12C1Q0S6A111C2000000/"
-    },
-    {
-      "date": "2026-11-13",
-      "source": "Nikkei",
-      "title": "ネットが止まる3日間、サイバー・リセッションに備えはあるか",
-      "url": "https://www.nikkei.com/article/DGXZQOCD12BC10S6A111C2000000/"
-    },
-    {
-      "date": "2026-11-13",
-      "source": "Nikkei",
-      "title": "日銀「物価2%到達」の同床異夢",
-      "url": "https://www.nikkei.com/article/DGXZQOUB12BU80S6A111C2000000/"
-    },
-    {
       "date": "2026-11-12",
       "source": "BOJ",
       "title": "日本銀行が保有する国債の銘柄別残高",
@@ -682,12 +760,6 @@
     },
     {
       "date": "2026-11-12",
-      "source": "FSA",
-      "title": "国際関係,バーゼル銀行監督委員会による「統合されたガイドライン及びサウンド・プラクティス」の最終化及び市中協議文書「技術的改訂―統合されたガイドライン及びサウンド・プラクティス」について公表しました。",
-      "url": "https://www.fsa.go.jp/inter/bis/20261112/20261112.html"
-    },
-    {
-      "date": "2026-11-12",
       "source": "WSJ",
       "title": "エヌビディア、消えた「シンガポール売上高」の謎",
       "url": "https://jp.wsj.com/articles/nvidias-disappearing-singapore-sales-deepen-mystery-around-megaspeed-ca6ef848"
@@ -727,30 +799,6 @@
       "source": "BOJ",
       "title": "マネーストック（10月）",
       "url": "http://www.boj.or.jp/statistics/money/ms/ms2610.pdf"
-    },
-    {
-      "date": "2026-11-11",
-      "source": "FSA",
-      "title": "金融審議会「ディスクロージャーワーキング・グループ」（第７回）の開催について公表しました。",
-      "url": "https://www.fsa.go.jp/news/r8/singi/20261118.html"
-    },
-    {
-      "date": "2026-11-11",
-      "source": "FSA",
-      "title": "「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第１回）議事要旨について公表しました。",
-      "url": "https://www.fsa.go.jp/singi/digital_2026/gizi/261020.html"
-    },
-    {
-      "date": "2026-11-11",
-      "source": "FSA",
-      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年11月10日）について掲載しました。",
-      "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261110-1.html"
-    },
-    {
-      "date": "2026-11-11",
-      "source": "FSA",
-      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年11月６日）について掲載しました。",
-      "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261106-1.html"
     },
     {
       "date": "2026-11-11",
@@ -802,60 +850,6 @@
     },
     {
       "date": "2026-11-10",
-      "source": "BOJ",
-      "title": "貸出・預金動向（10月）",
-      "url": "http://www.boj.or.jp/statistics/dl/depo/kashi/kasi2610.pdf"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "BOJ",
-      "title": "金融政策決定会合における主な意見（10月29、30日開催分）",
-      "url": "http://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "FSA",
-      "title": "その他,無登録で金融商品取引業を行う者の名称等について更新しました。",
-      "url": "https://www.fsa.go.jp/ordinary/chuui/mutouroku.html"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "FSA",
-      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣繰上げ閣議後記者会見の概要（令和８年11月2日）について掲載しました。",
-      "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261102-1.html"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "WSJ",
-      "title": "エヌビディアの苦境が「AI相場」の終わりを意味しない理由",
-      "url": "https://jp.wsj.com/articles/why-nvidias-troubles-dont-spell-doom-for-the-ai-trade-4c938648"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "METI",
-      "title": "髙木経済産業副大臣が英国エネルギー安全保障・ネットゼロ省との洋上風力分野に関する協力覚書に署名しました",
-      "url": "https://www.meti.go.jp/press/2026/11/20261110002.html"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "METI",
-      "title": "2026年度冬季の電力需給対策を取りまとめました",
-      "url": "https://www.meti.go.jp/press/2026/11/20261110001.html"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "PPC",
-      "title": "会見のポイント",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai306/kaiken_point306.pdf"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "PPC",
-      "title": "配布資料",
-      "url": "https://www.yuseimineika.go.jp/iinkai/dai306/gijishidai.html"
-    },
-    {
-      "date": "2026-11-10",
       "source": "中小機構",
       "title": "中小機構出資ファンド投資先「（株）RECEPTIONIST」が東京証券取引所グロース市場に上場しました",
       "url": "https://www.smrj.go.jp/sme/funding/fund/news/index.html"
@@ -889,18 +883,6 @@
       "source": "中小機構",
       "title": "起業支援ファンド「アニマルスピリッツ26投資事業有限責任組合」に出資を行う組合契約を締結",
       "url": "https://www.smrj.go.jp/sme/funding/fund/news/fbrion0000001zma-att/qsktgp000000bdsg.pdf"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "中小機構",
-      "title": "中小機構出資ファンド投資先「akippa（株）」が東京証券取引所スタンダード市場に上場しました",
-      "url": "https://www.smrj.go.jp/sme/funding/fund/news/index.html"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "中小機構",
-      "title": "中小機構出資ファンド投資先「（株）テクノクラフト」が東京証券取引所スタンダード市場に上場しました",
-      "url": "https://www.smrj.go.jp/sme/funding/fund/news/index.html"
     }
   ]
 }

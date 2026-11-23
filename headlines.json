@@ -1,7 +1,55 @@
 {
-  "updated_at": "2026/11/22 07:28 JST",
-  "count": 90,
+  "updated_at": "2026/11/24 07:15 JST",
+  "count": 86,
   "headlines": [
+    {
+      "date": "2026-11-24",
+      "source": "WSJ",
+      "title": "フアン氏復帰で株価急騰、投資家も驚嘆",
+      "url": "https://jp.wsj.com/articles/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-dcf5da1a"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "Nikkei",
+      "title": "相場を動かす米経済指標　FRBは雇用と物価を重視",
+      "url": "https://www.nikkei.com/article/DGXZQOFL21CHZTR21C26A0000000/"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "Nikkei",
+      "title": "米KKRの企業買収トップ、全株売却のKOKUSAI「最も成功した投資に」",
+      "url": "https://www.nikkei.com/article/DGXZQOUB17C820X11C26A1000000/"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "Nikkei",
+      "title": "米カーライルの企業買収部門トップ「エネルギー・安全保障に注力」",
+      "url": "https://www.nikkei.com/article/DGXZQOUB195AF0Z11C26A1000000/"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "Nikkei",
+      "title": "新薬開発を政投銀が支援　国際競争力引き上げへ、最終治験に共同投資",
+      "url": "https://www.nikkei.com/article/DGXZQOUB160HP0W6A111C2000000/"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "WSJ",
+      "title": "波乱のアンソロピックIPO、市場では責任の「なすり合い」",
+      "url": "https://jp.wsj.com/articles/the-blame-game-has-begun-over-anthropics-turbulent-trading-debut-8784ab75"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "Nikkei",
+      "title": "金利が動く世界、銀行・証券・地銀に迫るビジネスモデルの転換",
+      "url": "https://www.nikkei.com/article/DGXZQOUB220CO0S6A121C2000000/"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "Nikkei",
+      "title": "米アンソロピックの目論見書に基づくAI安全性スタートアップ市場",
+      "url": "https://www.nikkei.com/article/DGXZQOUC168FE0W6A111C2000000/"
+    },
     {
       "date": "2026-11-21",
       "source": "WSJ",
@@ -67,6 +115,18 @@
       "source": "BOJ",
       "title": "基準外国為替相場及び裁定外国為替相場（12月分）",
       "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2612.htm"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "FSA",
+      "title": "その他,令和８年９月に開催された業界団体との意見交換会において、金融庁が提起した主な論点を公表しました。",
+      "url": "https://www.fsa.go.jp/common/ronten/index.html"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "FSA",
+      "title": "金融経済教育イベント「ワニーサと学ぶ 未来のためのお金の教室 in広島」の開催について更新しました。",
+      "url": "https://www.fsa.go.jp/news/r8/sonota/20261020/20261020.html"
     },
     {
       "date": "2026-11-20",
@@ -297,42 +357,6 @@
       "url": "https://www.nikkei.com/article/DGXZQOUB245BL0U6A720C2000000/"
     },
     {
-      "date": "2026-11-19",
-      "source": "Nikkei",
-      "title": "AI検索対策や排泄予測、中小企業のDX後押し　筑邦銀行など九州地銀",
-      "url": "https://www.nikkei.com/article/DGXZQOJC144GF0U6A910C2000000/"
-    },
-    {
-      "date": "2026-11-19",
-      "source": "Nikkei",
-      "title": "女子高生「お金溶ける…」　電子決済世代、自作アプリで金銭感覚磨く",
-      "url": "https://www.nikkei.com/article/DGXZQOUB1229Q0S6A111C2000000/"
-    },
-    {
-      "date": "2026-11-19",
-      "source": "Nikkei",
-      "title": "米国株23時間取引、日本でも昼間の売買容易に　取引所間競争は激化",
-      "url": "https://www.nikkei.com/article/DGXZQOCD1609W0W6A111C2000000/"
-    },
-    {
-      "date": "2026-11-19",
-      "source": "Nikkei",
-      "title": "地銀系証券、富裕層シフトで3期連続増益　仕組み債依存から転換",
-      "url": "https://www.nikkei.com/article/DGXZQOUB178OZ0X11C26A1000000/"
-    },
-    {
-      "date": "2026-11-19",
-      "source": "Nikkei",
-      "title": "大手損保の4〜9月期、純利益15%減　サイバー攻撃で保険金支払い増加も",
-      "url": "https://www.nikkei.com/article/DGXZQOUB11C100R11C26A1000000/"
-    },
-    {
-      "date": "2026-11-19",
-      "source": "Nikkei",
-      "title": "農林中金の純利益92%増　4〜9月、資金運用収益が改善",
-      "url": "https://www.nikkei.com/article/DGXZQOUB195NH0Z11C26A1000000/"
-    },
-    {
       "date": "2026-11-18",
       "source": "BOJ",
       "title": "金融安定理事会による本会合議事要旨の公表について",
@@ -436,18 +460,6 @@
     },
     {
       "date": "2026-11-17",
-      "source": "FSA",
-      "title": "採用,職員を募集しています。（金融モニタリング業務（マネー・ローンダリング・テロ資金供与対策）に従事する職員）",
-      "url": "https://www.fsa.go.jp/common/recruit/r8/ginnsyou-12/ginnsyou-12.html"
-    },
-    {
-      "date": "2026-11-17",
-      "source": "FSA",
-      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年11月13日）について掲載しました。",
-      "url": "https://www.fsa.go.jp/common/conference/minister/2026b/20261113-1.html"
-    },
-    {
-      "date": "2026-11-17",
       "source": "WSJ",
       "title": "データセンターへの逆風、立地で異なるテック大手への影響",
       "url": "https://jp.wsj.com/articles/big-tech-needs-to-spread-its-bets-on-data-centers-c59519e7"
@@ -469,42 +481,6 @@
       "source": "METI",
       "title": "独立行政法人理事長の公募を開始します",
       "url": "https://www.meti.go.jp/press/2026/11/20261117003.html"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "BOJ",
-      "title": "バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について",
-      "url": "http://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "BOJ",
-      "title": "展望レポートのハイライト （2026年10月）",
-      "url": "http://www.boj.or.jp/mopo/outlook/highlight/ten202610.htm"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "BOJ",
-      "title": "業態別の日銀当座預金残高（10月）",
-      "url": "http://www.boj.or.jp/statistics/boj/other/cabs/cabs.xlsx"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "BOJ",
-      "title": "【講演】高田審議委員「わが国の経済・物価情勢と金融政策：日本のマネー・資本市場転換、山は動くか」（徳島経済同友会）",
-      "url": "http://www.boj.or.jp/about/press/koen_2026/ko261116a.htm"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "WSJ",
-      "title": "高級品業界で議論の「値下げ戦略」、ルイ・ヴィトンの選択とは",
-      "url": "https://jp.wsj.com/articles/gucci-is-cutting-prices-louis-vuitton-is-reluctant-to-follow-the-trend-a74ace4b"
-    },
-    {
-      "date": "2026-11-16",
-      "source": "METI",
-      "title": "「日ASEAN・ファストトラック・ピッチ2026」第2弾となる「日ASEANワイド・ファストトラック・ピッチ2026」を開催します",
-      "url": "https://www.meti.go.jp/press/2026/11/20261116001.html"
     },
     {
       "date": "2026-11-10",
